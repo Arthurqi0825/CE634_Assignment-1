@@ -1,0 +1,20 @@
+
+=== Task 2 run started 2026-10-02T15:59:15+08:00 ===
+Command: ["./.venv/bin/python", "-m", "analysis.tasks.task2_analysis"]
+Scanning yellow_tripdata_2026-04.parquet (3,831,240 rows)
+  Scanned 3,831,240
+Scanning yellow_tripdata_2026-05.parquet (4,090,836 rows)
+  Scanned 4,090,836
+Scanning fhvhv_tripdata_2026-04.parquet (20,995,953 rows)
+  Scanned 20,995,953
+Scanning fhvhv_tripdata_2026-05.parquet (22,125,744 rows)
+  Scanned 22,125,744
+Reconciled all month/service OD and spending totals with Task 1
+Wrote 04_Results/Task_2/tables/zone_demand.csv: 2120 rows
+Wrote 04_Results/Task_2/tables/top10_volume_od.csv: 60 rows
+Wrote 04_Results/Task_2/tables/top10_spending_od.csv: 60 rows
+Wrote 04_Results/Task_2/tables/reconciliation.csv: 8 rows
+Wrote 04_Results/Task_2/tables/missing_spending_components.csv: 50 rows
+Loaded 263 drawable taxi-zone polygons
+Task 2 outputs complete
+Exit code: 0; finished: 2026-10-02T15:59:56+08:00

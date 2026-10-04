@@ -1,0 +1,41 @@
+
+=== Task 4 run started 2026-10-02T16:00:27+08:00 ===
+Command: ["./.venv/bin/python", "-m", "analysis.tasks.task4_analysis"]
+Scanning fhvhv_tripdata_2026-04.parquet: 20,995,953 rows
+  scanned 20,995,953
+Scanning fhvhv_tripdata_2026-05.parquet: 22,125,744 rows
+  scanned 22,125,744
+Sorting 29,927,446 reference trips by cell and duration
+Reference cells: 1,531,101; supported: 211,171
+Wrote reference_cells.csv: 1,531,101 rows
+Wrote month_summary.csv: 2 rows
+Wrote hourly_summary.csv: 48 rows
+Wrote zone_summary.csv: 508 rows
+Wrote within_between_summary.csv: 4 rows
+Wrote day_type_summary.csv: 4 rows
+Wrote audit_reconciliation.csv: 10 rows
+Wrote unsupported_reference_reasons.csv: 2 rows
+Wrote shared_trip_examples.csv: 50 rows
+Task 4 complete: eight PNG figures and trip-weighted summaries
+Exit code: 0; finished: 2026-10-02T16:01:03+08:00
+
+=== Task 4 run started 2026-10-02T16:29:40+08:00 ===
+Command: ["./.venv/bin/python", "-m", "analysis.tasks.task4_analysis"]
+Scanning fhvhv_tripdata_2026-04.parquet: 20,995,953 rows
+  scanned 20,995,953
+Scanning fhvhv_tripdata_2026-05.parquet: 22,125,744 rows
+  scanned 22,125,744
+Sorting 29,927,446 reference trips by cell and duration
+Reference cells: 1,531,101; supported: 211,171
+Wrote reference_cells.csv: 1,531,101 rows
+Wrote month_summary.csv: 2 rows
+Wrote hourly_summary.csv: 48 rows
+Wrote zone_summary.csv: 508 rows
+Wrote within_between_summary.csv: 4 rows
+Wrote day_type_summary.csv: 4 rows
+Wrote audit_reconciliation.csv: 10 rows
+Wrote unsupported_reference_reasons.csv: 2 rows
+Wrote shared_trip_examples.csv: 50 rows
+Wrote excess_distribution_bins.csv: 100 rows
+Task 4 complete: eight PNG figures and trip-weighted summaries
+Exit code: 0; finished: 2026-10-02T16:30:15+08:00

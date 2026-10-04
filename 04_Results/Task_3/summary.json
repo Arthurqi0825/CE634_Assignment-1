@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-10-02T16:00:27+08:00",
+  "method": "Pickup timestamp month; completed-trip mask from Task 1. Valid statuses N/N,Y/N,Y/Y,N/Y. Missing/other excluded from V. Zone rates require a valid lookup pickup ID; thresholds 100 V for pooling/matched and 100 requests for success.",
+  "monthly": [
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "n_nn": 14961455,
+      "n_yn": 162018,
+      "n_yy": 255385,
+      "n_ny": 0,
+      "missing_other": 0,
+      "valid_status_denominator": 15378858,
+      "pooling_requests": 417403,
+      "reported_matches": 255385,
+      "pooling_request_rate": 0.02714135210819945,
+      "reported_matched_rate": 0.01660623955302793,
+      "matching_success": 0.6118427514895677,
+      "completed_trips": 15378858,
+      "invalid_pickup_zone": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "n_nn": 5614374,
+      "n_yn": 1865,
+      "n_yy": 73,
+      "n_ny": 783,
+      "missing_other": 0,
+      "valid_status_denominator": 5617095,
+      "pooling_requests": 1938,
+      "reported_matches": 856,
+      "pooling_request_rate": 0.0003450181989088666,
+      "reported_matched_rate": 0.00015239193924973673,
+      "matching_success": 0.037667698658410735,
+      "completed_trips": 5617095,
+      "invalid_pickup_zone": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "n_nn": 14966066,
+      "n_yn": 167846,
+      "n_yy": 220904,
+      "n_ny": 0,
+      "missing_other": 0,
+      "valid_status_denominator": 15354816,
+      "pooling_requests": 388750,
+      "reported_matches": 220904,
+      "pooling_request_rate": 0.02531778954563832,
+      "reported_matched_rate": 0.014386626319716237,
+      "matching_success": 0.5682418006430868,
+      "completed_trips": 15354816,
+      "invalid_pickup_zone": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "n_nn": 6767729,
+      "n_yn": 1954,
+      "n_yy": 68,
+      "n_ny": 1177,
+      "missing_other": 0,
+      "valid_status_denominator": 6770928,
+      "pooling_requests": 2022,
+      "reported_matches": 1245,
+      "pooling_request_rate": 0.0002986296708516174,
+      "reported_matched_rate": 0.00018387435223059527,
+      "matching_success": 0.033630069238377844,
+      "completed_trips": 6770928,
+      "invalid_pickup_zone": 0
+    }
+  ],
+  "zone_threshold_counts": [
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "zones_matched_reported": 257,
+      "zones_success_reported": 232
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "zones_matched_reported": 257,
+      "zones_success_reported": 3
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "zones_matched_reported": 257,
+      "zones_success_reported": 233
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "zones_matched_reported": 257,
+      "zones_success_reported": 2
+    }
+  ],
+  "findings": [
+    "In 2026-04, Uber's pooling request rate was 2.71\\% and reported matched rate 1.66\\%, versus Lyft's 0.03\\% and 0.02\\%. Uber's matching success among 417,403 requests was 61.18\\%; Lyft's among 1,938 requests was 3.77\\%.",
+    "In 2026-05, Uber's pooling request rate was 2.53\\% and reported matched rate 1.44\\%, versus Lyft's 0.03\\% and 0.02\\%. Uber's matching success among 388,750 requests was 56.82\\%; Lyft's among 2,022 requests was 3.36\\%."
+  ],
+  "geographic_findings": [
+    "For Uber in 2026-04, 232 pickup zones meet the 100-request matching-success threshold. The highest reported matching success among these is Stuyvesant Heights (76.9\\% of 5,173 requests).",
+    "For Lyft in 2026-04, 3 pickup zones meet the 100-request matching-success threshold. The highest reported matching success among these is East Chelsea (5.8\\% of 241 requests).",
+    "For Uber in 2026-05, 233 pickup zones meet the 100-request matching-success threshold. The highest reported matching success among these is Lower East Side (76.0\\% of 4,618 requests).",
+    "For Lyft in 2026-05, 2 pickup zones meet the 100-request matching-success threshold. The highest reported matching success among these is Midtown South (5.7\\% of 175 requests)."
+  ],
+  "figure_count": 13,
+  "map_rate_scale_maximum": {
+    "pooling_request_rate": 0.07,
+    "reported_matched_rate": 0.05,
+    "matching_success": 0.77
+  },
+  "all_status_totals_reconcile_to_task1": true
+}

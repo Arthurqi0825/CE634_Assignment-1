@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-10-02T16:30:14+08:00",
+  "method": "Uber N/N reference pooled across April-May by ordered PU/DO, pickup hour, weekday/weekend. At least 30 reference trips per cell. Y/Y trip_time in (0,24h] compared individually; E and R null without supported cell. All reported aggregations weight trips equally.",
+  "audit": {
+    "raw_uber_rows": 30733674,
+    "completed_uber": 30733674,
+    "od_eligible_uber": 30733674,
+    "reference_status_nn": 29927521,
+    "shared_status_yy": 476289,
+    "reference_duration_valid": 29927446,
+    "shared_duration_valid": 476287,
+    "excluded_missing_or_invalid_od": 0,
+    "excluded_nonpositive_or_over24h_trip_time_nn": 75,
+    "excluded_nonpositive_or_over24h_trip_time_yy": 2
+  },
+  "reference_cell_count": 1531101,
+  "supported_reference_cells": 211171,
+  "reference_trip_count": 29927446,
+  "reference_trips_in_supported_cells": 22768936,
+  "unsupported_reference_reasons": {
+    "no_reference_cell": 21055,
+    "reference_cell_under_30": 223000
+  },
+  "month_summary": [
+    {
+      "month": "2026-04",
+      "shared_eligible": 255383,
+      "reference_supported": 121673,
+      "reference_coverage": 0.47643343527172916,
+      "excess_p25_minutes": 0.25,
+      "excess_median_minutes": 4.533333333333333,
+      "excess_p75_minutes": 10.008333333333333,
+      "relative_p25_percent": 1.5294500488122318,
+      "relative_median_percent": 25.83423035522068,
+      "relative_p75_percent": 55.04385964912281,
+      "mean_excess_minutes": 5.687580988934823
+    },
+    {
+      "month": "2026-05",
+      "shared_eligible": 220904,
+      "reference_supported": 110559,
+      "reference_coverage": 0.50048437330243,
+      "excess_p25_minutes": 0.7083333333333339,
+      "excess_median_minutes": 4.983333333333334,
+      "excess_p75_minutes": 10.479166666666668,
+      "relative_p25_percent": 4.48448134126937,
+      "relative_median_percent": 29.35323383084576,
+      "relative_p75_percent": 58.928144019695,
+      "mean_excess_minutes": 6.241106407740061
+    }
+  ],
+  "within_between": [
+    {
+      "within_zone": false,
+      "shared_eligible": 470274,
+      "reference_supported": 226297,
+      "reference_coverage": 0.4812024479346083,
+      "excess_p25_minutes": 0.5,
+      "excess_median_minutes": 4.858333333333334,
+      "excess_p75_minutes": 10.366666666666667,
+      "relative_p25_percent": 2.9927760577915437,
+      "relative_median_percent": 27.410782080485948,
+      "relative_p75_percent": 56.53753026634382,
+      "mean_excess_minutes": 6.033157900163649
+    },
+    {
+      "within_zone": true,
+      "shared_eligible": 6013,
+      "reference_supported": 5935,
+      "reference_coverage": 0.9870281057708299,
+      "excess_p25_minutes": -0.31666666666666643,
+      "excess_median_minutes": 2.0,
+      "excess_p75_minutes": 5.145833333333333,
+      "relative_p25_percent": -4.608392796466193,
+      "relative_median_percent": 31.358024691358032,
+      "relative_p75_percent": 77.43948933574433,
+      "mean_excess_minutes": 2.8222395394552096
+    }
+  ],
+  "hour_findings": [
+    {
+      "month": "2026-04",
+      "lowest_hour": 10,
+      "lowest_median_minutes": 3.6875,
+      "highest_hour": 7,
+      "highest_median_minutes": 5.05
+    },
+    {
+      "month": "2026-05",
+      "lowest_hour": 4,
+      "lowest_median_minutes": 4.116666666666667,
+      "highest_hour": 17,
+      "highest_median_minutes": 5.616666666666667
+    }
+  ],
+  "zone_findings": [
+    {
+      "month": "2026-04",
+      "zones_with_100_supported": 165,
+      "lowest_zone": "Howard Beach",
+      "lowest_mean_minutes": 1.980675287356322,
+      "highest_zone": "Woodlawn/Wakefield",
+      "highest_mean_minutes": 8.299765258215961
+    },
+    {
+      "month": "2026-05",
+      "zones_with_100_supported": 162,
+      "lowest_zone": "Rego Park",
+      "lowest_mean_minutes": 3.174606918238993,
+      "highest_zone": "Schuylerville/Edgewater Park",
+      "highest_mean_minutes": 8.560336538461538
+    }
+  ],
+  "mean_zone_map_threshold": 10,
+  "zone_map_color_limit_minutes": 8.0,
+  "figure_count": 8,
+  "task1_reconciliation": true,
+  "limitations": [
+    "Same zone pair can hide different exact endpoints.",
+    "Traffic varies across dates inside a cell.",
+    "Route and passenger selection differ.",
+    "Sharing partners and overlap times are unverified.",
+    "Reference coverage differs by place."
+  ]
+}

@@ -1,0 +1,51 @@
+month,service,component,missing_or_nonfinite_records
+2026-04,Yellow,total_amount,0
+2026-04,Uber,base_passenger_fare,0
+2026-04,Uber,tolls,0
+2026-04,Uber,bcf,0
+2026-04,Uber,sales_tax,0
+2026-04,Uber,congestion_surcharge,0
+2026-04,Uber,airport_fee,0
+2026-04,Uber,tips,0
+2026-04,Uber,cbd_congestion_fee,0
+2026-04,Lyft,base_passenger_fare,0
+2026-04,Lyft,tolls,0
+2026-04,Lyft,bcf,0
+2026-04,Lyft,sales_tax,0
+2026-04,Lyft,congestion_surcharge,0
+2026-04,Lyft,airport_fee,0
+2026-04,Lyft,tips,0
+2026-04,Lyft,cbd_congestion_fee,0
+2026-04,Other HVFHV,base_passenger_fare,0
+2026-04,Other HVFHV,tolls,0
+2026-04,Other HVFHV,bcf,0
+2026-04,Other HVFHV,sales_tax,0
+2026-04,Other HVFHV,congestion_surcharge,0
+2026-04,Other HVFHV,airport_fee,0
+2026-04,Other HVFHV,tips,0
+2026-04,Other HVFHV,cbd_congestion_fee,0
+2026-05,Yellow,total_amount,0
+2026-05,Uber,base_passenger_fare,0
+2026-05,Uber,tolls,0
+2026-05,Uber,bcf,0
+2026-05,Uber,sales_tax,0
+2026-05,Uber,congestion_surcharge,0
+2026-05,Uber,airport_fee,0
+2026-05,Uber,tips,0
+2026-05,Uber,cbd_congestion_fee,0
+2026-05,Lyft,base_passenger_fare,0
+2026-05,Lyft,tolls,0
+2026-05,Lyft,bcf,0
+2026-05,Lyft,sales_tax,0
+2026-05,Lyft,congestion_surcharge,0
+2026-05,Lyft,airport_fee,0
+2026-05,Lyft,tips,0
+2026-05,Lyft,cbd_congestion_fee,0
+2026-05,Other HVFHV,base_passenger_fare,0
+2026-05,Other HVFHV,tolls,0
+2026-05,Other HVFHV,bcf,0
+2026-05,Other HVFHV,sales_tax,0
+2026-05,Other HVFHV,congestion_surcharge,0
+2026-05,Other HVFHV,airport_fee,0
+2026-05,Other HVFHV,tips,0
+2026-05,Other HVFHV,cbd_congestion_fee,0

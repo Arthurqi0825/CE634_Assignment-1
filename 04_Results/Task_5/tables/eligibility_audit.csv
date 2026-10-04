@@ -1,0 +1,9 @@
+month,service,status,completed_status,invalid_od,invalid_distance,missing_component,nonpositive_price,eligible,excluded_union,overlap_excess_flags
+2026-04,Uber,N/N,14961455,0,2751,0,4287,14954576,6879,159
+2026-04,Uber,Y/Y,255385,0,23,0,18,255346,39,2
+2026-04,Lyft,N/N,5614374,0,610,0,17659,5596106,18268,1
+2026-04,Lyft,Y/Y,73,0,0,0,0,73,0,0
+2026-05,Uber,N/N,14966066,0,3322,0,6737,14956107,9959,100
+2026-05,Uber,Y/Y,220904,0,11,0,6,220887,17,0
+2026-05,Lyft,N/N,6767729,0,1123,0,18,6766588,1141,0
+2026-05,Lyft,Y/Y,68,0,0,0,0,68,0,0

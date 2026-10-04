@@ -1,0 +1,298 @@
+{
+  "generated_at": "2026-10-02T16:01:50+08:00",
+  "question": "Task 5.1: Are recorded shared trips significantly cheaper than non-shared trips?",
+  "method": "Uber and Lyft separately; Y/Y versus N/N; positive complete passenger spending, valid directed OD, 0<trip_miles<=100. Reference mean from same pickup month, ordered OD, hour, weekday/weekend with >=30 N/N trips. Shared-trip-weighted mean of individual shared price minus reference mean. Two-sided day-clustered t test by pickup date. Observational, not causal.",
+  "comparison": [
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "nonshared_eligible": 14954576,
+      "shared_eligible": 255346,
+      "shared_supported": 85060,
+      "shared_reference_coverage": 0.3331166339006681,
+      "supported_cells": 36090,
+      "pickup_days": 30,
+      "raw_nonshared_mean_usd": 35.04496964407416,
+      "raw_shared_mean_usd": 28.006471611068903,
+      "matched_shared_mean_usd": 20.670308840818247,
+      "matched_reference_mean_usd": 28.869869566030815,
+      "mean_difference_usd": -8.199560725212567,
+      "se_day_cluster_usd": 0.3187007880561905,
+      "ci95_low_usd": -8.85137702391614,
+      "ci95_high_usd": -7.547744426508994,
+      "p_value_two_sided": 1.6167204290869428e-21,
+      "relative_difference_percent": -28.401793456179742
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "nonshared_eligible": 5596106,
+      "shared_eligible": 73,
+      "shared_supported": 47,
+      "shared_reference_coverage": 0.6438356164383562,
+      "supported_cells": 35,
+      "pickup_days": 20,
+      "raw_nonshared_mean_usd": 32.82080573527378,
+      "raw_shared_mean_usd": 39.21849315068493,
+      "matched_shared_mean_usd": 39.40872340425532,
+      "matched_reference_mean_usd": 55.66581529363093,
+      "mean_difference_usd": -16.257091889375605,
+      "se_day_cluster_usd": 5.857694820763457,
+      "ci95_low_usd": -28.51738805261622,
+      "ci95_high_usd": -3.996795726134991,
+      "p_value_two_sided": 0.012053388597758005,
+      "relative_difference_percent": -29.204803349454725
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "nonshared_eligible": 14956107,
+      "shared_eligible": 220887,
+      "shared_supported": 77449,
+      "shared_reference_coverage": 0.3506272437943383,
+      "supported_cells": 34452,
+      "pickup_days": 31,
+      "raw_nonshared_mean_usd": 37.22819601384238,
+      "raw_shared_mean_usd": 27.94819586485398,
+      "matched_shared_mean_usd": 20.218815736807446,
+      "matched_reference_mean_usd": 28.356104640167903,
+      "mean_difference_usd": -8.137288903360458,
+      "se_day_cluster_usd": 0.3975649888327234,
+      "ci95_low_usd": -8.949224929643238,
+      "ci95_high_usd": -7.325352877077679,
+      "p_value_two_sided": 3.531242937769169e-19,
+      "relative_difference_percent": -28.69677978206345
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "nonshared_eligible": 6766588,
+      "shared_eligible": 68,
+      "shared_supported": 38,
+      "shared_reference_coverage": 0.5588235294117647,
+      "supported_cells": 30,
+      "pickup_days": 15,
+      "raw_nonshared_mean_usd": 33.57587265694322,
+      "raw_shared_mean_usd": 47.19397058823529,
+      "matched_shared_mean_usd": 48.65973684210527,
+      "matched_reference_mean_usd": 69.5055450762045,
+      "mean_difference_usd": -20.845808234099245,
+      "se_day_cluster_usd": 6.8056475852723795,
+      "ci95_low_usd": -35.44247057764542,
+      "ci95_high_usd": -6.249145890553065,
+      "p_value_two_sided": 0.00842921401000299,
+      "relative_difference_percent": -29.991575796210668
+    }
+  ],
+  "eligibility_audit": [
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "status": "N/N",
+      "completed_status": 14961455,
+      "invalid_od": 0,
+      "invalid_distance": 2751,
+      "missing_component": 0,
+      "nonpositive_price": 4287,
+      "eligible": 14954576,
+      "excluded_union": 6879,
+      "overlap_excess_flags": 159
+    },
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "status": "Y/Y",
+      "completed_status": 255385,
+      "invalid_od": 0,
+      "invalid_distance": 23,
+      "missing_component": 0,
+      "nonpositive_price": 18,
+      "eligible": 255346,
+      "excluded_union": 39,
+      "overlap_excess_flags": 2
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "status": "N/N",
+      "completed_status": 5614374,
+      "invalid_od": 0,
+      "invalid_distance": 610,
+      "missing_component": 0,
+      "nonpositive_price": 17659,
+      "eligible": 5596106,
+      "excluded_union": 18268,
+      "overlap_excess_flags": 1
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "status": "Y/Y",
+      "completed_status": 73,
+      "invalid_od": 0,
+      "invalid_distance": 0,
+      "missing_component": 0,
+      "nonpositive_price": 0,
+      "eligible": 73,
+      "excluded_union": 0,
+      "overlap_excess_flags": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "status": "N/N",
+      "completed_status": 14966066,
+      "invalid_od": 0,
+      "invalid_distance": 3322,
+      "missing_component": 0,
+      "nonpositive_price": 6737,
+      "eligible": 14956107,
+      "excluded_union": 9959,
+      "overlap_excess_flags": 100
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "status": "Y/Y",
+      "completed_status": 220904,
+      "invalid_od": 0,
+      "invalid_distance": 11,
+      "missing_component": 0,
+      "nonpositive_price": 6,
+      "eligible": 220887,
+      "excluded_union": 17,
+      "overlap_excess_flags": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "status": "N/N",
+      "completed_status": 6767729,
+      "invalid_od": 0,
+      "invalid_distance": 1123,
+      "missing_component": 0,
+      "nonpositive_price": 18,
+      "eligible": 6766588,
+      "excluded_union": 1141,
+      "overlap_excess_flags": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "status": "Y/Y",
+      "completed_status": 68,
+      "invalid_od": 0,
+      "invalid_distance": 0,
+      "missing_component": 0,
+      "nonpositive_price": 0,
+      "eligible": 68,
+      "excluded_union": 0,
+      "overlap_excess_flags": 0
+    }
+  ],
+  "reference_threshold_sensitivity": [
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "minimum_reference_n": 10,
+      "shared_supported": 144177,
+      "mean_difference_usd": -9.147366135651492,
+      "median_difference_usd": -7.1852
+    },
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "minimum_reference_n": 30,
+      "shared_supported": 85060,
+      "mean_difference_usd": -8.199560725212567,
+      "median_difference_usd": -5.917226430976434
+    },
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "minimum_reference_n": 50,
+      "shared_supported": 59530,
+      "mean_difference_usd": -7.631465508840478,
+      "median_difference_usd": -5.161565345645759
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "minimum_reference_n": 10,
+      "shared_supported": 65,
+      "mean_difference_usd": -12.33369328145659,
+      "median_difference_usd": -6.9294642857142925
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "minimum_reference_n": 30,
+      "shared_supported": 47,
+      "mean_difference_usd": -16.257091889375605,
+      "median_difference_usd": -7.655806451612914
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "minimum_reference_n": 50,
+      "shared_supported": 35,
+      "mean_difference_usd": -23.599988992301967,
+      "median_difference_usd": -8.776491228070181
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "minimum_reference_n": 10,
+      "shared_supported": 130779,
+      "mean_difference_usd": -9.154396338004965,
+      "median_difference_usd": -7.3137142857142905
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "minimum_reference_n": 30,
+      "shared_supported": 77449,
+      "mean_difference_usd": -8.137288903360458,
+      "median_difference_usd": -6.065000000000004
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "minimum_reference_n": 50,
+      "shared_supported": 54234,
+      "mean_difference_usd": -7.446990490931542,
+      "median_difference_usd": -5.376687077022233
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "minimum_reference_n": 10,
+      "shared_supported": 57,
+      "mean_difference_usd": -13.559316904111476,
+      "median_difference_usd": -7.528000000000006
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "minimum_reference_n": 30,
+      "shared_supported": 38,
+      "mean_difference_usd": -20.845808234099245,
+      "median_difference_usd": -10.303476197429902
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "minimum_reference_n": 50,
+      "shared_supported": 27,
+      "mean_difference_usd": -25.639837892674855,
+      "median_difference_usd": -11.101718750000018
+    }
+  ],
+  "limitations": [
+    "Only completed trips are observed; request selection and dynamic prices are unobserved.",
+    "Zones hide exact endpoints; pickup hour and weekday/weekend do not control weather or date-specific traffic.",
+    "Shared_match_flag reports overlap but does not reveal partner or overlap length.",
+    "Trips in unsupported cells do not contribute to the matched estimate.",
+    "Distance can change after pooling, so it is an eligibility check, not a primary adjustment variable."
+  ]
+}

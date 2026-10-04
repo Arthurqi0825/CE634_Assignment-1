@@ -1,0 +1,90 @@
+
+=== Task 5 run started 2026-10-02T16:01:03+08:00 ===
+Command: ["./.venv/bin/python", "-m", "analysis.tasks.task5_price_analysis"]
+Scanning fhvhv_tripdata_2026-04.parquet: 20,995,953 rows
+  scanned 20,995,953
+Scanning fhvhv_tripdata_2026-05.parquet: 22,125,744 rows
+  scanned 22,125,744
+[
+  {
+    "month": "2026-04",
+    "service": "Uber",
+    "nonshared_eligible": 14954576,
+    "shared_eligible": 255346,
+    "shared_supported": 85060,
+    "shared_reference_coverage": 0.3331166339006681,
+    "supported_cells": 36090,
+    "pickup_days": 30,
+    "raw_nonshared_mean_usd": 35.04496964407416,
+    "raw_shared_mean_usd": 28.006471611068903,
+    "matched_shared_mean_usd": 20.670308840818247,
+    "matched_reference_mean_usd": 28.869869566030815,
+    "mean_difference_usd": -8.199560725212567,
+    "se_day_cluster_usd": 0.3187007880561905,
+    "ci95_low_usd": -8.85137702391614,
+    "ci95_high_usd": -7.547744426508994,
+    "p_value_two_sided": 1.6167204290869428e-21,
+    "relative_difference_percent": -28.401793456179742
+  },
+  {
+    "month": "2026-04",
+    "service": "Lyft",
+    "nonshared_eligible": 5596106,
+    "shared_eligible": 73,
+    "shared_supported": 47,
+    "shared_reference_coverage": 0.6438356164383562,
+    "supported_cells": 35,
+    "pickup_days": 20,
+    "raw_nonshared_mean_usd": 32.82080573527378,
+    "raw_shared_mean_usd": 39.21849315068493,
+    "matched_shared_mean_usd": 39.40872340425532,
+    "matched_reference_mean_usd": 55.66581529363093,
+    "mean_difference_usd": -16.257091889375605,
+    "se_day_cluster_usd": 5.857694820763457,
+    "ci95_low_usd": -28.51738805261622,
+    "ci95_high_usd": -3.996795726134991,
+    "p_value_two_sided": 0.012053388597758005,
+    "relative_difference_percent": -29.204803349454725
+  },
+  {
+    "month": "2026-05",
+    "service": "Uber",
+    "nonshared_eligible": 14956107,
+    "shared_eligible": 220887,
+    "shared_supported": 77449,
+    "shared_reference_coverage": 0.3506272437943383,
+    "supported_cells": 34452,
+    "pickup_days": 31,
+    "raw_nonshared_mean_usd": 37.22819601384238,
+    "raw_shared_mean_usd": 27.94819586485398,
+    "matched_shared_mean_usd": 20.218815736807446,
+    "matched_reference_mean_usd": 28.356104640167903,
+    "mean_difference_usd": -8.137288903360458,
+    "se_day_cluster_usd": 0.3975649888327234,
+    "ci95_low_usd": -8.949224929643238,
+    "ci95_high_usd": -7.325352877077679,
+    "p_value_two_sided": 3.531242937769169e-19,
+    "relative_difference_percent": -28.69677978206345
+  },
+  {
+    "month": "2026-05",
+    "service": "Lyft",
+    "nonshared_eligible": 6766588,
+    "shared_eligible": 68,
+    "shared_supported": 38,
+    "shared_reference_coverage": 0.5588235294117647,
+    "supported_cells": 30,
+    "pickup_days": 15,
+    "raw_nonshared_mean_usd": 33.57587265694322,
+    "raw_shared_mean_usd": 47.19397058823529,
+    "matched_shared_mean_usd": 48.65973684210527,
+    "matched_reference_mean_usd": 69.5055450762045,
+    "mean_difference_usd": -20.845808234099245,
+    "se_day_cluster_usd": 6.8056475852723795,
+    "ci95_low_usd": -35.44247057764542,
+    "ci95_high_usd": -6.249145890553065,
+    "p_value_two_sided": 0.00842921401000299,
+    "relative_difference_percent": -29.991575796210668
+  }
+]
+Exit code: 0; finished: 2026-10-02T16:01:50+08:00

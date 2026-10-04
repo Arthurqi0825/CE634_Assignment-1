@@ -1,0 +1,22 @@
+{
+  "Task_1": {
+    "tables": 5,
+    "figures": 3
+  },
+  "Task_2": {
+    "tables": 5,
+    "figures": 22
+  },
+  "Task_3": {
+    "tables": 2,
+    "figures": 13
+  },
+  "Task_4": {
+    "tables": 10,
+    "figures": 8
+  },
+  "Task_5": {
+    "tables": 5,
+    "figures": 1
+  }
+}

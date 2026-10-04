@@ -1,0 +1,27 @@
+license_num,service,request_match_category,april_trips,may_trips
+,Yellow taxi,All retained trips,3781728,4038760
+,HVFHV,All retained trips,20995953,22125744
+HV0002,Juno,N/N,0,0
+HV0002,Juno,Y/N,0,0
+HV0002,Juno,Y/Y,0,0
+HV0002,Juno,N/Y,0,0
+HV0002,Juno,Missing/other,0,0
+HV0002,Juno,All retained trips,0,0
+HV0003,Uber,N/N,14961455,14966066
+HV0003,Uber,Y/N,162018,167846
+HV0003,Uber,Y/Y,255385,220904
+HV0003,Uber,N/Y,0,0
+HV0003,Uber,Missing/other,0,0
+HV0003,Uber,All retained trips,15378858,15354816
+HV0004,Via,N/N,0,0
+HV0004,Via,Y/N,0,0
+HV0004,Via,Y/Y,0,0
+HV0004,Via,N/Y,0,0
+HV0004,Via,Missing/other,0,0
+HV0004,Via,All retained trips,0,0
+HV0005,Lyft,N/N,5614374,6767729
+HV0005,Lyft,Y/N,1865,1954
+HV0005,Lyft,Y/Y,73,68
+HV0005,Lyft,N/Y,783,1177
+HV0005,Lyft,Missing/other,0,0
+HV0005,Lyft,All retained trips,5617095,6770928

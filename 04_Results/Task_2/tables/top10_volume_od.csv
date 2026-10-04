@@ -1,0 +1,61 @@
+month,service,rank,PULocationID,origin_borough,origin_zone,DOLocationID,destination_borough,destination_zone,trip_count,share_of_service_month,service_month_denominator,within_zone,also_spending_top10
+2026-04,Yellow,1,237,Manhattan,Upper East Side South,236,Manhattan,Upper East Side North,26749,0.007073221553744743,3781728,False,True
+2026-04,Yellow,2,236,Manhattan,Upper East Side North,237,Manhattan,Upper East Side South,22645,0.005988003367772616,3781728,False,True
+2026-04,Yellow,3,237,Manhattan,Upper East Side South,237,Manhattan,Upper East Side South,18389,0.004862591915653373,3781728,True,True
+2026-04,Yellow,4,236,Manhattan,Upper East Side North,236,Manhattan,Upper East Side North,16730,0.004423903570008208,3781728,True,False
+2026-04,Yellow,5,161,Manhattan,Midtown Center,237,Manhattan,Upper East Side South,12183,0.003221543167567842,3781728,False,False
+2026-04,Yellow,6,237,Manhattan,Upper East Side South,161,Manhattan,Midtown Center,10970,0.002900790326538556,3781728,False,False
+2026-04,Yellow,7,161,Manhattan,Midtown Center,236,Manhattan,Upper East Side North,9996,0.0026432361079379587,3781728,False,False
+2026-04,Yellow,8,236,Manhattan,Upper East Side North,161,Manhattan,Midtown Center,8978,0.0023740469965053013,3781728,False,False
+2026-04,Yellow,9,237,Manhattan,Upper East Side South,162,Manhattan,Midtown East,8729,0.0023082040802511446,3781728,False,False
+2026-04,Yellow,10,239,Manhattan,Upper West Side South,238,Manhattan,Upper West Side North,8606,0.0022756792661978863,3781728,False,False
+2026-04,Uber,1,76,Brooklyn,East New York,76,Brooklyn,East New York,57764,0.0037560656324416284,15378858,True,False
+2026-04,Uber,2,132,Queens,JFK Airport,265,N/A,Outside of NYC,51493,0.003348298033573104,15378858,False,True
+2026-04,Uber,3,138,Queens,LaGuardia Airport,265,N/A,Outside of NYC,42911,0.0027902591986999296,15378858,False,True
+2026-04,Uber,4,39,Brooklyn,Canarsie,39,Brooklyn,Canarsie,36992,0.002405380165419305,15378858,True,False
+2026-04,Uber,5,26,Brooklyn,Borough Park,26,Brooklyn,Borough Park,25740,0.0016737263586151846,15378858,True,False
+2026-04,Uber,6,14,Brooklyn,Bay Ridge,14,Brooklyn,Bay Ridge,25236,0.0016409540942506915,15378858,True,False
+2026-04,Uber,7,61,Brooklyn,Crown Heights North,61,Brooklyn,Crown Heights North,25134,0.001634321612176925,15378858,True,False
+2026-04,Uber,8,129,Queens,Jackson Heights,129,Queens,Jackson Heights,23159,0.0015058985524152703,15378858,True,False
+2026-04,Uber,9,216,Queens,South Ozone Park,216,Queens,South Ozone Park,22977,0.0014940641236169813,15378858,True,False
+2026-04,Uber,10,95,Queens,Forest Hills,95,Queens,Forest Hills,22876,0.0014874966658772713,15378858,True,False
+2026-04,Lyft,1,76,Brooklyn,East New York,76,Brooklyn,East New York,25065,0.0044622709781479575,5617095,True,False
+2026-04,Lyft,2,138,Queens,LaGuardia Airport,265,N/A,Outside of NYC,15720,0.0027985996320161934,5617095,False,True
+2026-04,Lyft,3,132,Queens,JFK Airport,265,N/A,Outside of NYC,14149,0.0025189176967809874,5617095,False,True
+2026-04,Lyft,4,39,Brooklyn,Canarsie,39,Brooklyn,Canarsie,13603,0.002421714427119356,5617095,True,False
+2026-04,Lyft,5,61,Brooklyn,Crown Heights North,61,Brooklyn,Crown Heights North,11226,0.0019985419509550755,5617095,True,False
+2026-04,Lyft,6,181,Brooklyn,Park Slope,181,Brooklyn,Park Slope,9268,0.001649963192717944,5617095,True,False
+2026-04,Lyft,7,14,Brooklyn,Bay Ridge,14,Brooklyn,Bay Ridge,9065,0.0016138235155360556,5617095,True,False
+2026-04,Lyft,8,7,Queens,Astoria,7,Queens,Astoria,8604,0.0015317526230195502,5617095,True,False
+2026-04,Lyft,9,95,Queens,Forest Hills,95,Queens,Forest Hills,8323,0.0014817267644574286,5617095,True,False
+2026-04,Lyft,10,42,Manhattan,Central Harlem North,42,Manhattan,Central Harlem North,8156,0.0014519960940664169,5617095,True,False
+2026-05,Yellow,1,237,Manhattan,Upper East Side South,236,Manhattan,Upper East Side North,28964,0.007171508086640454,4038760,False,True
+2026-05,Yellow,2,236,Manhattan,Upper East Side North,237,Manhattan,Upper East Side South,24785,0.006136784557636502,4038760,False,True
+2026-05,Yellow,3,237,Manhattan,Upper East Side South,237,Manhattan,Upper East Side South,19778,0.004897047608671969,4038760,True,True
+2026-05,Yellow,4,236,Manhattan,Upper East Side North,236,Manhattan,Upper East Side North,18341,0.004541245332725886,4038760,True,False
+2026-05,Yellow,5,161,Manhattan,Midtown Center,237,Manhattan,Upper East Side South,12712,0.0031475007180421714,4038760,False,False
+2026-05,Yellow,6,237,Manhattan,Upper East Side South,161,Manhattan,Midtown Center,12056,0.0029850746268656717,4038760,False,False
+2026-05,Yellow,7,161,Manhattan,Midtown Center,236,Manhattan,Upper East Side North,9831,0.0024341629609087936,4038760,False,False
+2026-05,Yellow,8,237,Manhattan,Upper East Side South,162,Manhattan,Midtown East,9635,0.0023856332141548395,4038760,False,False
+2026-05,Yellow,9,142,Manhattan,Lincoln Square East,239,Manhattan,Upper West Side South,9324,0.002308629381295249,4038760,False,False
+2026-05,Yellow,10,236,Manhattan,Upper East Side North,161,Manhattan,Midtown Center,9141,0.0022633184442749756,4038760,False,False
+2026-05,Uber,1,76,Brooklyn,East New York,76,Brooklyn,East New York,56166,0.0036578751578657796,15354816,True,False
+2026-05,Uber,2,132,Queens,JFK Airport,265,N/A,Outside of NYC,50182,0.0032681602957664877,15354816,False,True
+2026-05,Uber,3,138,Queens,LaGuardia Airport,265,N/A,Outside of NYC,39209,0.00255353108757539,15354816,False,True
+2026-05,Uber,4,39,Brooklyn,Canarsie,39,Brooklyn,Canarsie,35445,0.002308396271241544,15354816,True,False
+2026-05,Uber,5,26,Brooklyn,Borough Park,26,Brooklyn,Borough Park,30352,0.001976708805888654,15354816,True,False
+2026-05,Uber,6,14,Brooklyn,Bay Ridge,14,Brooklyn,Bay Ridge,25947,0.0016898281294937042,15354816,True,False
+2026-05,Uber,7,61,Brooklyn,Crown Heights North,61,Brooklyn,Crown Heights North,24485,0.0015946137029580817,15354816,True,False
+2026-05,Uber,8,129,Queens,Jackson Heights,129,Queens,Jackson Heights,24100,0.0015695401364627228,15354816,True,False
+2026-05,Uber,9,216,Queens,South Ozone Park,216,Queens,South Ozone Park,23842,0.0015527375906034954,15354816,True,False
+2026-05,Uber,10,95,Queens,Forest Hills,95,Queens,Forest Hills,22718,0.0014795358016663957,15354816,True,False
+2026-05,Lyft,1,76,Brooklyn,East New York,76,Brooklyn,East New York,28444,0.004200901264937391,6770928,True,False
+2026-05,Lyft,2,138,Queens,LaGuardia Airport,265,N/A,Outside of NYC,21798,0.00321935191158435,6770928,False,True
+2026-05,Lyft,3,132,Queens,JFK Airport,265,N/A,Outside of NYC,20915,0.003088941427231245,6770928,False,True
+2026-05,Lyft,4,39,Brooklyn,Canarsie,39,Brooklyn,Canarsie,16080,0.002374859103508411,6770928,True,False
+2026-05,Lyft,5,61,Brooklyn,Crown Heights North,61,Brooklyn,Crown Heights North,12328,0.0018207253126897819,6770928,True,False
+2026-05,Lyft,6,26,Brooklyn,Borough Park,26,Brooklyn,Borough Park,11072,0.0016352263677888762,6770928,True,False
+2026-05,Lyft,7,14,Brooklyn,Bay Ridge,14,Brooklyn,Bay Ridge,10825,0.0015987468778282683,6770928,True,False
+2026-05,Lyft,8,181,Brooklyn,Park Slope,181,Brooklyn,Park Slope,10484,0.0015483845050486432,6770928,True,False
+2026-05,Lyft,9,7,Queens,Astoria,7,Queens,Astoria,9895,0.0014613949520656548,6770928,True,False
+2026-05,Lyft,10,216,Queens,South Ozone Park,216,Queens,South Ozone Park,9862,0.0014565211740547234,6770928,True,False

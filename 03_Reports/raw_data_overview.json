@@ -1,0 +1,1016 @@
+{
+  "generated_at": "2026-10-02T11:35:29+08:00",
+  "source": "Four uncleaned local Parquet files; platform, sharing and payment categories from tlc_initial_inspection.json",
+  "method": "Full-file batch scan; all rows retained, including out-of-month and implausible values. Pickup timestamps drive month, hour and weekday charts. OD keys are ordered (origin,destination); reverse pairs differ and same-zone pairs remain. The OD preview includes records with valid lookup-range IDs and counts invalid OD IDs separately. Monetary histograms are univariate and must not be compared as equivalent passenger spending.",
+  "pickup_month_counts": {
+    "yellow": {
+      "2001-01": 1,
+      "2008-12": 1,
+      "2009-01": 4,
+      "2026-03": 7,
+      "2026-04": 3831239,
+      "2026-05": 4090823,
+      "2026-06": 1
+    },
+    "fhvhv": {
+      "2026-04": 20995953,
+      "2026-05": 22125744
+    }
+  },
+  "files": [
+    {
+      "label": "yellow_2026_04",
+      "service": "yellow",
+      "file_month": "2026-04",
+      "rows": 3831240,
+      "hourly_pickups": [
+        109036,
+        69904,
+        45261,
+        31471,
+        26215,
+        32152,
+        65541,
+        118915,
+        158831,
+        166426,
+        166968,
+        181432,
+        196394,
+        202922,
+        222614,
+        227198,
+        231051,
+        257618,
+        260248,
+        227121,
+        217898,
+        231639,
+        218162,
+        166223
+      ],
+      "weekday_pickups": [
+        436147,
+        497714,
+        652097,
+        683488,
+        521709,
+        577153,
+        462932
+      ],
+      "pickup_month_counts": {
+        "2001-01": 1,
+        "2009-01": 3,
+        "2026-03": 7,
+        "2026-04": 3831228,
+        "2026-05": 1
+      },
+      "missing_pickup": 0,
+      "pickup_outside_file_month": 12,
+      "top_pickup_zones": [
+        {
+          "id": 237,
+          "name": "Upper East Side South",
+          "borough": "Manhattan",
+          "count": 183068
+        },
+        {
+          "id": 161,
+          "name": "Midtown Center",
+          "borough": "Manhattan",
+          "count": 163751
+        },
+        {
+          "id": 236,
+          "name": "Upper East Side North",
+          "borough": "Manhattan",
+          "count": 161902
+        },
+        {
+          "id": 132,
+          "name": "JFK Airport",
+          "borough": "Queens",
+          "count": 148684
+        },
+        {
+          "id": 162,
+          "name": "Midtown East",
+          "borough": "Manhattan",
+          "count": 117865
+        },
+        {
+          "id": 186,
+          "name": "Penn Station/Madison Sq West",
+          "borough": "Manhattan",
+          "count": 117497
+        },
+        {
+          "id": 230,
+          "name": "Times Sq/Theatre District",
+          "borough": "Manhattan",
+          "count": 113641
+        },
+        {
+          "id": 142,
+          "name": "Lincoln Square East",
+          "borough": "Manhattan",
+          "count": 112217
+        },
+        {
+          "id": 239,
+          "name": "Upper West Side South",
+          "borough": "Manhattan",
+          "count": 99882
+        },
+        {
+          "id": 138,
+          "name": "LaGuardia Airport",
+          "borough": "Queens",
+          "count": 99059
+        }
+      ],
+      "pickup_boroughs": {
+        "Manhattan": 3311075,
+        "Queens": 337271,
+        "Brooklyn": 140266,
+        "Bronx": 35843,
+        "Unknown": 4503,
+        "N/A": 1529,
+        "EWR": 469,
+        "Staten Island": 284
+      },
+      "directed_od_top10": [
+        {
+          "origin_id": 237,
+          "origin_name": "Upper East Side South",
+          "destination_id": 236,
+          "destination_name": "Upper East Side North",
+          "count": 27359,
+          "reverse_count": 23254,
+          "within_zone": false
+        },
+        {
+          "origin_id": 236,
+          "origin_name": "Upper East Side North",
+          "destination_id": 237,
+          "destination_name": "Upper East Side South",
+          "count": 23254,
+          "reverse_count": 27359,
+          "within_zone": false
+        },
+        {
+          "origin_id": 237,
+          "origin_name": "Upper East Side South",
+          "destination_id": 237,
+          "destination_name": "Upper East Side South",
+          "count": 18789,
+          "reverse_count": 18789,
+          "within_zone": true
+        },
+        {
+          "origin_id": 236,
+          "origin_name": "Upper East Side North",
+          "destination_id": 236,
+          "destination_name": "Upper East Side North",
+          "count": 17131,
+          "reverse_count": 17131,
+          "within_zone": true
+        },
+        {
+          "origin_id": 161,
+          "origin_name": "Midtown Center",
+          "destination_id": 237,
+          "destination_name": "Upper East Side South",
+          "count": 12416,
+          "reverse_count": 11209,
+          "within_zone": false
+        },
+        {
+          "origin_id": 237,
+          "origin_name": "Upper East Side South",
+          "destination_id": 161,
+          "destination_name": "Midtown Center",
+          "count": 11209,
+          "reverse_count": 12416,
+          "within_zone": false
+        },
+        {
+          "origin_id": 161,
+          "origin_name": "Midtown Center",
+          "destination_id": 236,
+          "destination_name": "Upper East Side North",
+          "count": 10178,
+          "reverse_count": 9244,
+          "within_zone": false
+        },
+        {
+          "origin_id": 236,
+          "origin_name": "Upper East Side North",
+          "destination_id": 161,
+          "destination_name": "Midtown Center",
+          "count": 9244,
+          "reverse_count": 10178,
+          "within_zone": false
+        },
+        {
+          "origin_id": 237,
+          "origin_name": "Upper East Side South",
+          "destination_id": 162,
+          "destination_name": "Midtown East",
+          "count": 8924,
+          "reverse_count": 7782,
+          "within_zone": false
+        },
+        {
+          "origin_id": 239,
+          "origin_name": "Upper West Side South",
+          "destination_id": 238,
+          "destination_name": "Upper West Side North",
+          "count": 8793,
+          "reverse_count": 7623,
+          "within_zone": false
+        }
+      ],
+      "directed_od_valid_trips": 3831240,
+      "within_zone_trips": 175116,
+      "invalid_od_zone_trips": 0,
+      "distance_field": "trip_distance",
+      "distance_bins": {
+        "≤0": 93515,
+        "0–1": 836922,
+        "1–3": 1702188,
+        "3–5": 473482,
+        "5–10": 431331,
+        "10–20": 260745,
+        "20–50": 32394,
+        ">50": 663,
+        "缺失": 0
+      },
+      "amount_field": "total_amount",
+      "amount_bins": {
+        "<0": 14874,
+        "=0": 531,
+        "0–10": 52327,
+        "10–25": 2041295,
+        "25–50": 1280560,
+        "50–100": 372356,
+        "100–250": 67787,
+        ">250": 1510,
+        "缺失": 0
+      },
+      "payment_types": {
+        "1": 2635749,
+        "0": 799786,
+        "2": 360995,
+        "4": 22918,
+        "3": 11792
+      },
+      "platforms": {},
+      "sharing_statuses": {}
+    },
+    {
+      "label": "yellow_2026_05",
+      "service": "yellow",
+      "file_month": "2026-05",
+      "rows": 4090836,
+      "hourly_pickups": [
+        125782,
+        83806,
+        56451,
+        39496,
+        32504,
+        36398,
+        67608,
+        124354,
+        160502,
+        171880,
+        177607,
+        192142,
+        207919,
+        214160,
+        237319,
+        245667,
+        246307,
+        276037,
+        283663,
+        242384,
+        219984,
+        238839,
+        227408,
+        182619
+      ],
+      "weekday_pickups": [
+        433059,
+        531244,
+        572862,
+        590077,
+        688070,
+        683539,
+        591985
+      ],
+      "pickup_month_counts": {
+        "2008-12": 1,
+        "2009-01": 1,
+        "2026-04": 11,
+        "2026-05": 4090822,
+        "2026-06": 1
+      },
+      "missing_pickup": 0,
+      "pickup_outside_file_month": 14,
+      "top_pickup_zones": [
+        {
+          "id": 237,
+          "name": "Upper East Side South",
+          "borough": "Manhattan",
+          "count": 198008
+        },
+        {
+          "id": 236,
+          "name": "Upper East Side North",
+          "borough": "Manhattan",
+          "count": 175969
+        },
+        {
+          "id": 161,
+          "name": "Midtown Center",
+          "borough": "Manhattan",
+          "count": 161315
+        },
+        {
+          "id": 132,
+          "name": "JFK Airport",
+          "borough": "Queens",
+          "count": 149312
+        },
+        {
+          "id": 142,
+          "name": "Lincoln Square East",
+          "borough": "Manhattan",
+          "count": 124523
+        },
+        {
+          "id": 162,
+          "name": "Midtown East",
+          "borough": "Manhattan",
+          "count": 120488
+        },
+        {
+          "id": 186,
+          "name": "Penn Station/Madison Sq West",
+          "borough": "Manhattan",
+          "count": 113921
+        },
+        {
+          "id": 230,
+          "name": "Times Sq/Theatre District",
+          "borough": "Manhattan",
+          "count": 111934
+        },
+        {
+          "id": 239,
+          "name": "Upper West Side South",
+          "borough": "Manhattan",
+          "count": 108689
+        },
+        {
+          "id": 79,
+          "name": "East Village",
+          "borough": "Manhattan",
+          "count": 107374
+        }
+      ],
+      "pickup_boroughs": {
+        "Manhattan": 3537655,
+        "Queens": 351348,
+        "Brooklyn": 158842,
+        "Bronx": 35669,
+        "Unknown": 4734,
+        "N/A": 1752,
+        "EWR": 504,
+        "Staten Island": 332
+      },
+      "directed_od_top10": [
+        {
+          "origin_id": 237,
+          "origin_name": "Upper East Side South",
+          "destination_id": 236,
+          "destination_name": "Upper East Side North",
+          "count": 29602,
+          "reverse_count": 25419,
+          "within_zone": false
+        },
+        {
+          "origin_id": 236,
+          "origin_name": "Upper East Side North",
+          "destination_id": 237,
+          "destination_name": "Upper East Side South",
+          "count": 25419,
+          "reverse_count": 29602,
+          "within_zone": false
+        },
+        {
+          "origin_id": 237,
+          "origin_name": "Upper East Side South",
+          "destination_id": 237,
+          "destination_name": "Upper East Side South",
+          "count": 20204,
+          "reverse_count": 20204,
+          "within_zone": true
+        },
+        {
+          "origin_id": 236,
+          "origin_name": "Upper East Side North",
+          "destination_id": 236,
+          "destination_name": "Upper East Side North",
+          "count": 18806,
+          "reverse_count": 18806,
+          "within_zone": true
+        },
+        {
+          "origin_id": 161,
+          "origin_name": "Midtown Center",
+          "destination_id": 237,
+          "destination_name": "Upper East Side South",
+          "count": 12981,
+          "reverse_count": 12320,
+          "within_zone": false
+        },
+        {
+          "origin_id": 237,
+          "origin_name": "Upper East Side South",
+          "destination_id": 161,
+          "destination_name": "Midtown Center",
+          "count": 12320,
+          "reverse_count": 12981,
+          "within_zone": false
+        },
+        {
+          "origin_id": 161,
+          "origin_name": "Midtown Center",
+          "destination_id": 236,
+          "destination_name": "Upper East Side North",
+          "count": 10045,
+          "reverse_count": 9385,
+          "within_zone": false
+        },
+        {
+          "origin_id": 237,
+          "origin_name": "Upper East Side South",
+          "destination_id": 162,
+          "destination_name": "Midtown East",
+          "count": 9819,
+          "reverse_count": 8207,
+          "within_zone": false
+        },
+        {
+          "origin_id": 142,
+          "origin_name": "Lincoln Square East",
+          "destination_id": 239,
+          "destination_name": "Upper West Side South",
+          "count": 9530,
+          "reverse_count": 9263,
+          "within_zone": false
+        },
+        {
+          "origin_id": 236,
+          "origin_name": "Upper East Side North",
+          "destination_id": 161,
+          "destination_name": "Midtown Center",
+          "count": 9385,
+          "reverse_count": 10045,
+          "within_zone": false
+        }
+      ],
+      "directed_od_valid_trips": 4090836,
+      "within_zone_trips": 186117,
+      "invalid_od_zone_trips": 0,
+      "distance_field": "trip_distance",
+      "distance_bins": {
+        "≤0": 113031,
+        "0–1": 872143,
+        "1–3": 1808899,
+        "3–5": 521397,
+        "5–10": 470102,
+        "10–20": 272689,
+        "20–50": 31870,
+        ">50": 705,
+        "缺失": 0
+      },
+      "amount_field": "total_amount",
+      "amount_bins": {
+        "<0": 14877,
+        "=0": 668,
+        "0–10": 56665,
+        "10–25": 2132420,
+        "25–50": 1394716,
+        "50–100": 413099,
+        "100–250": 76812,
+        ">250": 1579,
+        "缺失": 0
+      },
+      "payment_types": {
+        "1": 2727585,
+        "0": 955371,
+        "2": 372909,
+        "4": 22987,
+        "3": 11984
+      },
+      "platforms": {},
+      "sharing_statuses": {}
+    },
+    {
+      "label": "fhvhv_2026_04",
+      "service": "fhvhv",
+      "file_month": "2026-04",
+      "rows": 20995953,
+      "hourly_pickups": [
+        729747,
+        494468,
+        352119,
+        292834,
+        315449,
+        389807,
+        612311,
+        893243,
+        1096050,
+        1017147,
+        920949,
+        896719,
+        914651,
+        951103,
+        1036479,
+        1053339,
+        1080319,
+        1177839,
+        1204917,
+        1154680,
+        1163308,
+        1147857,
+        1119492,
+        981126
+      ],
+      "weekday_pickups": [
+        2415386,
+        2523646,
+        3333735,
+        3507946,
+        3004313,
+        3382810,
+        2828117
+      ],
+      "pickup_month_counts": {
+        "2026-04": 20995953
+      },
+      "missing_pickup": 0,
+      "pickup_outside_file_month": 0,
+      "top_pickup_zones": [
+        {
+          "id": 138,
+          "name": "LaGuardia Airport",
+          "borough": "Queens",
+          "count": 412983
+        },
+        {
+          "id": 132,
+          "name": "JFK Airport",
+          "borough": "Queens",
+          "count": 318541
+        },
+        {
+          "id": 61,
+          "name": "Crown Heights North",
+          "borough": "Brooklyn",
+          "count": 270911
+        },
+        {
+          "id": 76,
+          "name": "East New York",
+          "borough": "Brooklyn",
+          "count": 248787
+        },
+        {
+          "id": 161,
+          "name": "Midtown Center",
+          "borough": "Manhattan",
+          "count": 242713
+        },
+        {
+          "id": 79,
+          "name": "East Village",
+          "borough": "Manhattan",
+          "count": 241506
+        },
+        {
+          "id": 230,
+          "name": "Times Sq/Theatre District",
+          "borough": "Manhattan",
+          "count": 236028
+        },
+        {
+          "id": 37,
+          "name": "Bushwick South",
+          "borough": "Brooklyn",
+          "count": 227437
+        },
+        {
+          "id": 231,
+          "name": "TriBeCa/Civic Center",
+          "borough": "Manhattan",
+          "count": 227008
+        },
+        {
+          "id": 246,
+          "name": "West Chelsea/Hudson Yards",
+          "borough": "Manhattan",
+          "count": 215718
+        }
+      ],
+      "pickup_boroughs": {
+        "Manhattan": 7635272,
+        "Brooklyn": 5609335,
+        "Queens": 4551421,
+        "Bronx": 2859783,
+        "Staten Island": 339120,
+        "N/A": 1020,
+        "EWR": 2
+      },
+      "directed_od_top10": [
+        {
+          "origin_id": 76,
+          "origin_name": "East New York",
+          "destination_id": 76,
+          "destination_name": "East New York",
+          "count": 82829,
+          "reverse_count": 82829,
+          "within_zone": true
+        },
+        {
+          "origin_id": 132,
+          "origin_name": "JFK Airport",
+          "destination_id": 265,
+          "destination_name": "Outside of NYC",
+          "count": 65642,
+          "reverse_count": 17,
+          "within_zone": false
+        },
+        {
+          "origin_id": 138,
+          "origin_name": "LaGuardia Airport",
+          "destination_id": 265,
+          "destination_name": "Outside of NYC",
+          "count": 58631,
+          "reverse_count": 4,
+          "within_zone": false
+        },
+        {
+          "origin_id": 39,
+          "origin_name": "Canarsie",
+          "destination_id": 39,
+          "destination_name": "Canarsie",
+          "count": 50595,
+          "reverse_count": 50595,
+          "within_zone": true
+        },
+        {
+          "origin_id": 61,
+          "origin_name": "Crown Heights North",
+          "destination_id": 61,
+          "destination_name": "Crown Heights North",
+          "count": 36360,
+          "reverse_count": 36360,
+          "within_zone": true
+        },
+        {
+          "origin_id": 14,
+          "origin_name": "Bay Ridge",
+          "destination_id": 14,
+          "destination_name": "Bay Ridge",
+          "count": 34301,
+          "reverse_count": 34301,
+          "within_zone": true
+        },
+        {
+          "origin_id": 26,
+          "origin_name": "Borough Park",
+          "destination_id": 26,
+          "destination_name": "Borough Park",
+          "count": 32748,
+          "reverse_count": 32748,
+          "within_zone": true
+        },
+        {
+          "origin_id": 95,
+          "origin_name": "Forest Hills",
+          "destination_id": 95,
+          "destination_name": "Forest Hills",
+          "count": 31199,
+          "reverse_count": 31199,
+          "within_zone": true
+        },
+        {
+          "origin_id": 216,
+          "origin_name": "South Ozone Park",
+          "destination_id": 216,
+          "destination_name": "South Ozone Park",
+          "count": 30952,
+          "reverse_count": 30952,
+          "within_zone": true
+        },
+        {
+          "origin_id": 129,
+          "origin_name": "Jackson Heights",
+          "destination_id": 129,
+          "destination_name": "Jackson Heights",
+          "count": 30738,
+          "reverse_count": 30738,
+          "within_zone": true
+        }
+      ],
+      "directed_od_valid_trips": 20995953,
+      "within_zone_trips": 1676857,
+      "invalid_od_zone_trips": 0,
+      "distance_field": "trip_miles",
+      "distance_bins": {
+        "≤0": 1857,
+        "0–1": 2489005,
+        "1–3": 8384313,
+        "3–5": 3671171,
+        "5–10": 3838802,
+        "10–20": 2143388,
+        "20–50": 441916,
+        ">50": 25501,
+        "缺失": 0
+      },
+      "amount_field": "base_passenger_fare",
+      "amount_bins": {
+        "<0": 5436,
+        "=0": 20168,
+        "0–10": 3434392,
+        "10–25": 9678751,
+        "25–50": 5417563,
+        "50–100": 1979553,
+        "100–250": 444300,
+        ">250": 15790,
+        "缺失": 0
+      },
+      "payment_types": {},
+      "platforms": {
+        "HV0003": 15378858,
+        "HV0005": 5617095
+      },
+      "sharing_statuses": {
+        "N/N": 20575829,
+        "Y/Y": 255458,
+        "Y/N": 163883,
+        "N/Y": 783
+      }
+    },
+    {
+      "label": "fhvhv_2026_05",
+      "service": "fhvhv",
+      "file_month": "2026-05",
+      "rows": 22125744,
+      "hourly_pickups": [
+        817857,
+        576321,
+        415554,
+        337463,
+        350474,
+        425398,
+        629702,
+        914386,
+        1098606,
+        1039461,
+        967925,
+        950672,
+        967881,
+        1003754,
+        1090487,
+        1111755,
+        1132394,
+        1226753,
+        1278624,
+        1220229,
+        1167483,
+        1175854,
+        1173449,
+        1053262
+      ],
+      "weekday_pickups": [
+        2406318,
+        2604062,
+        2767460,
+        2863709,
+        3852156,
+        4117727,
+        3514312
+      ],
+      "pickup_month_counts": {
+        "2026-05": 22125744
+      },
+      "missing_pickup": 0,
+      "pickup_outside_file_month": 0,
+      "top_pickup_zones": [
+        {
+          "id": 138,
+          "name": "LaGuardia Airport",
+          "borough": "Queens",
+          "count": 453507
+        },
+        {
+          "id": 132,
+          "name": "JFK Airport",
+          "borough": "Queens",
+          "count": 365545
+        },
+        {
+          "id": 61,
+          "name": "Crown Heights North",
+          "borough": "Brooklyn",
+          "count": 283994
+        },
+        {
+          "id": 76,
+          "name": "East New York",
+          "borough": "Brooklyn",
+          "count": 255275
+        },
+        {
+          "id": 79,
+          "name": "East Village",
+          "borough": "Manhattan",
+          "count": 254094
+        },
+        {
+          "id": 37,
+          "name": "Bushwick South",
+          "borough": "Brooklyn",
+          "count": 252103
+        },
+        {
+          "id": 230,
+          "name": "Times Sq/Theatre District",
+          "borough": "Manhattan",
+          "count": 246985
+        },
+        {
+          "id": 161,
+          "name": "Midtown Center",
+          "borough": "Manhattan",
+          "count": 246469
+        },
+        {
+          "id": 231,
+          "name": "TriBeCa/Civic Center",
+          "borough": "Manhattan",
+          "count": 231330
+        },
+        {
+          "id": 246,
+          "name": "West Chelsea/Hudson Yards",
+          "borough": "Manhattan",
+          "count": 226381
+        }
+      ],
+      "pickup_boroughs": {
+        "Manhattan": 7903210,
+        "Brooklyn": 6008006,
+        "Queens": 4919619,
+        "Bronx": 2934142,
+        "Staten Island": 359584,
+        "N/A": 1182,
+        "EWR": 1
+      },
+      "directed_od_top10": [
+        {
+          "origin_id": 76,
+          "origin_name": "East New York",
+          "destination_id": 76,
+          "destination_name": "East New York",
+          "count": 84610,
+          "reverse_count": 84610,
+          "within_zone": true
+        },
+        {
+          "origin_id": 132,
+          "origin_name": "JFK Airport",
+          "destination_id": 265,
+          "destination_name": "Outside of NYC",
+          "count": 71097,
+          "reverse_count": 29,
+          "within_zone": false
+        },
+        {
+          "origin_id": 138,
+          "origin_name": "LaGuardia Airport",
+          "destination_id": 265,
+          "destination_name": "Outside of NYC",
+          "count": 61007,
+          "reverse_count": 8,
+          "within_zone": false
+        },
+        {
+          "origin_id": 39,
+          "origin_name": "Canarsie",
+          "destination_id": 39,
+          "destination_name": "Canarsie",
+          "count": 51525,
+          "reverse_count": 51525,
+          "within_zone": true
+        },
+        {
+          "origin_id": 26,
+          "origin_name": "Borough Park",
+          "destination_id": 26,
+          "destination_name": "Borough Park",
+          "count": 41424,
+          "reverse_count": 41424,
+          "within_zone": true
+        },
+        {
+          "origin_id": 61,
+          "origin_name": "Crown Heights North",
+          "destination_id": 61,
+          "destination_name": "Crown Heights North",
+          "count": 36813,
+          "reverse_count": 36813,
+          "within_zone": true
+        },
+        {
+          "origin_id": 14,
+          "origin_name": "Bay Ridge",
+          "destination_id": 14,
+          "destination_name": "Bay Ridge",
+          "count": 36772,
+          "reverse_count": 36772,
+          "within_zone": true
+        },
+        {
+          "origin_id": 216,
+          "origin_name": "South Ozone Park",
+          "destination_id": 216,
+          "destination_name": "South Ozone Park",
+          "count": 33704,
+          "reverse_count": 33704,
+          "within_zone": true
+        },
+        {
+          "origin_id": 129,
+          "origin_name": "Jackson Heights",
+          "destination_id": 129,
+          "destination_name": "Jackson Heights",
+          "count": 32862,
+          "reverse_count": 32862,
+          "within_zone": true
+        },
+        {
+          "origin_id": 95,
+          "origin_name": "Forest Hills",
+          "destination_id": 95,
+          "destination_name": "Forest Hills",
+          "count": 32502,
+          "reverse_count": 32502,
+          "within_zone": true
+        }
+      ],
+      "directed_od_valid_trips": 22125744,
+      "within_zone_trips": 1750218,
+      "invalid_od_zone_trips": 0,
+      "distance_field": "trip_miles",
+      "distance_bins": {
+        "≤0": 2285,
+        "0–1": 2555099,
+        "1–3": 8761409,
+        "3–5": 3908335,
+        "5–10": 4048438,
+        "10–20": 2326715,
+        "20–50": 492659,
+        ">50": 30804,
+        "缺失": 0
+      },
+      "amount_field": "base_passenger_fare",
+      "amount_bins": {
+        "<0": 7728,
+        "=0": 4193,
+        "0–10": 3247875,
+        "10–25": 10104133,
+        "25–50": 5821811,
+        "50–100": 2379187,
+        "100–250": 540527,
+        ">250": 20290,
+        "缺失": 0
+      },
+      "payment_types": {},
+      "platforms": {
+        "HV0003": 15354816,
+        "HV0005": 6770928
+      },
+      "sharing_statuses": {
+        "N/N": 21733795,
+        "Y/Y": 220972,
+        "Y/N": 169800,
+        "N/Y": 1177
+      }
+    }
+  ]
+}

@@ -1,0 +1,2121 @@
+month,service,measure,LocationID,borough,zone,trip_count,drawable
+2026-04,Yellow,pickup,1,EWR,Newark Airport,462,True
+2026-04,Yellow,pickup,2,Queens,Jamaica Bay,5,True
+2026-04,Yellow,pickup,3,Bronx,Allerton/Pelham Gardens,425,True
+2026-04,Yellow,pickup,4,Manhattan,Alphabet City,15853,True
+2026-04,Yellow,pickup,5,Staten Island,Arden Heights,5,True
+2026-04,Yellow,pickup,6,Staten Island,Arrochar/Fort Wadsworth,48,True
+2026-04,Yellow,pickup,7,Queens,Astoria,7069,True
+2026-04,Yellow,pickup,8,Queens,Astoria Park,34,True
+2026-04,Yellow,pickup,9,Queens,Auburndale,169,True
+2026-04,Yellow,pickup,10,Queens,Baisley Park,1758,True
+2026-04,Yellow,pickup,11,Brooklyn,Bath Beach,284,True
+2026-04,Yellow,pickup,12,Manhattan,Battery Park,1027,True
+2026-04,Yellow,pickup,13,Manhattan,Battery Park City,22821,True
+2026-04,Yellow,pickup,14,Brooklyn,Bay Ridge,1627,True
+2026-04,Yellow,pickup,15,Queens,Bay Terrace/Fort Totten,188,True
+2026-04,Yellow,pickup,16,Queens,Bayside,339,True
+2026-04,Yellow,pickup,17,Brooklyn,Bedford,3630,True
+2026-04,Yellow,pickup,18,Bronx,Bedford Park,950,True
+2026-04,Yellow,pickup,19,Queens,Bellerose,382,True
+2026-04,Yellow,pickup,20,Bronx,Belmont,504,True
+2026-04,Yellow,pickup,21,Brooklyn,Bensonhurst East,611,True
+2026-04,Yellow,pickup,22,Brooklyn,Bensonhurst West,741,True
+2026-04,Yellow,pickup,23,Staten Island,Bloomfield/Emerson Hill,33,True
+2026-04,Yellow,pickup,24,Manhattan,Bloomingdale,12113,True
+2026-04,Yellow,pickup,25,Brooklyn,Boerum Hill,4205,True
+2026-04,Yellow,pickup,26,Brooklyn,Borough Park,947,True
+2026-04,Yellow,pickup,27,Queens,Breezy Point/Fort Tilden/Riis Beach,10,True
+2026-04,Yellow,pickup,28,Queens,Briarwood/Jamaica Hills,936,True
+2026-04,Yellow,pickup,29,Brooklyn,Brighton Beach,711,True
+2026-04,Yellow,pickup,30,Queens,Broad Channel,12,True
+2026-04,Yellow,pickup,31,Bronx,Bronx Park,119,True
+2026-04,Yellow,pickup,32,Bronx,Bronxdale,592,True
+2026-04,Yellow,pickup,33,Brooklyn,Brooklyn Heights,4693,True
+2026-04,Yellow,pickup,34,Brooklyn,Brooklyn Navy Yard,684,True
+2026-04,Yellow,pickup,35,Brooklyn,Brownsville,3221,True
+2026-04,Yellow,pickup,36,Brooklyn,Bushwick North,3191,True
+2026-04,Yellow,pickup,37,Brooklyn,Bushwick South,5493,True
+2026-04,Yellow,pickup,38,Queens,Cambria Heights,408,True
+2026-04,Yellow,pickup,39,Brooklyn,Canarsie,3564,True
+2026-04,Yellow,pickup,40,Brooklyn,Carroll Gardens,1250,True
+2026-04,Yellow,pickup,41,Manhattan,Central Harlem,18173,True
+2026-04,Yellow,pickup,42,Manhattan,Central Harlem North,13460,True
+2026-04,Yellow,pickup,43,Manhattan,Central Park,50158,True
+2026-04,Yellow,pickup,44,Staten Island,Charleston/Tottenville,4,True
+2026-04,Yellow,pickup,45,Manhattan,Chinatown,8508,True
+2026-04,Yellow,pickup,46,Bronx,City Island,100,True
+2026-04,Yellow,pickup,47,Bronx,Claremont/Bathgate,883,True
+2026-04,Yellow,pickup,48,Manhattan,Clinton East,85651,True
+2026-04,Yellow,pickup,49,Brooklyn,Clinton Hill,3496,True
+2026-04,Yellow,pickup,50,Manhattan,Clinton West,24663,True
+2026-04,Yellow,pickup,51,Bronx,Co-Op City,1727,True
+2026-04,Yellow,pickup,52,Brooklyn,Cobble Hill,1238,True
+2026-04,Yellow,pickup,53,Queens,College Point,271,True
+2026-04,Yellow,pickup,54,Brooklyn,Columbia Street,336,True
+2026-04,Yellow,pickup,55,Brooklyn,Coney Island,1692,True
+2026-04,Yellow,pickup,56,Queens,Corona,859,True
+2026-04,Yellow,pickup,57,Queens,Corona,43,True
+2026-04,Yellow,pickup,58,Bronx,Country Club,77,True
+2026-04,Yellow,pickup,59,Bronx,Crotona Park,29,True
+2026-04,Yellow,pickup,60,Bronx,Crotona Park East,631,True
+2026-04,Yellow,pickup,61,Brooklyn,Crown Heights North,6766,True
+2026-04,Yellow,pickup,62,Brooklyn,Crown Heights South,1955,True
+2026-04,Yellow,pickup,63,Brooklyn,Cypress Hills,1230,True
+2026-04,Yellow,pickup,64,Queens,Douglaston,167,True
+2026-04,Yellow,pickup,65,Brooklyn,Downtown Brooklyn/MetroTech,4558,True
+2026-04,Yellow,pickup,66,Brooklyn,DUMBO/Vinegar Hill,4520,True
+2026-04,Yellow,pickup,67,Brooklyn,Dyker Heights,417,True
+2026-04,Yellow,pickup,68,Manhattan,East Chelsea,91037,True
+2026-04,Yellow,pickup,69,Bronx,East Concourse/Concourse Village,1807,True
+2026-04,Yellow,pickup,70,Queens,East Elmhurst,8611,True
+2026-04,Yellow,pickup,71,Brooklyn,East Flatbush/Farragut,2285,True
+2026-04,Yellow,pickup,72,Brooklyn,East Flatbush/Remsen Village,2615,True
+2026-04,Yellow,pickup,73,Queens,East Flushing,149,True
+2026-04,Yellow,pickup,74,Manhattan,East Harlem North,15502,True
+2026-04,Yellow,pickup,75,Manhattan,East Harlem South,30984,True
+2026-04,Yellow,pickup,76,Brooklyn,East New York,5563,True
+2026-04,Yellow,pickup,77,Brooklyn,East New York/Pennsylvania Avenue,1411,True
+2026-04,Yellow,pickup,78,Bronx,East Tremont,1143,True
+2026-04,Yellow,pickup,79,Manhattan,East Village,95904,True
+2026-04,Yellow,pickup,80,Brooklyn,East Williamsburg,4694,True
+2026-04,Yellow,pickup,81,Bronx,Eastchester,755,True
+2026-04,Yellow,pickup,82,Queens,Elmhurst,1905,True
+2026-04,Yellow,pickup,83,Queens,Elmhurst/Maspeth,686,True
+2026-04,Yellow,pickup,84,Staten Island,Eltingville/Annadale/Prince's Bay,3,True
+2026-04,Yellow,pickup,85,Brooklyn,Erasmus,1402,True
+2026-04,Yellow,pickup,86,Queens,Far Rockaway,1244,True
+2026-04,Yellow,pickup,87,Manhattan,Financial District North,24164,True
+2026-04,Yellow,pickup,88,Manhattan,Financial District South,13471,True
+2026-04,Yellow,pickup,89,Brooklyn,Flatbush/Ditmas Park,3751,True
+2026-04,Yellow,pickup,90,Manhattan,Flatiron,54840,True
+2026-04,Yellow,pickup,91,Brooklyn,Flatlands,2400,True
+2026-04,Yellow,pickup,92,Queens,Flushing,1215,True
+2026-04,Yellow,pickup,93,Queens,Flushing Meadows-Corona Park,845,True
+2026-04,Yellow,pickup,94,Bronx,Fordham South,450,True
+2026-04,Yellow,pickup,95,Queens,Forest Hills,2032,True
+2026-04,Yellow,pickup,96,Queens,Forest Park/Highland Park,80,True
+2026-04,Yellow,pickup,97,Brooklyn,Fort Greene,5113,True
+2026-04,Yellow,pickup,98,Queens,Fresh Meadows,246,True
+2026-04,Yellow,pickup,99,Staten Island,Freshkills Park,0,True
+2026-04,Yellow,pickup,100,Manhattan,Garment District,48478,True
+2026-04,Yellow,pickup,101,Queens,Glen Oaks,265,True
+2026-04,Yellow,pickup,102,Queens,Glendale,566,True
+2026-04,Yellow,pickup,103,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,True
+2026-04,Yellow,pickup,104,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,True
+2026-04,Yellow,pickup,105,Manhattan,Governor's Island/Ellis Island/Liberty Island,1,True
+2026-04,Yellow,pickup,106,Brooklyn,Gowanus,987,True
+2026-04,Yellow,pickup,107,Manhattan,Gramercy,69163,True
+2026-04,Yellow,pickup,108,Brooklyn,Gravesend,574,True
+2026-04,Yellow,pickup,109,Staten Island,Great Kills,13,True
+2026-04,Yellow,pickup,110,Staten Island,Great Kills Park,0,True
+2026-04,Yellow,pickup,111,Brooklyn,Green-Wood Cemetery,12,True
+2026-04,Yellow,pickup,112,Brooklyn,Greenpoint,5074,True
+2026-04,Yellow,pickup,113,Manhattan,Greenwich Village North,54078,True
+2026-04,Yellow,pickup,114,Manhattan,Greenwich Village South,54510,True
+2026-04,Yellow,pickup,115,Staten Island,Grymes Hill/Clifton,30,True
+2026-04,Yellow,pickup,116,Manhattan,Hamilton Heights,7913,True
+2026-04,Yellow,pickup,117,Queens,Hammels/Arverne,1235,True
+2026-04,Yellow,pickup,118,Staten Island,Heartland Village/Todt Hill,18,True
+2026-04,Yellow,pickup,119,Bronx,Highbridge,1067,True
+2026-04,Yellow,pickup,120,Manhattan,Highbridge Park,92,True
+2026-04,Yellow,pickup,121,Queens,Hillcrest/Pomonok,762,True
+2026-04,Yellow,pickup,122,Queens,Hollis,449,True
+2026-04,Yellow,pickup,123,Brooklyn,Homecrest,739,True
+2026-04,Yellow,pickup,124,Queens,Howard Beach,661,True
+2026-04,Yellow,pickup,125,Manhattan,Hudson Sq,18067,True
+2026-04,Yellow,pickup,126,Bronx,Hunts Point,693,True
+2026-04,Yellow,pickup,127,Manhattan,Inwood,1545,True
+2026-04,Yellow,pickup,128,Manhattan,Inwood Hill Park,190,True
+2026-04,Yellow,pickup,129,Queens,Jackson Heights,3448,True
+2026-04,Yellow,pickup,130,Queens,Jamaica,3207,True
+2026-04,Yellow,pickup,131,Queens,Jamaica Estates,657,True
+2026-04,Yellow,pickup,132,Queens,JFK Airport,147434,True
+2026-04,Yellow,pickup,133,Brooklyn,Kensington,777,True
+2026-04,Yellow,pickup,134,Queens,Kew Gardens,817,True
+2026-04,Yellow,pickup,135,Queens,Kew Gardens Hills,497,True
+2026-04,Yellow,pickup,136,Bronx,Kingsbridge Heights,693,True
+2026-04,Yellow,pickup,137,Manhattan,Kips Bay,44808,True
+2026-04,Yellow,pickup,138,Queens,LaGuardia Airport,97649,True
+2026-04,Yellow,pickup,139,Queens,Laurelton,571,True
+2026-04,Yellow,pickup,140,Manhattan,Lenox Hill East,75409,True
+2026-04,Yellow,pickup,141,Manhattan,Lenox Hill West,82673,True
+2026-04,Yellow,pickup,142,Manhattan,Lincoln Square East,110128,True
+2026-04,Yellow,pickup,143,Manhattan,Lincoln Square West,43747,True
+2026-04,Yellow,pickup,144,Manhattan,Little Italy/NoLiTa,40227,True
+2026-04,Yellow,pickup,145,Queens,Long Island City/Hunters Point,7866,True
+2026-04,Yellow,pickup,146,Queens,Long Island City/Queens Plaza,3463,True
+2026-04,Yellow,pickup,147,Bronx,Longwood,566,True
+2026-04,Yellow,pickup,148,Manhattan,Lower East Side,47305,True
+2026-04,Yellow,pickup,149,Brooklyn,Madison,599,True
+2026-04,Yellow,pickup,150,Brooklyn,Manhattan Beach,357,True
+2026-04,Yellow,pickup,151,Manhattan,Manhattan Valley,30985,True
+2026-04,Yellow,pickup,152,Manhattan,Manhattanville,5493,True
+2026-04,Yellow,pickup,153,Manhattan,Marble Hill,200,True
+2026-04,Yellow,pickup,154,Brooklyn,Marine Park/Floyd Bennett Field,50,True
+2026-04,Yellow,pickup,155,Brooklyn,Marine Park/Mill Basin,1259,True
+2026-04,Yellow,pickup,156,Staten Island,Mariners Harbor,5,True
+2026-04,Yellow,pickup,157,Queens,Maspeth,1521,True
+2026-04,Yellow,pickup,158,Manhattan,Meatpacking/West Village West,36780,True
+2026-04,Yellow,pickup,159,Bronx,Melrose South,1582,True
+2026-04,Yellow,pickup,160,Queens,Middle Village,540,True
+2026-04,Yellow,pickup,161,Manhattan,Midtown Center,161098,True
+2026-04,Yellow,pickup,162,Manhattan,Midtown East,115922,True
+2026-04,Yellow,pickup,163,Manhattan,Midtown North,95181,True
+2026-04,Yellow,pickup,164,Manhattan,Midtown South,72279,True
+2026-04,Yellow,pickup,165,Brooklyn,Midwood,1085,True
+2026-04,Yellow,pickup,166,Manhattan,Morningside Heights,26674,True
+2026-04,Yellow,pickup,167,Bronx,Morrisania/Melrose,1245,True
+2026-04,Yellow,pickup,168,Bronx,Mott Haven/Port Morris,2550,True
+2026-04,Yellow,pickup,169,Bronx,Mount Hope,1044,True
+2026-04,Yellow,pickup,170,Manhattan,Murray Hill,97134,True
+2026-04,Yellow,pickup,171,Queens,Murray Hill-Queens,284,True
+2026-04,Yellow,pickup,172,Staten Island,New Dorp/Midland Beach,11,True
+2026-04,Yellow,pickup,173,Queens,North Corona,485,True
+2026-04,Yellow,pickup,174,Bronx,Norwood,825,True
+2026-04,Yellow,pickup,175,Queens,Oakland Gardens,215,True
+2026-04,Yellow,pickup,176,Staten Island,Oakwood,8,True
+2026-04,Yellow,pickup,177,Brooklyn,Ocean Hill,2569,True
+2026-04,Yellow,pickup,178,Brooklyn,Ocean Parkway South,221,True
+2026-04,Yellow,pickup,179,Queens,Old Astoria,2799,True
+2026-04,Yellow,pickup,180,Queens,Ozone Park,513,True
+2026-04,Yellow,pickup,181,Brooklyn,Park Slope,3830,True
+2026-04,Yellow,pickup,182,Bronx,Parkchester,1300,True
+2026-04,Yellow,pickup,183,Bronx,Pelham Bay,328,True
+2026-04,Yellow,pickup,184,Bronx,Pelham Bay Park,49,True
+2026-04,Yellow,pickup,185,Bronx,Pelham Parkway,616,True
+2026-04,Yellow,pickup,186,Manhattan,Penn Station/Madison Sq West,115618,True
+2026-04,Yellow,pickup,187,Staten Island,Port Richmond,4,True
+2026-04,Yellow,pickup,188,Brooklyn,Prospect-Lefferts Gardens,4256,True
+2026-04,Yellow,pickup,189,Brooklyn,Prospect Heights,1533,True
+2026-04,Yellow,pickup,190,Brooklyn,Prospect Park,355,True
+2026-04,Yellow,pickup,191,Queens,Queens Village,969,True
+2026-04,Yellow,pickup,192,Queens,Queensboro Hill,263,True
+2026-04,Yellow,pickup,193,Queens,Queensbridge/Ravenswood,2660,True
+2026-04,Yellow,pickup,194,Manhattan,Randalls Island,202,True
+2026-04,Yellow,pickup,195,Brooklyn,Red Hook,1565,True
+2026-04,Yellow,pickup,196,Queens,Rego Park,984,True
+2026-04,Yellow,pickup,197,Queens,Richmond Hill,1866,True
+2026-04,Yellow,pickup,198,Queens,Ridgewood,1670,True
+2026-04,Yellow,pickup,199,Bronx,Rikers Island,1,True
+2026-04,Yellow,pickup,200,Bronx,Riverdale/North Riverdale/Fieldston,523,True
+2026-04,Yellow,pickup,201,Queens,Rockaway Park,316,True
+2026-04,Yellow,pickup,202,Manhattan,Roosevelt Island,671,True
+2026-04,Yellow,pickup,203,Queens,Rosedale,427,True
+2026-04,Yellow,pickup,204,Staten Island,Rossville/Woodrow,3,True
+2026-04,Yellow,pickup,205,Queens,Saint Albans,1421,True
+2026-04,Yellow,pickup,206,Staten Island,Saint George/New Brighton,14,True
+2026-04,Yellow,pickup,207,Queens,Saint Michaels Cemetery/Woodside,202,True
+2026-04,Yellow,pickup,208,Bronx,Schuylerville/Edgewater Park,614,True
+2026-04,Yellow,pickup,209,Manhattan,Seaport,7215,True
+2026-04,Yellow,pickup,210,Brooklyn,Sheepshead Bay,1087,True
+2026-04,Yellow,pickup,211,Manhattan,SoHo,30360,True
+2026-04,Yellow,pickup,212,Bronx,Soundview/Bruckner,750,True
+2026-04,Yellow,pickup,213,Bronx,Soundview/Castle Hill,1660,True
+2026-04,Yellow,pickup,214,Staten Island,South Beach/Dongan Hills,32,True
+2026-04,Yellow,pickup,215,Queens,South Jamaica,1388,True
+2026-04,Yellow,pickup,216,Queens,South Ozone Park,2855,True
+2026-04,Yellow,pickup,217,Brooklyn,South Williamsburg,564,True
+2026-04,Yellow,pickup,218,Queens,Springfield Gardens North,1113,True
+2026-04,Yellow,pickup,219,Queens,Springfield Gardens South,969,True
+2026-04,Yellow,pickup,220,Bronx,Spuyten Duyvil/Kingsbridge,811,True
+2026-04,Yellow,pickup,221,Staten Island,Stapleton,31,True
+2026-04,Yellow,pickup,222,Brooklyn,Starrett City,1279,True
+2026-04,Yellow,pickup,223,Queens,Steinway,2486,True
+2026-04,Yellow,pickup,224,Manhattan,Stuy Town/Peter Cooper Village,9366,True
+2026-04,Yellow,pickup,225,Brooklyn,Stuyvesant Heights,4578,True
+2026-04,Yellow,pickup,226,Queens,Sunnyside,5915,True
+2026-04,Yellow,pickup,227,Brooklyn,Sunset Park East,700,True
+2026-04,Yellow,pickup,228,Brooklyn,Sunset Park West,1631,True
+2026-04,Yellow,pickup,229,Manhattan,Sutton Place/Turtle Bay North,59104,True
+2026-04,Yellow,pickup,230,Manhattan,Times Sq/Theatre District,111985,True
+2026-04,Yellow,pickup,231,Manhattan,TriBeCa/Civic Center,51298,True
+2026-04,Yellow,pickup,232,Manhattan,Two Bridges/Seward Park,11409,True
+2026-04,Yellow,pickup,233,Manhattan,UN/Turtle Bay South,38801,True
+2026-04,Yellow,pickup,234,Manhattan,Union Sq,96333,True
+2026-04,Yellow,pickup,235,Bronx,University Heights/Morris Heights,1401,True
+2026-04,Yellow,pickup,236,Manhattan,Upper East Side North,158209,True
+2026-04,Yellow,pickup,237,Manhattan,Upper East Side South,179336,True
+2026-04,Yellow,pickup,238,Manhattan,Upper West Side North,73094,True
+2026-04,Yellow,pickup,239,Manhattan,Upper West Side South,98217,True
+2026-04,Yellow,pickup,240,Bronx,Van Cortlandt Park,151,True
+2026-04,Yellow,pickup,241,Bronx,Van Cortlandt Village,846,True
+2026-04,Yellow,pickup,242,Bronx,Van Nest/Morris Park,782,True
+2026-04,Yellow,pickup,243,Manhattan,Washington Heights North,3776,True
+2026-04,Yellow,pickup,244,Manhattan,Washington Heights South,8890,True
+2026-04,Yellow,pickup,245,Staten Island,West Brighton,7,True
+2026-04,Yellow,pickup,246,Manhattan,West Chelsea/Hudson Yards,67154,True
+2026-04,Yellow,pickup,247,Bronx,West Concourse,1886,True
+2026-04,Yellow,pickup,248,Bronx,West Farms/Bronx River,747,True
+2026-04,Yellow,pickup,249,Manhattan,West Village,82106,True
+2026-04,Yellow,pickup,250,Bronx,Westchester Village/Unionport,732,True
+2026-04,Yellow,pickup,251,Staten Island,Westerleigh,15,True
+2026-04,Yellow,pickup,252,Queens,Whitestone,252,True
+2026-04,Yellow,pickup,253,Queens,Willets Point,23,True
+2026-04,Yellow,pickup,254,Bronx,Williamsbridge/Olinville,1401,True
+2026-04,Yellow,pickup,255,Brooklyn,Williamsburg (North Side),8157,True
+2026-04,Yellow,pickup,256,Brooklyn,Williamsburg (South Side),5474,True
+2026-04,Yellow,pickup,257,Brooklyn,Windsor Terrace,528,True
+2026-04,Yellow,pickup,258,Queens,Woodhaven,959,True
+2026-04,Yellow,pickup,259,Bronx,Woodlawn/Wakefield,771,True
+2026-04,Yellow,pickup,260,Queens,Woodside,1873,True
+2026-04,Yellow,pickup,261,Manhattan,World Trade Center,17076,True
+2026-04,Yellow,pickup,262,Manhattan,Yorkville East,55907,True
+2026-04,Yellow,pickup,263,Manhattan,Yorkville West,70335,True
+2026-04,Yellow,pickup,264,Unknown,N/A,4471,False
+2026-04,Yellow,pickup,265,N/A,Outside of NYC,1502,False
+2026-04,Yellow,dropoff,1,EWR,Newark Airport,6979,True
+2026-04,Yellow,dropoff,2,Queens,Jamaica Bay,6,True
+2026-04,Yellow,dropoff,3,Bronx,Allerton/Pelham Gardens,674,True
+2026-04,Yellow,dropoff,4,Manhattan,Alphabet City,19560,True
+2026-04,Yellow,dropoff,5,Staten Island,Arden Heights,23,True
+2026-04,Yellow,dropoff,6,Staten Island,Arrochar/Fort Wadsworth,83,True
+2026-04,Yellow,dropoff,7,Queens,Astoria,10642,True
+2026-04,Yellow,dropoff,8,Queens,Astoria Park,66,True
+2026-04,Yellow,dropoff,9,Queens,Auburndale,412,True
+2026-04,Yellow,dropoff,10,Queens,Baisley Park,3566,True
+2026-04,Yellow,dropoff,11,Brooklyn,Bath Beach,527,True
+2026-04,Yellow,dropoff,12,Manhattan,Battery Park,1684,True
+2026-04,Yellow,dropoff,13,Manhattan,Battery Park City,26711,True
+2026-04,Yellow,dropoff,14,Brooklyn,Bay Ridge,3667,True
+2026-04,Yellow,dropoff,15,Queens,Bay Terrace/Fort Totten,561,True
+2026-04,Yellow,dropoff,16,Queens,Bayside,851,True
+2026-04,Yellow,dropoff,17,Brooklyn,Bedford,6353,True
+2026-04,Yellow,dropoff,18,Bronx,Bedford Park,1448,True
+2026-04,Yellow,dropoff,19,Queens,Bellerose,735,True
+2026-04,Yellow,dropoff,20,Bronx,Belmont,1090,True
+2026-04,Yellow,dropoff,21,Brooklyn,Bensonhurst East,947,True
+2026-04,Yellow,dropoff,22,Brooklyn,Bensonhurst West,1289,True
+2026-04,Yellow,dropoff,23,Staten Island,Bloomfield/Emerson Hill,93,True
+2026-04,Yellow,dropoff,24,Manhattan,Bloomingdale,13272,True
+2026-04,Yellow,dropoff,25,Brooklyn,Boerum Hill,7483,True
+2026-04,Yellow,dropoff,26,Brooklyn,Borough Park,1728,True
+2026-04,Yellow,dropoff,27,Queens,Breezy Point/Fort Tilden/Riis Beach,82,True
+2026-04,Yellow,dropoff,28,Queens,Briarwood/Jamaica Hills,2334,True
+2026-04,Yellow,dropoff,29,Brooklyn,Brighton Beach,1004,True
+2026-04,Yellow,dropoff,30,Queens,Broad Channel,42,True
+2026-04,Yellow,dropoff,31,Bronx,Bronx Park,449,True
+2026-04,Yellow,dropoff,32,Bronx,Bronxdale,773,True
+2026-04,Yellow,dropoff,33,Brooklyn,Brooklyn Heights,10707,True
+2026-04,Yellow,dropoff,34,Brooklyn,Brooklyn Navy Yard,700,True
+2026-04,Yellow,dropoff,35,Brooklyn,Brownsville,3423,True
+2026-04,Yellow,dropoff,36,Brooklyn,Bushwick North,4721,True
+2026-04,Yellow,dropoff,37,Brooklyn,Bushwick South,7859,True
+2026-04,Yellow,dropoff,38,Queens,Cambria Heights,936,True
+2026-04,Yellow,dropoff,39,Brooklyn,Canarsie,4255,True
+2026-04,Yellow,dropoff,40,Brooklyn,Carroll Gardens,3376,True
+2026-04,Yellow,dropoff,41,Manhattan,Central Harlem,25027,True
+2026-04,Yellow,dropoff,42,Manhattan,Central Harlem North,21145,True
+2026-04,Yellow,dropoff,43,Manhattan,Central Park,37077,True
+2026-04,Yellow,dropoff,44,Staten Island,Charleston/Tottenville,23,True
+2026-04,Yellow,dropoff,45,Manhattan,Chinatown,12071,True
+2026-04,Yellow,dropoff,46,Bronx,City Island,184,True
+2026-04,Yellow,dropoff,47,Bronx,Claremont/Bathgate,1011,True
+2026-04,Yellow,dropoff,48,Manhattan,Clinton East,82426,True
+2026-04,Yellow,dropoff,49,Brooklyn,Clinton Hill,6897,True
+2026-04,Yellow,dropoff,50,Manhattan,Clinton West,37335,True
+2026-04,Yellow,dropoff,51,Bronx,Co-Op City,1864,True
+2026-04,Yellow,dropoff,52,Brooklyn,Cobble Hill,2740,True
+2026-04,Yellow,dropoff,53,Queens,College Point,756,True
+2026-04,Yellow,dropoff,54,Brooklyn,Columbia Street,947,True
+2026-04,Yellow,dropoff,55,Brooklyn,Coney Island,1983,True
+2026-04,Yellow,dropoff,56,Queens,Corona,2466,True
+2026-04,Yellow,dropoff,57,Queens,Corona,74,True
+2026-04,Yellow,dropoff,58,Bronx,Country Club,181,True
+2026-04,Yellow,dropoff,59,Bronx,Crotona Park,61,True
+2026-04,Yellow,dropoff,60,Bronx,Crotona Park East,744,True
+2026-04,Yellow,dropoff,61,Brooklyn,Crown Heights North,10109,True
+2026-04,Yellow,dropoff,62,Brooklyn,Crown Heights South,2872,True
+2026-04,Yellow,dropoff,63,Brooklyn,Cypress Hills,1691,True
+2026-04,Yellow,dropoff,64,Queens,Douglaston,593,True
+2026-04,Yellow,dropoff,65,Brooklyn,Downtown Brooklyn/MetroTech,6865,True
+2026-04,Yellow,dropoff,66,Brooklyn,DUMBO/Vinegar Hill,6101,True
+2026-04,Yellow,dropoff,67,Brooklyn,Dyker Heights,830,True
+2026-04,Yellow,dropoff,68,Manhattan,East Chelsea,92293,True
+2026-04,Yellow,dropoff,69,Bronx,East Concourse/Concourse Village,2593,True
+2026-04,Yellow,dropoff,70,Queens,East Elmhurst,1737,True
+2026-04,Yellow,dropoff,71,Brooklyn,East Flatbush/Farragut,2571,True
+2026-04,Yellow,dropoff,72,Brooklyn,East Flatbush/Remsen Village,2846,True
+2026-04,Yellow,dropoff,73,Queens,East Flushing,377,True
+2026-04,Yellow,dropoff,74,Manhattan,East Harlem North,28429,True
+2026-04,Yellow,dropoff,75,Manhattan,East Harlem South,45549,True
+2026-04,Yellow,dropoff,76,Brooklyn,East New York,6380,True
+2026-04,Yellow,dropoff,77,Brooklyn,East New York/Pennsylvania Avenue,1635,True
+2026-04,Yellow,dropoff,78,Bronx,East Tremont,1418,True
+2026-04,Yellow,dropoff,79,Manhattan,East Village,84142,True
+2026-04,Yellow,dropoff,80,Brooklyn,East Williamsburg,6537,True
+2026-04,Yellow,dropoff,81,Bronx,Eastchester,930,True
+2026-04,Yellow,dropoff,82,Queens,Elmhurst,3736,True
+2026-04,Yellow,dropoff,83,Queens,Elmhurst/Maspeth,1149,True
+2026-04,Yellow,dropoff,84,Staten Island,Eltingville/Annadale/Prince's Bay,34,True
+2026-04,Yellow,dropoff,85,Brooklyn,Erasmus,1764,True
+2026-04,Yellow,dropoff,86,Queens,Far Rockaway,1552,True
+2026-04,Yellow,dropoff,87,Manhattan,Financial District North,34035,True
+2026-04,Yellow,dropoff,88,Manhattan,Financial District South,18553,True
+2026-04,Yellow,dropoff,89,Brooklyn,Flatbush/Ditmas Park,5686,True
+2026-04,Yellow,dropoff,90,Manhattan,Flatiron,52659,True
+2026-04,Yellow,dropoff,91,Brooklyn,Flatlands,2735,True
+2026-04,Yellow,dropoff,92,Queens,Flushing,2807,True
+2026-04,Yellow,dropoff,93,Queens,Flushing Meadows-Corona Park,5073,True
+2026-04,Yellow,dropoff,94,Bronx,Fordham South,586,True
+2026-04,Yellow,dropoff,95,Queens,Forest Hills,5490,True
+2026-04,Yellow,dropoff,96,Queens,Forest Park/Highland Park,133,True
+2026-04,Yellow,dropoff,97,Brooklyn,Fort Greene,7021,True
+2026-04,Yellow,dropoff,98,Queens,Fresh Meadows,593,True
+2026-04,Yellow,dropoff,99,Staten Island,Freshkills Park,1,True
+2026-04,Yellow,dropoff,100,Manhattan,Garment District,42219,True
+2026-04,Yellow,dropoff,101,Queens,Glen Oaks,545,True
+2026-04,Yellow,dropoff,102,Queens,Glendale,1182,True
+2026-04,Yellow,dropoff,103,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,True
+2026-04,Yellow,dropoff,104,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,True
+2026-04,Yellow,dropoff,105,Manhattan,Governor's Island/Ellis Island/Liberty Island,1,True
+2026-04,Yellow,dropoff,106,Brooklyn,Gowanus,1886,True
+2026-04,Yellow,dropoff,107,Manhattan,Gramercy,69837,True
+2026-04,Yellow,dropoff,108,Brooklyn,Gravesend,632,True
+2026-04,Yellow,dropoff,109,Staten Island,Great Kills,36,True
+2026-04,Yellow,dropoff,110,Staten Island,Great Kills Park,0,True
+2026-04,Yellow,dropoff,111,Brooklyn,Green-Wood Cemetery,33,True
+2026-04,Yellow,dropoff,112,Brooklyn,Greenpoint,11257,True
+2026-04,Yellow,dropoff,113,Manhattan,Greenwich Village North,48796,True
+2026-04,Yellow,dropoff,114,Manhattan,Greenwich Village South,38870,True
+2026-04,Yellow,dropoff,115,Staten Island,Grymes Hill/Clifton,48,True
+2026-04,Yellow,dropoff,116,Manhattan,Hamilton Heights,12854,True
+2026-04,Yellow,dropoff,117,Queens,Hammels/Arverne,1294,True
+2026-04,Yellow,dropoff,118,Staten Island,Heartland Village/Todt Hill,74,True
+2026-04,Yellow,dropoff,119,Bronx,Highbridge,1434,True
+2026-04,Yellow,dropoff,120,Manhattan,Highbridge Park,255,True
+2026-04,Yellow,dropoff,121,Queens,Hillcrest/Pomonok,1370,True
+2026-04,Yellow,dropoff,122,Queens,Hollis,613,True
+2026-04,Yellow,dropoff,123,Brooklyn,Homecrest,1274,True
+2026-04,Yellow,dropoff,124,Queens,Howard Beach,1387,True
+2026-04,Yellow,dropoff,125,Manhattan,Hudson Sq,19971,True
+2026-04,Yellow,dropoff,126,Bronx,Hunts Point,955,True
+2026-04,Yellow,dropoff,127,Manhattan,Inwood,5065,True
+2026-04,Yellow,dropoff,128,Manhattan,Inwood Hill Park,605,True
+2026-04,Yellow,dropoff,129,Queens,Jackson Heights,5254,True
+2026-04,Yellow,dropoff,130,Queens,Jamaica,4062,True
+2026-04,Yellow,dropoff,131,Queens,Jamaica Estates,1172,True
+2026-04,Yellow,dropoff,132,Queens,JFK Airport,31494,True
+2026-04,Yellow,dropoff,133,Brooklyn,Kensington,1465,True
+2026-04,Yellow,dropoff,134,Queens,Kew Gardens,1709,True
+2026-04,Yellow,dropoff,135,Queens,Kew Gardens Hills,1286,True
+2026-04,Yellow,dropoff,136,Bronx,Kingsbridge Heights,994,True
+2026-04,Yellow,dropoff,137,Manhattan,Kips Bay,51196,True
+2026-04,Yellow,dropoff,138,Queens,LaGuardia Airport,34332,True
+2026-04,Yellow,dropoff,139,Queens,Laurelton,1034,True
+2026-04,Yellow,dropoff,140,Manhattan,Lenox Hill East,75525,True
+2026-04,Yellow,dropoff,141,Manhattan,Lenox Hill West,93669,True
+2026-04,Yellow,dropoff,142,Manhattan,Lincoln Square East,97067,True
+2026-04,Yellow,dropoff,143,Manhattan,Lincoln Square West,53593,True
+2026-04,Yellow,dropoff,144,Manhattan,Little Italy/NoLiTa,36279,True
+2026-04,Yellow,dropoff,145,Queens,Long Island City/Hunters Point,11631,True
+2026-04,Yellow,dropoff,146,Queens,Long Island City/Queens Plaza,3544,True
+2026-04,Yellow,dropoff,147,Bronx,Longwood,737,True
+2026-04,Yellow,dropoff,148,Manhattan,Lower East Side,44306,True
+2026-04,Yellow,dropoff,149,Brooklyn,Madison,927,True
+2026-04,Yellow,dropoff,150,Brooklyn,Manhattan Beach,571,True
+2026-04,Yellow,dropoff,151,Manhattan,Manhattan Valley,32205,True
+2026-04,Yellow,dropoff,152,Manhattan,Manhattanville,7565,True
+2026-04,Yellow,dropoff,153,Manhattan,Marble Hill,309,True
+2026-04,Yellow,dropoff,154,Brooklyn,Marine Park/Floyd Bennett Field,540,True
+2026-04,Yellow,dropoff,155,Brooklyn,Marine Park/Mill Basin,1952,True
+2026-04,Yellow,dropoff,156,Staten Island,Mariners Harbor,38,True
+2026-04,Yellow,dropoff,157,Queens,Maspeth,2112,True
+2026-04,Yellow,dropoff,158,Manhattan,Meatpacking/West Village West,37560,True
+2026-04,Yellow,dropoff,159,Bronx,Melrose South,2072,True
+2026-04,Yellow,dropoff,160,Queens,Middle Village,1535,True
+2026-04,Yellow,dropoff,161,Manhattan,Midtown Center,131612,True
+2026-04,Yellow,dropoff,162,Manhattan,Midtown East,97163,True
+2026-04,Yellow,dropoff,163,Manhattan,Midtown North,85716,True
+2026-04,Yellow,dropoff,164,Manhattan,Midtown South,69875,True
+2026-04,Yellow,dropoff,165,Brooklyn,Midwood,1671,True
+2026-04,Yellow,dropoff,166,Manhattan,Morningside Heights,32252,True
+2026-04,Yellow,dropoff,167,Bronx,Morrisania/Melrose,1410,True
+2026-04,Yellow,dropoff,168,Bronx,Mott Haven/Port Morris,3620,True
+2026-04,Yellow,dropoff,169,Bronx,Mount Hope,1359,True
+2026-04,Yellow,dropoff,170,Manhattan,Murray Hill,103248,True
+2026-04,Yellow,dropoff,171,Queens,Murray Hill-Queens,827,True
+2026-04,Yellow,dropoff,172,Staten Island,New Dorp/Midland Beach,70,True
+2026-04,Yellow,dropoff,173,Queens,North Corona,951,True
+2026-04,Yellow,dropoff,174,Bronx,Norwood,1421,True
+2026-04,Yellow,dropoff,175,Queens,Oakland Gardens,583,True
+2026-04,Yellow,dropoff,176,Staten Island,Oakwood,42,True
+2026-04,Yellow,dropoff,177,Brooklyn,Ocean Hill,2898,True
+2026-04,Yellow,dropoff,178,Brooklyn,Ocean Parkway South,467,True
+2026-04,Yellow,dropoff,179,Queens,Old Astoria,4302,True
+2026-04,Yellow,dropoff,180,Queens,Ozone Park,811,True
+2026-04,Yellow,dropoff,181,Brooklyn,Park Slope,10968,True
+2026-04,Yellow,dropoff,182,Bronx,Parkchester,1329,True
+2026-04,Yellow,dropoff,183,Bronx,Pelham Bay,409,True
+2026-04,Yellow,dropoff,184,Bronx,Pelham Bay Park,83,True
+2026-04,Yellow,dropoff,185,Bronx,Pelham Parkway,1115,True
+2026-04,Yellow,dropoff,186,Manhattan,Penn Station/Madison Sq West,76528,True
+2026-04,Yellow,dropoff,187,Staten Island,Port Richmond,22,True
+2026-04,Yellow,dropoff,188,Brooklyn,Prospect-Lefferts Gardens,5748,True
+2026-04,Yellow,dropoff,189,Brooklyn,Prospect Heights,3823,True
+2026-04,Yellow,dropoff,190,Brooklyn,Prospect Park,682,True
+2026-04,Yellow,dropoff,191,Queens,Queens Village,1507,True
+2026-04,Yellow,dropoff,192,Queens,Queensboro Hill,590,True
+2026-04,Yellow,dropoff,193,Queens,Queensbridge/Ravenswood,3260,True
+2026-04,Yellow,dropoff,194,Manhattan,Randalls Island,806,True
+2026-04,Yellow,dropoff,195,Brooklyn,Red Hook,2089,True
+2026-04,Yellow,dropoff,196,Queens,Rego Park,2112,True
+2026-04,Yellow,dropoff,197,Queens,Richmond Hill,2356,True
+2026-04,Yellow,dropoff,198,Queens,Ridgewood,3696,True
+2026-04,Yellow,dropoff,199,Bronx,Rikers Island,0,True
+2026-04,Yellow,dropoff,200,Bronx,Riverdale/North Riverdale/Fieldston,1603,True
+2026-04,Yellow,dropoff,201,Queens,Rockaway Park,598,True
+2026-04,Yellow,dropoff,202,Manhattan,Roosevelt Island,2106,True
+2026-04,Yellow,dropoff,203,Queens,Rosedale,1057,True
+2026-04,Yellow,dropoff,204,Staten Island,Rossville/Woodrow,25,True
+2026-04,Yellow,dropoff,205,Queens,Saint Albans,2176,True
+2026-04,Yellow,dropoff,206,Staten Island,Saint George/New Brighton,104,True
+2026-04,Yellow,dropoff,207,Queens,Saint Michaels Cemetery/Woodside,180,True
+2026-04,Yellow,dropoff,208,Bronx,Schuylerville/Edgewater Park,1029,True
+2026-04,Yellow,dropoff,209,Manhattan,Seaport,10640,True
+2026-04,Yellow,dropoff,210,Brooklyn,Sheepshead Bay,1455,True
+2026-04,Yellow,dropoff,211,Manhattan,SoHo,31496,True
+2026-04,Yellow,dropoff,212,Bronx,Soundview/Bruckner,771,True
+2026-04,Yellow,dropoff,213,Bronx,Soundview/Castle Hill,1865,True
+2026-04,Yellow,dropoff,214,Staten Island,South Beach/Dongan Hills,104,True
+2026-04,Yellow,dropoff,215,Queens,South Jamaica,1850,True
+2026-04,Yellow,dropoff,216,Queens,South Ozone Park,4695,True
+2026-04,Yellow,dropoff,217,Brooklyn,South Williamsburg,1553,True
+2026-04,Yellow,dropoff,218,Queens,Springfield Gardens North,1773,True
+2026-04,Yellow,dropoff,219,Queens,Springfield Gardens South,1850,True
+2026-04,Yellow,dropoff,220,Bronx,Spuyten Duyvil/Kingsbridge,2131,True
+2026-04,Yellow,dropoff,221,Staten Island,Stapleton,113,True
+2026-04,Yellow,dropoff,222,Brooklyn,Starrett City,1347,True
+2026-04,Yellow,dropoff,223,Queens,Steinway,5447,True
+2026-04,Yellow,dropoff,224,Manhattan,Stuy Town/Peter Cooper Village,16262,True
+2026-04,Yellow,dropoff,225,Brooklyn,Stuyvesant Heights,6601,True
+2026-04,Yellow,dropoff,226,Queens,Sunnyside,6959,True
+2026-04,Yellow,dropoff,227,Brooklyn,Sunset Park East,1301,True
+2026-04,Yellow,dropoff,228,Brooklyn,Sunset Park West,3188,True
+2026-04,Yellow,dropoff,229,Manhattan,Sutton Place/Turtle Bay North,72672,True
+2026-04,Yellow,dropoff,230,Manhattan,Times Sq/Theatre District,104215,True
+2026-04,Yellow,dropoff,231,Manhattan,TriBeCa/Civic Center,61359,True
+2026-04,Yellow,dropoff,232,Manhattan,Two Bridges/Seward Park,21538,True
+2026-04,Yellow,dropoff,233,Manhattan,UN/Turtle Bay South,51990,True
+2026-04,Yellow,dropoff,234,Manhattan,Union Sq,86830,True
+2026-04,Yellow,dropoff,235,Bronx,University Heights/Morris Heights,1688,True
+2026-04,Yellow,dropoff,236,Manhattan,Upper East Side North,164064,True
+2026-04,Yellow,dropoff,237,Manhattan,Upper East Side South,162183,True
+2026-04,Yellow,dropoff,238,Manhattan,Upper West Side North,79409,True
+2026-04,Yellow,dropoff,239,Manhattan,Upper West Side South,98209,True
+2026-04,Yellow,dropoff,240,Bronx,Van Cortlandt Park,275,True
+2026-04,Yellow,dropoff,241,Bronx,Van Cortlandt Village,1326,True
+2026-04,Yellow,dropoff,242,Bronx,Van Nest/Morris Park,1360,True
+2026-04,Yellow,dropoff,243,Manhattan,Washington Heights North,10758,True
+2026-04,Yellow,dropoff,244,Manhattan,Washington Heights South,18672,True
+2026-04,Yellow,dropoff,245,Staten Island,West Brighton,63,True
+2026-04,Yellow,dropoff,246,Manhattan,West Chelsea/Hudson Yards,72670,True
+2026-04,Yellow,dropoff,247,Bronx,West Concourse,2530,True
+2026-04,Yellow,dropoff,248,Bronx,West Farms/Bronx River,814,True
+2026-04,Yellow,dropoff,249,Manhattan,West Village,64407,True
+2026-04,Yellow,dropoff,250,Bronx,Westchester Village/Unionport,930,True
+2026-04,Yellow,dropoff,251,Staten Island,Westerleigh,54,True
+2026-04,Yellow,dropoff,252,Queens,Whitestone,835,True
+2026-04,Yellow,dropoff,253,Queens,Willets Point,71,True
+2026-04,Yellow,dropoff,254,Bronx,Williamsbridge/Olinville,1641,True
+2026-04,Yellow,dropoff,255,Brooklyn,Williamsburg (North Side),10888,True
+2026-04,Yellow,dropoff,256,Brooklyn,Williamsburg (South Side),9719,True
+2026-04,Yellow,dropoff,257,Brooklyn,Windsor Terrace,1787,True
+2026-04,Yellow,dropoff,258,Queens,Woodhaven,1535,True
+2026-04,Yellow,dropoff,259,Bronx,Woodlawn/Wakefield,946,True
+2026-04,Yellow,dropoff,260,Queens,Woodside,2890,True
+2026-04,Yellow,dropoff,261,Manhattan,World Trade Center,17715,True
+2026-04,Yellow,dropoff,262,Manhattan,Yorkville East,56821,True
+2026-04,Yellow,dropoff,263,Manhattan,Yorkville West,74627,True
+2026-04,Yellow,dropoff,264,Unknown,N/A,4185,False
+2026-04,Yellow,dropoff,265,N/A,Outside of NYC,15896,False
+2026-04,HVFHV,pickup,1,EWR,Newark Airport,2,True
+2026-04,HVFHV,pickup,2,Queens,Jamaica Bay,47,True
+2026-04,HVFHV,pickup,3,Bronx,Allerton/Pelham Gardens,50514,True
+2026-04,HVFHV,pickup,4,Manhattan,Alphabet City,54829,True
+2026-04,HVFHV,pickup,5,Staten Island,Arden Heights,6258,True
+2026-04,HVFHV,pickup,6,Staten Island,Arrochar/Fort Wadsworth,12761,True
+2026-04,HVFHV,pickup,7,Queens,Astoria,204584,True
+2026-04,HVFHV,pickup,8,Queens,Astoria Park,864,True
+2026-04,HVFHV,pickup,9,Queens,Auburndale,19120,True
+2026-04,HVFHV,pickup,10,Queens,Baisley Park,70722,True
+2026-04,HVFHV,pickup,11,Brooklyn,Bath Beach,25097,True
+2026-04,HVFHV,pickup,12,Manhattan,Battery Park,2224,True
+2026-04,HVFHV,pickup,13,Manhattan,Battery Park City,88021,True
+2026-04,HVFHV,pickup,14,Brooklyn,Bay Ridge,117362,True
+2026-04,HVFHV,pickup,15,Queens,Bay Terrace/Fort Totten,16074,True
+2026-04,HVFHV,pickup,16,Queens,Bayside,43757,True
+2026-04,HVFHV,pickup,17,Brooklyn,Bedford,162173,True
+2026-04,HVFHV,pickup,18,Bronx,Bedford Park,106264,True
+2026-04,HVFHV,pickup,19,Queens,Bellerose,19518,True
+2026-04,HVFHV,pickup,20,Bronx,Belmont,67782,True
+2026-04,HVFHV,pickup,21,Brooklyn,Bensonhurst East,57759,True
+2026-04,HVFHV,pickup,22,Brooklyn,Bensonhurst West,75692,True
+2026-04,HVFHV,pickup,23,Staten Island,Bloomfield/Emerson Hill,33390,True
+2026-04,HVFHV,pickup,24,Manhattan,Bloomingdale,29508,True
+2026-04,HVFHV,pickup,25,Brooklyn,Boerum Hill,119284,True
+2026-04,HVFHV,pickup,26,Brooklyn,Borough Park,91944,True
+2026-04,HVFHV,pickup,27,Queens,Breezy Point/Fort Tilden/Riis Beach,802,True
+2026-04,HVFHV,pickup,28,Queens,Briarwood/Jamaica Hills,54011,True
+2026-04,HVFHV,pickup,29,Brooklyn,Brighton Beach,45537,True
+2026-04,HVFHV,pickup,30,Queens,Broad Channel,1225,True
+2026-04,HVFHV,pickup,31,Bronx,Bronx Park,10769,True
+2026-04,HVFHV,pickup,32,Bronx,Bronxdale,54648,True
+2026-04,HVFHV,pickup,33,Brooklyn,Brooklyn Heights,101318,True
+2026-04,HVFHV,pickup,34,Brooklyn,Brooklyn Navy Yard,17491,True
+2026-04,HVFHV,pickup,35,Brooklyn,Brownsville,133257,True
+2026-04,HVFHV,pickup,36,Brooklyn,Bushwick North,166471,True
+2026-04,HVFHV,pickup,37,Brooklyn,Bushwick South,227437,True
+2026-04,HVFHV,pickup,38,Queens,Cambria Heights,25942,True
+2026-04,HVFHV,pickup,39,Brooklyn,Canarsie,160307,True
+2026-04,HVFHV,pickup,40,Brooklyn,Carroll Gardens,51183,True
+2026-04,HVFHV,pickup,41,Manhattan,Central Harlem,138993,True
+2026-04,HVFHV,pickup,42,Manhattan,Central Harlem North,190829,True
+2026-04,HVFHV,pickup,43,Manhattan,Central Park,30593,True
+2026-04,HVFHV,pickup,44,Staten Island,Charleston/Tottenville,9815,True
+2026-04,HVFHV,pickup,45,Manhattan,Chinatown,50940,True
+2026-04,HVFHV,pickup,46,Bronx,City Island,4884,True
+2026-04,HVFHV,pickup,47,Bronx,Claremont/Bathgate,74527,True
+2026-04,HVFHV,pickup,48,Manhattan,Clinton East,179836,True
+2026-04,HVFHV,pickup,49,Brooklyn,Clinton Hill,126322,True
+2026-04,HVFHV,pickup,50,Manhattan,Clinton West,101707,True
+2026-04,HVFHV,pickup,51,Bronx,Co-Op City,88107,True
+2026-04,HVFHV,pickup,52,Brooklyn,Cobble Hill,34138,True
+2026-04,HVFHV,pickup,53,Queens,College Point,33445,True
+2026-04,HVFHV,pickup,54,Brooklyn,Columbia Street,12534,True
+2026-04,HVFHV,pickup,55,Brooklyn,Coney Island,62666,True
+2026-04,HVFHV,pickup,56,Queens,Corona,67942,True
+2026-04,HVFHV,pickup,57,Queens,Corona,5561,True
+2026-04,HVFHV,pickup,58,Bronx,Country Club,7701,True
+2026-04,HVFHV,pickup,59,Bronx,Crotona Park,2368,True
+2026-04,HVFHV,pickup,60,Bronx,Crotona Park East,50819,True
+2026-04,HVFHV,pickup,61,Brooklyn,Crown Heights North,270911,True
+2026-04,HVFHV,pickup,62,Brooklyn,Crown Heights South,72237,True
+2026-04,HVFHV,pickup,63,Brooklyn,Cypress Hills,68327,True
+2026-04,HVFHV,pickup,64,Queens,Douglaston,14694,True
+2026-04,HVFHV,pickup,65,Brooklyn,Downtown Brooklyn/MetroTech,99075,True
+2026-04,HVFHV,pickup,66,Brooklyn,DUMBO/Vinegar Hill,78566,True
+2026-04,HVFHV,pickup,67,Brooklyn,Dyker Heights,39759,True
+2026-04,HVFHV,pickup,68,Manhattan,East Chelsea,208443,True
+2026-04,HVFHV,pickup,69,Bronx,East Concourse/Concourse Village,113360,True
+2026-04,HVFHV,pickup,70,Queens,East Elmhurst,49880,True
+2026-04,HVFHV,pickup,71,Brooklyn,East Flatbush/Farragut,90225,True
+2026-04,HVFHV,pickup,72,Brooklyn,East Flatbush/Remsen Village,107662,True
+2026-04,HVFHV,pickup,73,Queens,East Flushing,22107,True
+2026-04,HVFHV,pickup,74,Manhattan,East Harlem North,148215,True
+2026-04,HVFHV,pickup,75,Manhattan,East Harlem South,132742,True
+2026-04,HVFHV,pickup,76,Brooklyn,East New York,248787,True
+2026-04,HVFHV,pickup,77,Brooklyn,East New York/Pennsylvania Avenue,62462,True
+2026-04,HVFHV,pickup,78,Bronx,East Tremont,100358,True
+2026-04,HVFHV,pickup,79,Manhattan,East Village,241506,True
+2026-04,HVFHV,pickup,80,Brooklyn,East Williamsburg,154476,True
+2026-04,HVFHV,pickup,81,Bronx,Eastchester,64546,True
+2026-04,HVFHV,pickup,82,Queens,Elmhurst,158641,True
+2026-04,HVFHV,pickup,83,Queens,Elmhurst/Maspeth,52356,True
+2026-04,HVFHV,pickup,84,Staten Island,Eltingville/Annadale/Prince's Bay,10165,True
+2026-04,HVFHV,pickup,85,Brooklyn,Erasmus,69258,True
+2026-04,HVFHV,pickup,86,Queens,Far Rockaway,49007,True
+2026-04,HVFHV,pickup,87,Manhattan,Financial District North,121588,True
+2026-04,HVFHV,pickup,88,Manhattan,Financial District South,56384,True
+2026-04,HVFHV,pickup,89,Brooklyn,Flatbush/Ditmas Park,168191,True
+2026-04,HVFHV,pickup,90,Manhattan,Flatiron,128681,True
+2026-04,HVFHV,pickup,91,Brooklyn,Flatlands,103489,True
+2026-04,HVFHV,pickup,92,Queens,Flushing,114467,True
+2026-04,HVFHV,pickup,93,Queens,Flushing Meadows-Corona Park,14236,True
+2026-04,HVFHV,pickup,94,Bronx,Fordham South,48425,True
+2026-04,HVFHV,pickup,95,Queens,Forest Hills,148816,True
+2026-04,HVFHV,pickup,96,Queens,Forest Park/Highland Park,3379,True
+2026-04,HVFHV,pickup,97,Brooklyn,Fort Greene,143504,True
+2026-04,HVFHV,pickup,98,Queens,Fresh Meadows,20463,True
+2026-04,HVFHV,pickup,99,Staten Island,Freshkills Park,767,True
+2026-04,HVFHV,pickup,100,Manhattan,Garment District,106735,True
+2026-04,HVFHV,pickup,101,Queens,Glen Oaks,21116,True
+2026-04,HVFHV,pickup,102,Queens,Glendale,53805,True
+2026-04,HVFHV,pickup,103,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,True
+2026-04,HVFHV,pickup,104,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,True
+2026-04,HVFHV,pickup,105,Manhattan,Governor's Island/Ellis Island/Liberty Island,4,True
+2026-04,HVFHV,pickup,106,Brooklyn,Gowanus,50237,True
+2026-04,HVFHV,pickup,107,Manhattan,Gramercy,143864,True
+2026-04,HVFHV,pickup,108,Brooklyn,Gravesend,32438,True
+2026-04,HVFHV,pickup,109,Staten Island,Great Kills,15678,True
+2026-04,HVFHV,pickup,110,Staten Island,Great Kills Park,41,True
+2026-04,HVFHV,pickup,111,Brooklyn,Green-Wood Cemetery,824,True
+2026-04,HVFHV,pickup,112,Brooklyn,Greenpoint,207298,True
+2026-04,HVFHV,pickup,113,Manhattan,Greenwich Village North,120680,True
+2026-04,HVFHV,pickup,114,Manhattan,Greenwich Village South,121975,True
+2026-04,HVFHV,pickup,115,Staten Island,Grymes Hill/Clifton,18163,True
+2026-04,HVFHV,pickup,116,Manhattan,Hamilton Heights,94541,True
+2026-04,HVFHV,pickup,117,Queens,Hammels/Arverne,37783,True
+2026-04,HVFHV,pickup,118,Staten Island,Heartland Village/Todt Hill,22183,True
+2026-04,HVFHV,pickup,119,Bronx,Highbridge,74792,True
+2026-04,HVFHV,pickup,120,Manhattan,Highbridge Park,2048,True
+2026-04,HVFHV,pickup,121,Queens,Hillcrest/Pomonok,50615,True
+2026-04,HVFHV,pickup,122,Queens,Hollis,28183,True
+2026-04,HVFHV,pickup,123,Brooklyn,Homecrest,61613,True
+2026-04,HVFHV,pickup,124,Queens,Howard Beach,34639,True
+2026-04,HVFHV,pickup,125,Manhattan,Hudson Sq,73287,True
+2026-04,HVFHV,pickup,126,Bronx,Hunts Point,68568,True
+2026-04,HVFHV,pickup,127,Manhattan,Inwood,86034,True
+2026-04,HVFHV,pickup,128,Manhattan,Inwood Hill Park,6444,True
+2026-04,HVFHV,pickup,129,Queens,Jackson Heights,166137,True
+2026-04,HVFHV,pickup,130,Queens,Jamaica,172770,True
+2026-04,HVFHV,pickup,131,Queens,Jamaica Estates,34648,True
+2026-04,HVFHV,pickup,132,Queens,JFK Airport,318541,True
+2026-04,HVFHV,pickup,133,Brooklyn,Kensington,38029,True
+2026-04,HVFHV,pickup,134,Queens,Kew Gardens,50359,True
+2026-04,HVFHV,pickup,135,Queens,Kew Gardens Hills,37651,True
+2026-04,HVFHV,pickup,136,Bronx,Kingsbridge Heights,56299,True
+2026-04,HVFHV,pickup,137,Manhattan,Kips Bay,104860,True
+2026-04,HVFHV,pickup,138,Queens,LaGuardia Airport,412983,True
+2026-04,HVFHV,pickup,139,Queens,Laurelton,44402,True
+2026-04,HVFHV,pickup,140,Manhattan,Lenox Hill East,115933,True
+2026-04,HVFHV,pickup,141,Manhattan,Lenox Hill West,129074,True
+2026-04,HVFHV,pickup,142,Manhattan,Lincoln Square East,135170,True
+2026-04,HVFHV,pickup,143,Manhattan,Lincoln Square West,98508,True
+2026-04,HVFHV,pickup,144,Manhattan,Little Italy/NoLiTa,138199,True
+2026-04,HVFHV,pickup,145,Queens,Long Island City/Hunters Point,189595,True
+2026-04,HVFHV,pickup,146,Queens,Long Island City/Queens Plaza,53194,True
+2026-04,HVFHV,pickup,147,Bronx,Longwood,45656,True
+2026-04,HVFHV,pickup,148,Manhattan,Lower East Side,200322,True
+2026-04,HVFHV,pickup,149,Brooklyn,Madison,52677,True
+2026-04,HVFHV,pickup,150,Brooklyn,Manhattan Beach,22020,True
+2026-04,HVFHV,pickup,151,Manhattan,Manhattan Valley,57632,True
+2026-04,HVFHV,pickup,152,Manhattan,Manhattanville,48830,True
+2026-04,HVFHV,pickup,153,Manhattan,Marble Hill,20632,True
+2026-04,HVFHV,pickup,154,Brooklyn,Marine Park/Floyd Bennett Field,1678,True
+2026-04,HVFHV,pickup,155,Brooklyn,Marine Park/Mill Basin,56742,True
+2026-04,HVFHV,pickup,156,Staten Island,Mariners Harbor,31153,True
+2026-04,HVFHV,pickup,157,Queens,Maspeth,67726,True
+2026-04,HVFHV,pickup,158,Manhattan,Meatpacking/West Village West,115518,True
+2026-04,HVFHV,pickup,159,Bronx,Melrose South,103308,True
+2026-04,HVFHV,pickup,160,Queens,Middle Village,47702,True
+2026-04,HVFHV,pickup,161,Manhattan,Midtown Center,242713,True
+2026-04,HVFHV,pickup,162,Manhattan,Midtown East,164116,True
+2026-04,HVFHV,pickup,163,Manhattan,Midtown North,163894,True
+2026-04,HVFHV,pickup,164,Manhattan,Midtown South,194799,True
+2026-04,HVFHV,pickup,165,Brooklyn,Midwood,61013,True
+2026-04,HVFHV,pickup,166,Manhattan,Morningside Heights,97977,True
+2026-04,HVFHV,pickup,167,Bronx,Morrisania/Melrose,82517,True
+2026-04,HVFHV,pickup,168,Bronx,Mott Haven/Port Morris,145088,True
+2026-04,HVFHV,pickup,169,Bronx,Mount Hope,105561,True
+2026-04,HVFHV,pickup,170,Manhattan,Murray Hill,176657,True
+2026-04,HVFHV,pickup,171,Queens,Murray Hill-Queens,44040,True
+2026-04,HVFHV,pickup,172,Staten Island,New Dorp/Midland Beach,14524,True
+2026-04,HVFHV,pickup,173,Queens,North Corona,56890,True
+2026-04,HVFHV,pickup,174,Bronx,Norwood,96041,True
+2026-04,HVFHV,pickup,175,Queens,Oakland Gardens,16984,True
+2026-04,HVFHV,pickup,176,Staten Island,Oakwood,7546,True
+2026-04,HVFHV,pickup,177,Brooklyn,Ocean Hill,91246,True
+2026-04,HVFHV,pickup,178,Brooklyn,Ocean Parkway South,19302,True
+2026-04,HVFHV,pickup,179,Queens,Old Astoria,75034,True
+2026-04,HVFHV,pickup,180,Queens,Ozone Park,38916,True
+2026-04,HVFHV,pickup,181,Brooklyn,Park Slope,197889,True
+2026-04,HVFHV,pickup,182,Bronx,Parkchester,58254,True
+2026-04,HVFHV,pickup,183,Bronx,Pelham Bay,29987,True
+2026-04,HVFHV,pickup,184,Bronx,Pelham Bay Park,5013,True
+2026-04,HVFHV,pickup,185,Bronx,Pelham Parkway,69399,True
+2026-04,HVFHV,pickup,186,Manhattan,Penn Station/Madison Sq West,114255,True
+2026-04,HVFHV,pickup,187,Staten Island,Port Richmond,16599,True
+2026-04,HVFHV,pickup,188,Brooklyn,Prospect-Lefferts Gardens,156965,True
+2026-04,HVFHV,pickup,189,Brooklyn,Prospect Heights,76690,True
+2026-04,HVFHV,pickup,190,Brooklyn,Prospect Park,14103,True
+2026-04,HVFHV,pickup,191,Queens,Queens Village,65252,True
+2026-04,HVFHV,pickup,192,Queens,Queensboro Hill,28388,True
+2026-04,HVFHV,pickup,193,Queens,Queensbridge/Ravenswood,36141,True
+2026-04,HVFHV,pickup,194,Manhattan,Randalls Island,4761,True
+2026-04,HVFHV,pickup,195,Brooklyn,Red Hook,44491,True
+2026-04,HVFHV,pickup,196,Queens,Rego Park,56327,True
+2026-04,HVFHV,pickup,197,Queens,Richmond Hill,96665,True
+2026-04,HVFHV,pickup,198,Queens,Ridgewood,135549,True
+2026-04,HVFHV,pickup,199,Bronx,Rikers Island,8,True
+2026-04,HVFHV,pickup,200,Bronx,Riverdale/North Riverdale/Fieldston,47492,True
+2026-04,HVFHV,pickup,201,Queens,Rockaway Park,12948,True
+2026-04,HVFHV,pickup,202,Manhattan,Roosevelt Island,13072,True
+2026-04,HVFHV,pickup,203,Queens,Rosedale,42848,True
+2026-04,HVFHV,pickup,204,Staten Island,Rossville/Woodrow,5964,True
+2026-04,HVFHV,pickup,205,Queens,Saint Albans,91130,True
+2026-04,HVFHV,pickup,206,Staten Island,Saint George/New Brighton,47439,True
+2026-04,HVFHV,pickup,207,Queens,Saint Michaels Cemetery/Woodside,3701,True
+2026-04,HVFHV,pickup,208,Bronx,Schuylerville/Edgewater Park,73650,True
+2026-04,HVFHV,pickup,209,Manhattan,Seaport,42591,True
+2026-04,HVFHV,pickup,210,Brooklyn,Sheepshead Bay,71721,True
+2026-04,HVFHV,pickup,211,Manhattan,SoHo,112519,True
+2026-04,HVFHV,pickup,212,Bronx,Soundview/Bruckner,61473,True
+2026-04,HVFHV,pickup,213,Bronx,Soundview/Castle Hill,109890,True
+2026-04,HVFHV,pickup,214,Staten Island,South Beach/Dongan Hills,19190,True
+2026-04,HVFHV,pickup,215,Queens,South Jamaica,68402,True
+2026-04,HVFHV,pickup,216,Queens,South Ozone Park,135734,True
+2026-04,HVFHV,pickup,217,Brooklyn,South Williamsburg,30748,True
+2026-04,HVFHV,pickup,218,Queens,Springfield Gardens North,46915,True
+2026-04,HVFHV,pickup,219,Queens,Springfield Gardens South,38944,True
+2026-04,HVFHV,pickup,220,Bronx,Spuyten Duyvil/Kingsbridge,81384,True
+2026-04,HVFHV,pickup,221,Staten Island,Stapleton,31888,True
+2026-04,HVFHV,pickup,222,Brooklyn,Starrett City,28097,True
+2026-04,HVFHV,pickup,223,Queens,Steinway,104086,True
+2026-04,HVFHV,pickup,224,Manhattan,Stuy Town/Peter Cooper Village,38615,True
+2026-04,HVFHV,pickup,225,Brooklyn,Stuyvesant Heights,162196,True
+2026-04,HVFHV,pickup,226,Queens,Sunnyside,130006,True
+2026-04,HVFHV,pickup,227,Brooklyn,Sunset Park East,52779,True
+2026-04,HVFHV,pickup,228,Brooklyn,Sunset Park West,106211,True
+2026-04,HVFHV,pickup,229,Manhattan,Sutton Place/Turtle Bay North,109974,True
+2026-04,HVFHV,pickup,230,Manhattan,Times Sq/Theatre District,236028,True
+2026-04,HVFHV,pickup,231,Manhattan,TriBeCa/Civic Center,227008,True
+2026-04,HVFHV,pickup,232,Manhattan,Two Bridges/Seward Park,85213,True
+2026-04,HVFHV,pickup,233,Manhattan,UN/Turtle Bay South,103464,True
+2026-04,HVFHV,pickup,234,Manhattan,Union Sq,212649,True
+2026-04,HVFHV,pickup,235,Bronx,University Heights/Morris Heights,94778,True
+2026-04,HVFHV,pickup,236,Manhattan,Upper East Side North,146941,True
+2026-04,HVFHV,pickup,237,Manhattan,Upper East Side South,175275,True
+2026-04,HVFHV,pickup,238,Manhattan,Upper West Side North,103061,True
+2026-04,HVFHV,pickup,239,Manhattan,Upper West Side South,122749,True
+2026-04,HVFHV,pickup,240,Bronx,Van Cortlandt Park,15860,True
+2026-04,HVFHV,pickup,241,Bronx,Van Cortlandt Village,82159,True
+2026-04,HVFHV,pickup,242,Bronx,Van Nest/Morris Park,86446,True
+2026-04,HVFHV,pickup,243,Manhattan,Washington Heights North,115012,True
+2026-04,HVFHV,pickup,244,Manhattan,Washington Heights South,161413,True
+2026-04,HVFHV,pickup,245,Staten Island,West Brighton,17716,True
+2026-04,HVFHV,pickup,246,Manhattan,West Chelsea/Hudson Yards,215718,True
+2026-04,HVFHV,pickup,247,Bronx,West Concourse,120805,True
+2026-04,HVFHV,pickup,248,Bronx,West Farms/Bronx River,54624,True
+2026-04,HVFHV,pickup,249,Manhattan,West Village,179000,True
+2026-04,HVFHV,pickup,250,Bronx,Westchester Village/Unionport,56627,True
+2026-04,HVFHV,pickup,251,Staten Island,Westerleigh,17880,True
+2026-04,HVFHV,pickup,252,Queens,Whitestone,28423,True
+2026-04,HVFHV,pickup,253,Queens,Willets Point,865,True
+2026-04,HVFHV,pickup,254,Bronx,Williamsbridge/Olinville,111185,True
+2026-04,HVFHV,pickup,255,Brooklyn,Williamsburg (North Side),203933,True
+2026-04,HVFHV,pickup,256,Brooklyn,Williamsburg (South Side),170818,True
+2026-04,HVFHV,pickup,257,Brooklyn,Windsor Terrace,32676,True
+2026-04,HVFHV,pickup,258,Queens,Woodhaven,69086,True
+2026-04,HVFHV,pickup,259,Bronx,Woodlawn/Wakefield,77847,True
+2026-04,HVFHV,pickup,260,Queens,Woodside,94638,True
+2026-04,HVFHV,pickup,261,Manhattan,World Trade Center,71966,True
+2026-04,HVFHV,pickup,262,Manhattan,Yorkville East,71070,True
+2026-04,HVFHV,pickup,263,Manhattan,Yorkville West,107433,True
+2026-04,HVFHV,pickup,264,Unknown,N/A,0,False
+2026-04,HVFHV,pickup,265,N/A,Outside of NYC,1020,False
+2026-04,HVFHV,dropoff,1,EWR,Newark Airport,153712,True
+2026-04,HVFHV,dropoff,2,Queens,Jamaica Bay,44,True
+2026-04,HVFHV,dropoff,3,Bronx,Allerton/Pelham Gardens,48788,True
+2026-04,HVFHV,dropoff,4,Manhattan,Alphabet City,47084,True
+2026-04,HVFHV,dropoff,5,Staten Island,Arden Heights,5873,True
+2026-04,HVFHV,dropoff,6,Staten Island,Arrochar/Fort Wadsworth,13274,True
+2026-04,HVFHV,dropoff,7,Queens,Astoria,198299,True
+2026-04,HVFHV,dropoff,8,Queens,Astoria Park,973,True
+2026-04,HVFHV,dropoff,9,Queens,Auburndale,19285,True
+2026-04,HVFHV,dropoff,10,Queens,Baisley Park,60798,True
+2026-04,HVFHV,dropoff,11,Brooklyn,Bath Beach,24925,True
+2026-04,HVFHV,dropoff,12,Manhattan,Battery Park,3382,True
+2026-04,HVFHV,dropoff,13,Manhattan,Battery Park City,74704,True
+2026-04,HVFHV,dropoff,14,Brooklyn,Bay Ridge,121947,True
+2026-04,HVFHV,dropoff,15,Queens,Bay Terrace/Fort Totten,15743,True
+2026-04,HVFHV,dropoff,16,Queens,Bayside,42863,True
+2026-04,HVFHV,dropoff,17,Brooklyn,Bedford,168104,True
+2026-04,HVFHV,dropoff,18,Bronx,Bedford Park,99220,True
+2026-04,HVFHV,dropoff,19,Queens,Bellerose,14826,True
+2026-04,HVFHV,dropoff,20,Bronx,Belmont,64283,True
+2026-04,HVFHV,dropoff,21,Brooklyn,Bensonhurst East,57125,True
+2026-04,HVFHV,dropoff,22,Brooklyn,Bensonhurst West,73520,True
+2026-04,HVFHV,dropoff,23,Staten Island,Bloomfield/Emerson Hill,36958,True
+2026-04,HVFHV,dropoff,24,Manhattan,Bloomingdale,26589,True
+2026-04,HVFHV,dropoff,25,Brooklyn,Boerum Hill,106225,True
+2026-04,HVFHV,dropoff,26,Brooklyn,Borough Park,96509,True
+2026-04,HVFHV,dropoff,27,Queens,Breezy Point/Fort Tilden/Riis Beach,1263,True
+2026-04,HVFHV,dropoff,28,Queens,Briarwood/Jamaica Hills,51973,True
+2026-04,HVFHV,dropoff,29,Brooklyn,Brighton Beach,47177,True
+2026-04,HVFHV,dropoff,30,Queens,Broad Channel,1200,True
+2026-04,HVFHV,dropoff,31,Bronx,Bronx Park,12380,True
+2026-04,HVFHV,dropoff,32,Bronx,Bronxdale,49524,True
+2026-04,HVFHV,dropoff,33,Brooklyn,Brooklyn Heights,97837,True
+2026-04,HVFHV,dropoff,34,Brooklyn,Brooklyn Navy Yard,19009,True
+2026-04,HVFHV,dropoff,35,Brooklyn,Brownsville,126493,True
+2026-04,HVFHV,dropoff,36,Brooklyn,Bushwick North,159545,True
+2026-04,HVFHV,dropoff,37,Brooklyn,Bushwick South,228324,True
+2026-04,HVFHV,dropoff,38,Queens,Cambria Heights,20125,True
+2026-04,HVFHV,dropoff,39,Brooklyn,Canarsie,153902,True
+2026-04,HVFHV,dropoff,40,Brooklyn,Carroll Gardens,49722,True
+2026-04,HVFHV,dropoff,41,Manhattan,Central Harlem,124354,True
+2026-04,HVFHV,dropoff,42,Manhattan,Central Harlem North,173817,True
+2026-04,HVFHV,dropoff,43,Manhattan,Central Park,42807,True
+2026-04,HVFHV,dropoff,44,Staten Island,Charleston/Tottenville,9922,True
+2026-04,HVFHV,dropoff,45,Manhattan,Chinatown,43577,True
+2026-04,HVFHV,dropoff,46,Bronx,City Island,5331,True
+2026-04,HVFHV,dropoff,47,Bronx,Claremont/Bathgate,70602,True
+2026-04,HVFHV,dropoff,48,Manhattan,Clinton East,145843,True
+2026-04,HVFHV,dropoff,49,Brooklyn,Clinton Hill,127708,True
+2026-04,HVFHV,dropoff,50,Manhattan,Clinton West,83781,True
+2026-04,HVFHV,dropoff,51,Bronx,Co-Op City,81231,True
+2026-04,HVFHV,dropoff,52,Brooklyn,Cobble Hill,30446,True
+2026-04,HVFHV,dropoff,53,Queens,College Point,34830,True
+2026-04,HVFHV,dropoff,54,Brooklyn,Columbia Street,12230,True
+2026-04,HVFHV,dropoff,55,Brooklyn,Coney Island,64163,True
+2026-04,HVFHV,dropoff,56,Queens,Corona,61241,True
+2026-04,HVFHV,dropoff,57,Queens,Corona,4886,True
+2026-04,HVFHV,dropoff,58,Bronx,Country Club,7143,True
+2026-04,HVFHV,dropoff,59,Bronx,Crotona Park,2685,True
+2026-04,HVFHV,dropoff,60,Bronx,Crotona Park East,46494,True
+2026-04,HVFHV,dropoff,61,Brooklyn,Crown Heights North,285788,True
+2026-04,HVFHV,dropoff,62,Brooklyn,Crown Heights South,72976,True
+2026-04,HVFHV,dropoff,63,Brooklyn,Cypress Hills,66505,True
+2026-04,HVFHV,dropoff,64,Queens,Douglaston,12786,True
+2026-04,HVFHV,dropoff,65,Brooklyn,Downtown Brooklyn/MetroTech,89274,True
+2026-04,HVFHV,dropoff,66,Brooklyn,DUMBO/Vinegar Hill,69578,True
+2026-04,HVFHV,dropoff,67,Brooklyn,Dyker Heights,39872,True
+2026-04,HVFHV,dropoff,68,Manhattan,East Chelsea,204697,True
+2026-04,HVFHV,dropoff,69,Bronx,East Concourse/Concourse Village,112260,True
+2026-04,HVFHV,dropoff,70,Queens,East Elmhurst,44466,True
+2026-04,HVFHV,dropoff,71,Brooklyn,East Flatbush/Farragut,89936,True
+2026-04,HVFHV,dropoff,72,Brooklyn,East Flatbush/Remsen Village,104805,True
+2026-04,HVFHV,dropoff,73,Queens,East Flushing,20978,True
+2026-04,HVFHV,dropoff,74,Manhattan,East Harlem North,143270,True
+2026-04,HVFHV,dropoff,75,Manhattan,East Harlem South,135751,True
+2026-04,HVFHV,dropoff,76,Brooklyn,East New York,247907,True
+2026-04,HVFHV,dropoff,77,Brooklyn,East New York/Pennsylvania Avenue,62917,True
+2026-04,HVFHV,dropoff,78,Bronx,East Tremont,94588,True
+2026-04,HVFHV,dropoff,79,Manhattan,East Village,195576,True
+2026-04,HVFHV,dropoff,80,Brooklyn,East Williamsburg,149305,True
+2026-04,HVFHV,dropoff,81,Bronx,Eastchester,57858,True
+2026-04,HVFHV,dropoff,82,Queens,Elmhurst,154337,True
+2026-04,HVFHV,dropoff,83,Queens,Elmhurst/Maspeth,51299,True
+2026-04,HVFHV,dropoff,84,Staten Island,Eltingville/Annadale/Prince's Bay,9404,True
+2026-04,HVFHV,dropoff,85,Brooklyn,Erasmus,68230,True
+2026-04,HVFHV,dropoff,86,Queens,Far Rockaway,41784,True
+2026-04,HVFHV,dropoff,87,Manhattan,Financial District North,110200,True
+2026-04,HVFHV,dropoff,88,Manhattan,Financial District South,55578,True
+2026-04,HVFHV,dropoff,89,Brooklyn,Flatbush/Ditmas Park,171917,True
+2026-04,HVFHV,dropoff,90,Manhattan,Flatiron,108416,True
+2026-04,HVFHV,dropoff,91,Brooklyn,Flatlands,96643,True
+2026-04,HVFHV,dropoff,92,Queens,Flushing,111838,True
+2026-04,HVFHV,dropoff,93,Queens,Flushing Meadows-Corona Park,21619,True
+2026-04,HVFHV,dropoff,94,Bronx,Fordham South,43662,True
+2026-04,HVFHV,dropoff,95,Queens,Forest Hills,152672,True
+2026-04,HVFHV,dropoff,96,Queens,Forest Park/Highland Park,3800,True
+2026-04,HVFHV,dropoff,97,Brooklyn,Fort Greene,131808,True
+2026-04,HVFHV,dropoff,98,Queens,Fresh Meadows,19496,True
+2026-04,HVFHV,dropoff,99,Staten Island,Freshkills Park,732,True
+2026-04,HVFHV,dropoff,100,Manhattan,Garment District,82859,True
+2026-04,HVFHV,dropoff,101,Queens,Glen Oaks,14932,True
+2026-04,HVFHV,dropoff,102,Queens,Glendale,53383,True
+2026-04,HVFHV,dropoff,103,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,True
+2026-04,HVFHV,dropoff,104,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,True
+2026-04,HVFHV,dropoff,105,Manhattan,Governor's Island/Ellis Island/Liberty Island,11,True
+2026-04,HVFHV,dropoff,106,Brooklyn,Gowanus,46804,True
+2026-04,HVFHV,dropoff,107,Manhattan,Gramercy,126163,True
+2026-04,HVFHV,dropoff,108,Brooklyn,Gravesend,32628,True
+2026-04,HVFHV,dropoff,109,Staten Island,Great Kills,14786,True
+2026-04,HVFHV,dropoff,110,Staten Island,Great Kills Park,99,True
+2026-04,HVFHV,dropoff,111,Brooklyn,Green-Wood Cemetery,1025,True
+2026-04,HVFHV,dropoff,112,Brooklyn,Greenpoint,202820,True
+2026-04,HVFHV,dropoff,113,Manhattan,Greenwich Village North,103656,True
+2026-04,HVFHV,dropoff,114,Manhattan,Greenwich Village South,105191,True
+2026-04,HVFHV,dropoff,115,Staten Island,Grymes Hill/Clifton,16645,True
+2026-04,HVFHV,dropoff,116,Manhattan,Hamilton Heights,89379,True
+2026-04,HVFHV,dropoff,117,Queens,Hammels/Arverne,33847,True
+2026-04,HVFHV,dropoff,118,Staten Island,Heartland Village/Todt Hill,22926,True
+2026-04,HVFHV,dropoff,119,Bronx,Highbridge,74593,True
+2026-04,HVFHV,dropoff,120,Manhattan,Highbridge Park,2815,True
+2026-04,HVFHV,dropoff,121,Queens,Hillcrest/Pomonok,50586,True
+2026-04,HVFHV,dropoff,122,Queens,Hollis,25309,True
+2026-04,HVFHV,dropoff,123,Brooklyn,Homecrest,62693,True
+2026-04,HVFHV,dropoff,124,Queens,Howard Beach,32843,True
+2026-04,HVFHV,dropoff,125,Manhattan,Hudson Sq,63387,True
+2026-04,HVFHV,dropoff,126,Bronx,Hunts Point,76639,True
+2026-04,HVFHV,dropoff,127,Manhattan,Inwood,82099,True
+2026-04,HVFHV,dropoff,128,Manhattan,Inwood Hill Park,7615,True
+2026-04,HVFHV,dropoff,129,Queens,Jackson Heights,152544,True
+2026-04,HVFHV,dropoff,130,Queens,Jamaica,174585,True
+2026-04,HVFHV,dropoff,131,Queens,Jamaica Estates,34104,True
+2026-04,HVFHV,dropoff,132,Queens,JFK Airport,378047,True
+2026-04,HVFHV,dropoff,133,Brooklyn,Kensington,38661,True
+2026-04,HVFHV,dropoff,134,Queens,Kew Gardens,50251,True
+2026-04,HVFHV,dropoff,135,Queens,Kew Gardens Hills,37781,True
+2026-04,HVFHV,dropoff,136,Bronx,Kingsbridge Heights,53450,True
+2026-04,HVFHV,dropoff,137,Manhattan,Kips Bay,104588,True
+2026-04,HVFHV,dropoff,138,Queens,LaGuardia Airport,434881,True
+2026-04,HVFHV,dropoff,139,Queens,Laurelton,36670,True
+2026-04,HVFHV,dropoff,140,Manhattan,Lenox Hill East,123658,True
+2026-04,HVFHV,dropoff,141,Manhattan,Lenox Hill West,111274,True
+2026-04,HVFHV,dropoff,142,Manhattan,Lincoln Square East,125619,True
+2026-04,HVFHV,dropoff,143,Manhattan,Lincoln Square West,76307,True
+2026-04,HVFHV,dropoff,144,Manhattan,Little Italy/NoLiTa,111075,True
+2026-04,HVFHV,dropoff,145,Queens,Long Island City/Hunters Point,183323,True
+2026-04,HVFHV,dropoff,146,Queens,Long Island City/Queens Plaza,55279,True
+2026-04,HVFHV,dropoff,147,Bronx,Longwood,43560,True
+2026-04,HVFHV,dropoff,148,Manhattan,Lower East Side,152497,True
+2026-04,HVFHV,dropoff,149,Brooklyn,Madison,51056,True
+2026-04,HVFHV,dropoff,150,Brooklyn,Manhattan Beach,25560,True
+2026-04,HVFHV,dropoff,151,Manhattan,Manhattan Valley,51463,True
+2026-04,HVFHV,dropoff,152,Manhattan,Manhattanville,50431,True
+2026-04,HVFHV,dropoff,153,Manhattan,Marble Hill,16824,True
+2026-04,HVFHV,dropoff,154,Brooklyn,Marine Park/Floyd Bennett Field,2012,True
+2026-04,HVFHV,dropoff,155,Brooklyn,Marine Park/Mill Basin,59186,True
+2026-04,HVFHV,dropoff,156,Staten Island,Mariners Harbor,26382,True
+2026-04,HVFHV,dropoff,157,Queens,Maspeth,65423,True
+2026-04,HVFHV,dropoff,158,Manhattan,Meatpacking/West Village West,101437,True
+2026-04,HVFHV,dropoff,159,Bronx,Melrose South,106224,True
+2026-04,HVFHV,dropoff,160,Queens,Middle Village,49635,True
+2026-04,HVFHV,dropoff,161,Manhattan,Midtown Center,207430,True
+2026-04,HVFHV,dropoff,162,Manhattan,Midtown East,156334,True
+2026-04,HVFHV,dropoff,163,Manhattan,Midtown North,139712,True
+2026-04,HVFHV,dropoff,164,Manhattan,Midtown South,159912,True
+2026-04,HVFHV,dropoff,165,Brooklyn,Midwood,59164,True
+2026-04,HVFHV,dropoff,166,Manhattan,Morningside Heights,106712,True
+2026-04,HVFHV,dropoff,167,Bronx,Morrisania/Melrose,78442,True
+2026-04,HVFHV,dropoff,168,Bronx,Mott Haven/Port Morris,145587,True
+2026-04,HVFHV,dropoff,169,Bronx,Mount Hope,100098,True
+2026-04,HVFHV,dropoff,170,Manhattan,Murray Hill,175345,True
+2026-04,HVFHV,dropoff,171,Queens,Murray Hill-Queens,43290,True
+2026-04,HVFHV,dropoff,172,Staten Island,New Dorp/Midland Beach,13771,True
+2026-04,HVFHV,dropoff,173,Queens,North Corona,52365,True
+2026-04,HVFHV,dropoff,174,Bronx,Norwood,94115,True
+2026-04,HVFHV,dropoff,175,Queens,Oakland Gardens,16782,True
+2026-04,HVFHV,dropoff,176,Staten Island,Oakwood,6974,True
+2026-04,HVFHV,dropoff,177,Brooklyn,Ocean Hill,88921,True
+2026-04,HVFHV,dropoff,178,Brooklyn,Ocean Parkway South,18384,True
+2026-04,HVFHV,dropoff,179,Queens,Old Astoria,78340,True
+2026-04,HVFHV,dropoff,180,Queens,Ozone Park,33954,True
+2026-04,HVFHV,dropoff,181,Brooklyn,Park Slope,199943,True
+2026-04,HVFHV,dropoff,182,Bronx,Parkchester,49790,True
+2026-04,HVFHV,dropoff,183,Bronx,Pelham Bay,26749,True
+2026-04,HVFHV,dropoff,184,Bronx,Pelham Bay Park,5268,True
+2026-04,HVFHV,dropoff,185,Bronx,Pelham Parkway,66379,True
+2026-04,HVFHV,dropoff,186,Manhattan,Penn Station/Madison Sq West,137669,True
+2026-04,HVFHV,dropoff,187,Staten Island,Port Richmond,14951,True
+2026-04,HVFHV,dropoff,188,Brooklyn,Prospect-Lefferts Gardens,163010,True
+2026-04,HVFHV,dropoff,189,Brooklyn,Prospect Heights,75744,True
+2026-04,HVFHV,dropoff,190,Brooklyn,Prospect Park,19232,True
+2026-04,HVFHV,dropoff,191,Queens,Queens Village,53218,True
+2026-04,HVFHV,dropoff,192,Queens,Queensboro Hill,27773,True
+2026-04,HVFHV,dropoff,193,Queens,Queensbridge/Ravenswood,35554,True
+2026-04,HVFHV,dropoff,194,Manhattan,Randalls Island,9279,True
+2026-04,HVFHV,dropoff,195,Brooklyn,Red Hook,45930,True
+2026-04,HVFHV,dropoff,196,Queens,Rego Park,52241,True
+2026-04,HVFHV,dropoff,197,Queens,Richmond Hill,90454,True
+2026-04,HVFHV,dropoff,198,Queens,Ridgewood,139645,True
+2026-04,HVFHV,dropoff,199,Bronx,Rikers Island,0,True
+2026-04,HVFHV,dropoff,200,Bronx,Riverdale/North Riverdale/Fieldston,44686,True
+2026-04,HVFHV,dropoff,201,Queens,Rockaway Park,13343,True
+2026-04,HVFHV,dropoff,202,Manhattan,Roosevelt Island,14347,True
+2026-04,HVFHV,dropoff,203,Queens,Rosedale,31036,True
+2026-04,HVFHV,dropoff,204,Staten Island,Rossville/Woodrow,5773,True
+2026-04,HVFHV,dropoff,205,Queens,Saint Albans,79557,True
+2026-04,HVFHV,dropoff,206,Staten Island,Saint George/New Brighton,49220,True
+2026-04,HVFHV,dropoff,207,Queens,Saint Michaels Cemetery/Woodside,4276,True
+2026-04,HVFHV,dropoff,208,Bronx,Schuylerville/Edgewater Park,73022,True
+2026-04,HVFHV,dropoff,209,Manhattan,Seaport,37446,True
+2026-04,HVFHV,dropoff,210,Brooklyn,Sheepshead Bay,70095,True
+2026-04,HVFHV,dropoff,211,Manhattan,SoHo,98622,True
+2026-04,HVFHV,dropoff,212,Bronx,Soundview/Bruckner,56944,True
+2026-04,HVFHV,dropoff,213,Bronx,Soundview/Castle Hill,106496,True
+2026-04,HVFHV,dropoff,214,Staten Island,South Beach/Dongan Hills,19277,True
+2026-04,HVFHV,dropoff,215,Queens,South Jamaica,58408,True
+2026-04,HVFHV,dropoff,216,Queens,South Ozone Park,122086,True
+2026-04,HVFHV,dropoff,217,Brooklyn,South Williamsburg,32305,True
+2026-04,HVFHV,dropoff,218,Queens,Springfield Gardens North,38350,True
+2026-04,HVFHV,dropoff,219,Queens,Springfield Gardens South,32013,True
+2026-04,HVFHV,dropoff,220,Bronx,Spuyten Duyvil/Kingsbridge,71760,True
+2026-04,HVFHV,dropoff,221,Staten Island,Stapleton,25819,True
+2026-04,HVFHV,dropoff,222,Brooklyn,Starrett City,26631,True
+2026-04,HVFHV,dropoff,223,Queens,Steinway,109958,True
+2026-04,HVFHV,dropoff,224,Manhattan,Stuy Town/Peter Cooper Village,31643,True
+2026-04,HVFHV,dropoff,225,Brooklyn,Stuyvesant Heights,171412,True
+2026-04,HVFHV,dropoff,226,Queens,Sunnyside,129748,True
+2026-04,HVFHV,dropoff,227,Brooklyn,Sunset Park East,56665,True
+2026-04,HVFHV,dropoff,228,Brooklyn,Sunset Park West,111653,True
+2026-04,HVFHV,dropoff,229,Manhattan,Sutton Place/Turtle Bay North,87042,True
+2026-04,HVFHV,dropoff,230,Manhattan,Times Sq/Theatre District,198974,True
+2026-04,HVFHV,dropoff,231,Manhattan,TriBeCa/Civic Center,187829,True
+2026-04,HVFHV,dropoff,232,Manhattan,Two Bridges/Seward Park,72979,True
+2026-04,HVFHV,dropoff,233,Manhattan,UN/Turtle Bay South,92507,True
+2026-04,HVFHV,dropoff,234,Manhattan,Union Sq,183024,True
+2026-04,HVFHV,dropoff,235,Bronx,University Heights/Morris Heights,91488,True
+2026-04,HVFHV,dropoff,236,Manhattan,Upper East Side North,142837,True
+2026-04,HVFHV,dropoff,237,Manhattan,Upper East Side South,168713,True
+2026-04,HVFHV,dropoff,238,Manhattan,Upper West Side North,93846,True
+2026-04,HVFHV,dropoff,239,Manhattan,Upper West Side South,110549,True
+2026-04,HVFHV,dropoff,240,Bronx,Van Cortlandt Park,13040,True
+2026-04,HVFHV,dropoff,241,Bronx,Van Cortlandt Village,79261,True
+2026-04,HVFHV,dropoff,242,Bronx,Van Nest/Morris Park,87539,True
+2026-04,HVFHV,dropoff,243,Manhattan,Washington Heights North,103151,True
+2026-04,HVFHV,dropoff,244,Manhattan,Washington Heights South,155745,True
+2026-04,HVFHV,dropoff,245,Staten Island,West Brighton,17127,True
+2026-04,HVFHV,dropoff,246,Manhattan,West Chelsea/Hudson Yards,199525,True
+2026-04,HVFHV,dropoff,247,Bronx,West Concourse,113302,True
+2026-04,HVFHV,dropoff,248,Bronx,West Farms/Bronx River,48775,True
+2026-04,HVFHV,dropoff,249,Manhattan,West Village,150894,True
+2026-04,HVFHV,dropoff,250,Bronx,Westchester Village/Unionport,57675,True
+2026-04,HVFHV,dropoff,251,Staten Island,Westerleigh,16242,True
+2026-04,HVFHV,dropoff,252,Queens,Whitestone,29633,True
+2026-04,HVFHV,dropoff,253,Queens,Willets Point,1065,True
+2026-04,HVFHV,dropoff,254,Bronx,Williamsbridge/Olinville,95579,True
+2026-04,HVFHV,dropoff,255,Brooklyn,Williamsburg (North Side),186659,True
+2026-04,HVFHV,dropoff,256,Brooklyn,Williamsburg (South Side),160153,True
+2026-04,HVFHV,dropoff,257,Brooklyn,Windsor Terrace,35111,True
+2026-04,HVFHV,dropoff,258,Queens,Woodhaven,63747,True
+2026-04,HVFHV,dropoff,259,Bronx,Woodlawn/Wakefield,60650,True
+2026-04,HVFHV,dropoff,260,Queens,Woodside,93699,True
+2026-04,HVFHV,dropoff,261,Manhattan,World Trade Center,66555,True
+2026-04,HVFHV,dropoff,262,Manhattan,Yorkville East,60975,True
+2026-04,HVFHV,dropoff,263,Manhattan,Yorkville West,97243,True
+2026-04,HVFHV,dropoff,264,Unknown,N/A,395,False
+2026-04,HVFHV,dropoff,265,N/A,Outside of NYC,930707,False
+2026-05,Yellow,pickup,1,EWR,Newark Airport,502,True
+2026-05,Yellow,pickup,2,Queens,Jamaica Bay,12,True
+2026-05,Yellow,pickup,3,Bronx,Allerton/Pelham Gardens,392,True
+2026-05,Yellow,pickup,4,Manhattan,Alphabet City,17696,True
+2026-05,Yellow,pickup,5,Staten Island,Arden Heights,0,True
+2026-05,Yellow,pickup,6,Staten Island,Arrochar/Fort Wadsworth,83,True
+2026-05,Yellow,pickup,7,Queens,Astoria,7741,True
+2026-05,Yellow,pickup,8,Queens,Astoria Park,40,True
+2026-05,Yellow,pickup,9,Queens,Auburndale,164,True
+2026-05,Yellow,pickup,10,Queens,Baisley Park,1843,True
+2026-05,Yellow,pickup,11,Brooklyn,Bath Beach,310,True
+2026-05,Yellow,pickup,12,Manhattan,Battery Park,1068,True
+2026-05,Yellow,pickup,13,Manhattan,Battery Park City,24528,True
+2026-05,Yellow,pickup,14,Brooklyn,Bay Ridge,1770,True
+2026-05,Yellow,pickup,15,Queens,Bay Terrace/Fort Totten,148,True
+2026-05,Yellow,pickup,16,Queens,Bayside,313,True
+2026-05,Yellow,pickup,17,Brooklyn,Bedford,4100,True
+2026-05,Yellow,pickup,18,Bronx,Bedford Park,982,True
+2026-05,Yellow,pickup,19,Queens,Bellerose,412,True
+2026-05,Yellow,pickup,20,Bronx,Belmont,540,True
+2026-05,Yellow,pickup,21,Brooklyn,Bensonhurst East,650,True
+2026-05,Yellow,pickup,22,Brooklyn,Bensonhurst West,790,True
+2026-05,Yellow,pickup,23,Staten Island,Bloomfield/Emerson Hill,36,True
+2026-05,Yellow,pickup,24,Manhattan,Bloomingdale,13662,True
+2026-05,Yellow,pickup,25,Brooklyn,Boerum Hill,4848,True
+2026-05,Yellow,pickup,26,Brooklyn,Borough Park,1056,True
+2026-05,Yellow,pickup,27,Queens,Breezy Point/Fort Tilden/Riis Beach,23,True
+2026-05,Yellow,pickup,28,Queens,Briarwood/Jamaica Hills,951,True
+2026-05,Yellow,pickup,29,Brooklyn,Brighton Beach,673,True
+2026-05,Yellow,pickup,30,Queens,Broad Channel,21,True
+2026-05,Yellow,pickup,31,Bronx,Bronx Park,96,True
+2026-05,Yellow,pickup,32,Bronx,Bronxdale,613,True
+2026-05,Yellow,pickup,33,Brooklyn,Brooklyn Heights,5809,True
+2026-05,Yellow,pickup,34,Brooklyn,Brooklyn Navy Yard,783,True
+2026-05,Yellow,pickup,35,Brooklyn,Brownsville,3179,True
+2026-05,Yellow,pickup,36,Brooklyn,Bushwick North,3781,True
+2026-05,Yellow,pickup,37,Brooklyn,Bushwick South,6674,True
+2026-05,Yellow,pickup,38,Queens,Cambria Heights,405,True
+2026-05,Yellow,pickup,39,Brooklyn,Canarsie,3624,True
+2026-05,Yellow,pickup,40,Brooklyn,Carroll Gardens,1525,True
+2026-05,Yellow,pickup,41,Manhattan,Central Harlem,20956,True
+2026-05,Yellow,pickup,42,Manhattan,Central Harlem North,15155,True
+2026-05,Yellow,pickup,43,Manhattan,Central Park,53414,True
+2026-05,Yellow,pickup,44,Staten Island,Charleston/Tottenville,5,True
+2026-05,Yellow,pickup,45,Manhattan,Chinatown,10232,True
+2026-05,Yellow,pickup,46,Bronx,City Island,121,True
+2026-05,Yellow,pickup,47,Bronx,Claremont/Bathgate,907,True
+2026-05,Yellow,pickup,48,Manhattan,Clinton East,88013,True
+2026-05,Yellow,pickup,49,Brooklyn,Clinton Hill,4065,True
+2026-05,Yellow,pickup,50,Manhattan,Clinton West,27892,True
+2026-05,Yellow,pickup,51,Bronx,Co-Op City,1562,True
+2026-05,Yellow,pickup,52,Brooklyn,Cobble Hill,1500,True
+2026-05,Yellow,pickup,53,Queens,College Point,292,True
+2026-05,Yellow,pickup,54,Brooklyn,Columbia Street,400,True
+2026-05,Yellow,pickup,55,Brooklyn,Coney Island,1883,True
+2026-05,Yellow,pickup,56,Queens,Corona,969,True
+2026-05,Yellow,pickup,57,Queens,Corona,57,True
+2026-05,Yellow,pickup,58,Bronx,Country Club,70,True
+2026-05,Yellow,pickup,59,Bronx,Crotona Park,55,True
+2026-05,Yellow,pickup,60,Bronx,Crotona Park East,623,True
+2026-05,Yellow,pickup,61,Brooklyn,Crown Heights North,7525,True
+2026-05,Yellow,pickup,62,Brooklyn,Crown Heights South,2031,True
+2026-05,Yellow,pickup,63,Brooklyn,Cypress Hills,1259,True
+2026-05,Yellow,pickup,64,Queens,Douglaston,176,True
+2026-05,Yellow,pickup,65,Brooklyn,Downtown Brooklyn/MetroTech,5410,True
+2026-05,Yellow,pickup,66,Brooklyn,DUMBO/Vinegar Hill,5528,True
+2026-05,Yellow,pickup,67,Brooklyn,Dyker Heights,390,True
+2026-05,Yellow,pickup,68,Manhattan,East Chelsea,98253,True
+2026-05,Yellow,pickup,69,Bronx,East Concourse/Concourse Village,1784,True
+2026-05,Yellow,pickup,70,Queens,East Elmhurst,8570,True
+2026-05,Yellow,pickup,71,Brooklyn,East Flatbush/Farragut,2424,True
+2026-05,Yellow,pickup,72,Brooklyn,East Flatbush/Remsen Village,2748,True
+2026-05,Yellow,pickup,73,Queens,East Flushing,148,True
+2026-05,Yellow,pickup,74,Manhattan,East Harlem North,17819,True
+2026-05,Yellow,pickup,75,Manhattan,East Harlem South,33964,True
+2026-05,Yellow,pickup,76,Brooklyn,East New York,5381,True
+2026-05,Yellow,pickup,77,Brooklyn,East New York/Pennsylvania Avenue,1454,True
+2026-05,Yellow,pickup,78,Bronx,East Tremont,1056,True
+2026-05,Yellow,pickup,79,Manhattan,East Village,106516,True
+2026-05,Yellow,pickup,80,Brooklyn,East Williamsburg,5599,True
+2026-05,Yellow,pickup,81,Bronx,Eastchester,741,True
+2026-05,Yellow,pickup,82,Queens,Elmhurst,2111,True
+2026-05,Yellow,pickup,83,Queens,Elmhurst/Maspeth,767,True
+2026-05,Yellow,pickup,84,Staten Island,Eltingville/Annadale/Prince's Bay,6,True
+2026-05,Yellow,pickup,85,Brooklyn,Erasmus,1511,True
+2026-05,Yellow,pickup,86,Queens,Far Rockaway,1123,True
+2026-05,Yellow,pickup,87,Manhattan,Financial District North,28976,True
+2026-05,Yellow,pickup,88,Manhattan,Financial District South,14957,True
+2026-05,Yellow,pickup,89,Brooklyn,Flatbush/Ditmas Park,3864,True
+2026-05,Yellow,pickup,90,Manhattan,Flatiron,60267,True
+2026-05,Yellow,pickup,91,Brooklyn,Flatlands,2516,True
+2026-05,Yellow,pickup,92,Queens,Flushing,1332,True
+2026-05,Yellow,pickup,93,Queens,Flushing Meadows-Corona Park,1048,True
+2026-05,Yellow,pickup,94,Bronx,Fordham South,392,True
+2026-05,Yellow,pickup,95,Queens,Forest Hills,2088,True
+2026-05,Yellow,pickup,96,Queens,Forest Park/Highland Park,68,True
+2026-05,Yellow,pickup,97,Brooklyn,Fort Greene,6197,True
+2026-05,Yellow,pickup,98,Queens,Fresh Meadows,265,True
+2026-05,Yellow,pickup,99,Staten Island,Freshkills Park,0,True
+2026-05,Yellow,pickup,100,Manhattan,Garment District,49153,True
+2026-05,Yellow,pickup,101,Queens,Glen Oaks,270,True
+2026-05,Yellow,pickup,102,Queens,Glendale,572,True
+2026-05,Yellow,pickup,103,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,True
+2026-05,Yellow,pickup,104,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,True
+2026-05,Yellow,pickup,105,Manhattan,Governor's Island/Ellis Island/Liberty Island,4,True
+2026-05,Yellow,pickup,106,Brooklyn,Gowanus,1157,True
+2026-05,Yellow,pickup,107,Manhattan,Gramercy,73752,True
+2026-05,Yellow,pickup,108,Brooklyn,Gravesend,611,True
+2026-05,Yellow,pickup,109,Staten Island,Great Kills,6,True
+2026-05,Yellow,pickup,110,Staten Island,Great Kills Park,0,True
+2026-05,Yellow,pickup,111,Brooklyn,Green-Wood Cemetery,15,True
+2026-05,Yellow,pickup,112,Brooklyn,Greenpoint,6575,True
+2026-05,Yellow,pickup,113,Manhattan,Greenwich Village North,55293,True
+2026-05,Yellow,pickup,114,Manhattan,Greenwich Village South,58374,True
+2026-05,Yellow,pickup,115,Staten Island,Grymes Hill/Clifton,22,True
+2026-05,Yellow,pickup,116,Manhattan,Hamilton Heights,9643,True
+2026-05,Yellow,pickup,117,Queens,Hammels/Arverne,1094,True
+2026-05,Yellow,pickup,118,Staten Island,Heartland Village/Todt Hill,12,True
+2026-05,Yellow,pickup,119,Bronx,Highbridge,1036,True
+2026-05,Yellow,pickup,120,Manhattan,Highbridge Park,101,True
+2026-05,Yellow,pickup,121,Queens,Hillcrest/Pomonok,725,True
+2026-05,Yellow,pickup,122,Queens,Hollis,411,True
+2026-05,Yellow,pickup,123,Brooklyn,Homecrest,859,True
+2026-05,Yellow,pickup,124,Queens,Howard Beach,641,True
+2026-05,Yellow,pickup,125,Manhattan,Hudson Sq,19612,True
+2026-05,Yellow,pickup,126,Bronx,Hunts Point,760,True
+2026-05,Yellow,pickup,127,Manhattan,Inwood,2045,True
+2026-05,Yellow,pickup,128,Manhattan,Inwood Hill Park,196,True
+2026-05,Yellow,pickup,129,Queens,Jackson Heights,3842,True
+2026-05,Yellow,pickup,130,Queens,Jamaica,3185,True
+2026-05,Yellow,pickup,131,Queens,Jamaica Estates,627,True
+2026-05,Yellow,pickup,132,Queens,JFK Airport,147744,True
+2026-05,Yellow,pickup,133,Brooklyn,Kensington,856,True
+2026-05,Yellow,pickup,134,Queens,Kew Gardens,833,True
+2026-05,Yellow,pickup,135,Queens,Kew Gardens Hills,515,True
+2026-05,Yellow,pickup,136,Bronx,Kingsbridge Heights,690,True
+2026-05,Yellow,pickup,137,Manhattan,Kips Bay,46711,True
+2026-05,Yellow,pickup,138,Queens,LaGuardia Airport,104828,True
+2026-05,Yellow,pickup,139,Queens,Laurelton,511,True
+2026-05,Yellow,pickup,140,Manhattan,Lenox Hill East,77328,True
+2026-05,Yellow,pickup,141,Manhattan,Lenox Hill West,90146,True
+2026-05,Yellow,pickup,142,Manhattan,Lincoln Square East,122279,True
+2026-05,Yellow,pickup,143,Manhattan,Lincoln Square West,48271,True
+2026-05,Yellow,pickup,144,Manhattan,Little Italy/NoLiTa,44582,True
+2026-05,Yellow,pickup,145,Queens,Long Island City/Hunters Point,9026,True
+2026-05,Yellow,pickup,146,Queens,Long Island City/Queens Plaza,3818,True
+2026-05,Yellow,pickup,147,Bronx,Longwood,586,True
+2026-05,Yellow,pickup,148,Manhattan,Lower East Side,56046,True
+2026-05,Yellow,pickup,149,Brooklyn,Madison,597,True
+2026-05,Yellow,pickup,150,Brooklyn,Manhattan Beach,395,True
+2026-05,Yellow,pickup,151,Manhattan,Manhattan Valley,34530,True
+2026-05,Yellow,pickup,152,Manhattan,Manhattanville,6531,True
+2026-05,Yellow,pickup,153,Manhattan,Marble Hill,231,True
+2026-05,Yellow,pickup,154,Brooklyn,Marine Park/Floyd Bennett Field,71,True
+2026-05,Yellow,pickup,155,Brooklyn,Marine Park/Mill Basin,1224,True
+2026-05,Yellow,pickup,156,Staten Island,Mariners Harbor,8,True
+2026-05,Yellow,pickup,157,Queens,Maspeth,1810,True
+2026-05,Yellow,pickup,158,Manhattan,Meatpacking/West Village West,42314,True
+2026-05,Yellow,pickup,159,Bronx,Melrose South,1508,True
+2026-05,Yellow,pickup,160,Queens,Middle Village,594,True
+2026-05,Yellow,pickup,161,Manhattan,Midtown Center,158714,True
+2026-05,Yellow,pickup,162,Manhattan,Midtown East,118546,True
+2026-05,Yellow,pickup,163,Manhattan,Midtown North,99026,True
+2026-05,Yellow,pickup,164,Manhattan,Midtown South,75789,True
+2026-05,Yellow,pickup,165,Brooklyn,Midwood,1094,True
+2026-05,Yellow,pickup,166,Manhattan,Morningside Heights,29914,True
+2026-05,Yellow,pickup,167,Bronx,Morrisania/Melrose,1258,True
+2026-05,Yellow,pickup,168,Bronx,Mott Haven/Port Morris,2650,True
+2026-05,Yellow,pickup,169,Bronx,Mount Hope,1051,True
+2026-05,Yellow,pickup,170,Manhattan,Murray Hill,101325,True
+2026-05,Yellow,pickup,171,Queens,Murray Hill-Queens,294,True
+2026-05,Yellow,pickup,172,Staten Island,New Dorp/Midland Beach,21,True
+2026-05,Yellow,pickup,173,Queens,North Corona,527,True
+2026-05,Yellow,pickup,174,Bronx,Norwood,830,True
+2026-05,Yellow,pickup,175,Queens,Oakland Gardens,168,True
+2026-05,Yellow,pickup,176,Staten Island,Oakwood,3,True
+2026-05,Yellow,pickup,177,Brooklyn,Ocean Hill,2678,True
+2026-05,Yellow,pickup,178,Brooklyn,Ocean Parkway South,278,True
+2026-05,Yellow,pickup,179,Queens,Old Astoria,2915,True
+2026-05,Yellow,pickup,180,Queens,Ozone Park,463,True
+2026-05,Yellow,pickup,181,Brooklyn,Park Slope,4323,True
+2026-05,Yellow,pickup,182,Bronx,Parkchester,1276,True
+2026-05,Yellow,pickup,183,Bronx,Pelham Bay,279,True
+2026-05,Yellow,pickup,184,Bronx,Pelham Bay Park,50,True
+2026-05,Yellow,pickup,185,Bronx,Pelham Parkway,628,True
+2026-05,Yellow,pickup,186,Manhattan,Penn Station/Madison Sq West,112048,True
+2026-05,Yellow,pickup,187,Staten Island,Port Richmond,6,True
+2026-05,Yellow,pickup,188,Brooklyn,Prospect-Lefferts Gardens,4187,True
+2026-05,Yellow,pickup,189,Brooklyn,Prospect Heights,1896,True
+2026-05,Yellow,pickup,190,Brooklyn,Prospect Park,395,True
+2026-05,Yellow,pickup,191,Queens,Queens Village,1072,True
+2026-05,Yellow,pickup,192,Queens,Queensboro Hill,252,True
+2026-05,Yellow,pickup,193,Queens,Queensbridge/Ravenswood,2864,True
+2026-05,Yellow,pickup,194,Manhattan,Randalls Island,246,True
+2026-05,Yellow,pickup,195,Brooklyn,Red Hook,1435,True
+2026-05,Yellow,pickup,196,Queens,Rego Park,984,True
+2026-05,Yellow,pickup,197,Queens,Richmond Hill,1785,True
+2026-05,Yellow,pickup,198,Queens,Ridgewood,1841,True
+2026-05,Yellow,pickup,199,Bronx,Rikers Island,3,True
+2026-05,Yellow,pickup,200,Bronx,Riverdale/North Riverdale/Fieldston,588,True
+2026-05,Yellow,pickup,201,Queens,Rockaway Park,323,True
+2026-05,Yellow,pickup,202,Manhattan,Roosevelt Island,622,True
+2026-05,Yellow,pickup,203,Queens,Rosedale,503,True
+2026-05,Yellow,pickup,204,Staten Island,Rossville/Woodrow,0,True
+2026-05,Yellow,pickup,205,Queens,Saint Albans,1378,True
+2026-05,Yellow,pickup,206,Staten Island,Saint George/New Brighton,21,True
+2026-05,Yellow,pickup,207,Queens,Saint Michaels Cemetery/Woodside,1061,True
+2026-05,Yellow,pickup,208,Bronx,Schuylerville/Edgewater Park,680,True
+2026-05,Yellow,pickup,209,Manhattan,Seaport,8837,True
+2026-05,Yellow,pickup,210,Brooklyn,Sheepshead Bay,1062,True
+2026-05,Yellow,pickup,211,Manhattan,SoHo,33139,True
+2026-05,Yellow,pickup,212,Bronx,Soundview/Bruckner,723,True
+2026-05,Yellow,pickup,213,Bronx,Soundview/Castle Hill,1624,True
+2026-05,Yellow,pickup,214,Staten Island,South Beach/Dongan Hills,41,True
+2026-05,Yellow,pickup,215,Queens,South Jamaica,1369,True
+2026-05,Yellow,pickup,216,Queens,South Ozone Park,3002,True
+2026-05,Yellow,pickup,217,Brooklyn,South Williamsburg,786,True
+2026-05,Yellow,pickup,218,Queens,Springfield Gardens North,1029,True
+2026-05,Yellow,pickup,219,Queens,Springfield Gardens South,909,True
+2026-05,Yellow,pickup,220,Bronx,Spuyten Duyvil/Kingsbridge,930,True
+2026-05,Yellow,pickup,221,Staten Island,Stapleton,45,True
+2026-05,Yellow,pickup,222,Brooklyn,Starrett City,1315,True
+2026-05,Yellow,pickup,223,Queens,Steinway,2786,True
+2026-05,Yellow,pickup,224,Manhattan,Stuy Town/Peter Cooper Village,10754,True
+2026-05,Yellow,pickup,225,Brooklyn,Stuyvesant Heights,4896,True
+2026-05,Yellow,pickup,226,Queens,Sunnyside,6990,True
+2026-05,Yellow,pickup,227,Brooklyn,Sunset Park East,727,True
+2026-05,Yellow,pickup,228,Brooklyn,Sunset Park West,2049,True
+2026-05,Yellow,pickup,229,Manhattan,Sutton Place/Turtle Bay North,63852,True
+2026-05,Yellow,pickup,230,Manhattan,Times Sq/Theatre District,110484,True
+2026-05,Yellow,pickup,231,Manhattan,TriBeCa/Civic Center,55906,True
+2026-05,Yellow,pickup,232,Manhattan,Two Bridges/Seward Park,14242,True
+2026-05,Yellow,pickup,233,Manhattan,UN/Turtle Bay South,41574,True
+2026-05,Yellow,pickup,234,Manhattan,Union Sq,100452,True
+2026-05,Yellow,pickup,235,Bronx,University Heights/Morris Heights,1282,True
+2026-05,Yellow,pickup,236,Manhattan,Upper East Side North,172093,True
+2026-05,Yellow,pickup,237,Manhattan,Upper East Side South,194209,True
+2026-05,Yellow,pickup,238,Manhattan,Upper West Side North,79491,True
+2026-05,Yellow,pickup,239,Manhattan,Upper West Side South,106797,True
+2026-05,Yellow,pickup,240,Bronx,Van Cortlandt Park,153,True
+2026-05,Yellow,pickup,241,Bronx,Van Cortlandt Village,903,True
+2026-05,Yellow,pickup,242,Bronx,Van Nest/Morris Park,880,True
+2026-05,Yellow,pickup,243,Manhattan,Washington Heights North,4931,True
+2026-05,Yellow,pickup,244,Manhattan,Washington Heights South,10818,True
+2026-05,Yellow,pickup,245,Staten Island,West Brighton,3,True
+2026-05,Yellow,pickup,246,Manhattan,West Chelsea/Hudson Yards,73775,True
+2026-05,Yellow,pickup,247,Bronx,West Concourse,1862,True
+2026-05,Yellow,pickup,248,Bronx,West Farms/Bronx River,748,True
+2026-05,Yellow,pickup,249,Manhattan,West Village,88583,True
+2026-05,Yellow,pickup,250,Bronx,Westchester Village/Unionport,719,True
+2026-05,Yellow,pickup,251,Staten Island,Westerleigh,13,True
+2026-05,Yellow,pickup,252,Queens,Whitestone,236,True
+2026-05,Yellow,pickup,253,Queens,Willets Point,19,True
+2026-05,Yellow,pickup,254,Bronx,Williamsbridge/Olinville,1286,True
+2026-05,Yellow,pickup,255,Brooklyn,Williamsburg (North Side),10433,True
+2026-05,Yellow,pickup,256,Brooklyn,Williamsburg (South Side),6920,True
+2026-05,Yellow,pickup,257,Brooklyn,Windsor Terrace,607,True
+2026-05,Yellow,pickup,258,Queens,Woodhaven,881,True
+2026-05,Yellow,pickup,259,Bronx,Woodlawn/Wakefield,740,True
+2026-05,Yellow,pickup,260,Queens,Woodside,2059,True
+2026-05,Yellow,pickup,261,Manhattan,World Trade Center,17361,True
+2026-05,Yellow,pickup,262,Manhattan,Yorkville East,59164,True
+2026-05,Yellow,pickup,263,Manhattan,Yorkville West,76100,True
+2026-05,Yellow,pickup,264,Unknown,N/A,4701,False
+2026-05,Yellow,pickup,265,N/A,Outside of NYC,1726,False
+2026-05,Yellow,dropoff,1,EWR,Newark Airport,7640,True
+2026-05,Yellow,dropoff,2,Queens,Jamaica Bay,15,True
+2026-05,Yellow,dropoff,3,Bronx,Allerton/Pelham Gardens,688,True
+2026-05,Yellow,dropoff,4,Manhattan,Alphabet City,21178,True
+2026-05,Yellow,dropoff,5,Staten Island,Arden Heights,8,True
+2026-05,Yellow,dropoff,6,Staten Island,Arrochar/Fort Wadsworth,124,True
+2026-05,Yellow,dropoff,7,Queens,Astoria,11679,True
+2026-05,Yellow,dropoff,8,Queens,Astoria Park,79,True
+2026-05,Yellow,dropoff,9,Queens,Auburndale,450,True
+2026-05,Yellow,dropoff,10,Queens,Baisley Park,3912,True
+2026-05,Yellow,dropoff,11,Brooklyn,Bath Beach,558,True
+2026-05,Yellow,dropoff,12,Manhattan,Battery Park,1591,True
+2026-05,Yellow,dropoff,13,Manhattan,Battery Park City,29023,True
+2026-05,Yellow,dropoff,14,Brooklyn,Bay Ridge,3863,True
+2026-05,Yellow,dropoff,15,Queens,Bay Terrace/Fort Totten,513,True
+2026-05,Yellow,dropoff,16,Queens,Bayside,931,True
+2026-05,Yellow,dropoff,17,Brooklyn,Bedford,7024,True
+2026-05,Yellow,dropoff,18,Bronx,Bedford Park,1535,True
+2026-05,Yellow,dropoff,19,Queens,Bellerose,757,True
+2026-05,Yellow,dropoff,20,Bronx,Belmont,1243,True
+2026-05,Yellow,dropoff,21,Brooklyn,Bensonhurst East,1075,True
+2026-05,Yellow,dropoff,22,Brooklyn,Bensonhurst West,1299,True
+2026-05,Yellow,dropoff,23,Staten Island,Bloomfield/Emerson Hill,100,True
+2026-05,Yellow,dropoff,24,Manhattan,Bloomingdale,14552,True
+2026-05,Yellow,dropoff,25,Brooklyn,Boerum Hill,8006,True
+2026-05,Yellow,dropoff,26,Brooklyn,Borough Park,1979,True
+2026-05,Yellow,dropoff,27,Queens,Breezy Point/Fort Tilden/Riis Beach,67,True
+2026-05,Yellow,dropoff,28,Queens,Briarwood/Jamaica Hills,2315,True
+2026-05,Yellow,dropoff,29,Brooklyn,Brighton Beach,997,True
+2026-05,Yellow,dropoff,30,Queens,Broad Channel,49,True
+2026-05,Yellow,dropoff,31,Bronx,Bronx Park,375,True
+2026-05,Yellow,dropoff,32,Bronx,Bronxdale,875,True
+2026-05,Yellow,dropoff,33,Brooklyn,Brooklyn Heights,11521,True
+2026-05,Yellow,dropoff,34,Brooklyn,Brooklyn Navy Yard,845,True
+2026-05,Yellow,dropoff,35,Brooklyn,Brownsville,3275,True
+2026-05,Yellow,dropoff,36,Brooklyn,Bushwick North,5400,True
+2026-05,Yellow,dropoff,37,Brooklyn,Bushwick South,9262,True
+2026-05,Yellow,dropoff,38,Queens,Cambria Heights,947,True
+2026-05,Yellow,dropoff,39,Brooklyn,Canarsie,4290,True
+2026-05,Yellow,dropoff,40,Brooklyn,Carroll Gardens,3596,True
+2026-05,Yellow,dropoff,41,Manhattan,Central Harlem,27809,True
+2026-05,Yellow,dropoff,42,Manhattan,Central Harlem North,22620,True
+2026-05,Yellow,dropoff,43,Manhattan,Central Park,39055,True
+2026-05,Yellow,dropoff,44,Staten Island,Charleston/Tottenville,19,True
+2026-05,Yellow,dropoff,45,Manhattan,Chinatown,13662,True
+2026-05,Yellow,dropoff,46,Bronx,City Island,194,True
+2026-05,Yellow,dropoff,47,Bronx,Claremont/Bathgate,1126,True
+2026-05,Yellow,dropoff,48,Manhattan,Clinton East,85992,True
+2026-05,Yellow,dropoff,49,Brooklyn,Clinton Hill,7379,True
+2026-05,Yellow,dropoff,50,Manhattan,Clinton West,40287,True
+2026-05,Yellow,dropoff,51,Bronx,Co-Op City,1820,True
+2026-05,Yellow,dropoff,52,Brooklyn,Cobble Hill,2845,True
+2026-05,Yellow,dropoff,53,Queens,College Point,737,True
+2026-05,Yellow,dropoff,54,Brooklyn,Columbia Street,1025,True
+2026-05,Yellow,dropoff,55,Brooklyn,Coney Island,2197,True
+2026-05,Yellow,dropoff,56,Queens,Corona,2332,True
+2026-05,Yellow,dropoff,57,Queens,Corona,117,True
+2026-05,Yellow,dropoff,58,Bronx,Country Club,134,True
+2026-05,Yellow,dropoff,59,Bronx,Crotona Park,65,True
+2026-05,Yellow,dropoff,60,Bronx,Crotona Park East,688,True
+2026-05,Yellow,dropoff,61,Brooklyn,Crown Heights North,10903,True
+2026-05,Yellow,dropoff,62,Brooklyn,Crown Heights South,3059,True
+2026-05,Yellow,dropoff,63,Brooklyn,Cypress Hills,1736,True
+2026-05,Yellow,dropoff,64,Queens,Douglaston,569,True
+2026-05,Yellow,dropoff,65,Brooklyn,Downtown Brooklyn/MetroTech,7513,True
+2026-05,Yellow,dropoff,66,Brooklyn,DUMBO/Vinegar Hill,6809,True
+2026-05,Yellow,dropoff,67,Brooklyn,Dyker Heights,981,True
+2026-05,Yellow,dropoff,68,Manhattan,East Chelsea,96696,True
+2026-05,Yellow,dropoff,69,Bronx,East Concourse/Concourse Village,2595,True
+2026-05,Yellow,dropoff,70,Queens,East Elmhurst,1864,True
+2026-05,Yellow,dropoff,71,Brooklyn,East Flatbush/Farragut,2604,True
+2026-05,Yellow,dropoff,72,Brooklyn,East Flatbush/Remsen Village,2894,True
+2026-05,Yellow,dropoff,73,Queens,East Flushing,441,True
+2026-05,Yellow,dropoff,74,Manhattan,East Harlem North,31228,True
+2026-05,Yellow,dropoff,75,Manhattan,East Harlem South,48014,True
+2026-05,Yellow,dropoff,76,Brooklyn,East New York,6573,True
+2026-05,Yellow,dropoff,77,Brooklyn,East New York/Pennsylvania Avenue,1708,True
+2026-05,Yellow,dropoff,78,Bronx,East Tremont,1414,True
+2026-05,Yellow,dropoff,79,Manhattan,East Village,89859,True
+2026-05,Yellow,dropoff,80,Brooklyn,East Williamsburg,7274,True
+2026-05,Yellow,dropoff,81,Bronx,Eastchester,854,True
+2026-05,Yellow,dropoff,82,Queens,Elmhurst,3909,True
+2026-05,Yellow,dropoff,83,Queens,Elmhurst/Maspeth,1320,True
+2026-05,Yellow,dropoff,84,Staten Island,Eltingville/Annadale/Prince's Bay,32,True
+2026-05,Yellow,dropoff,85,Brooklyn,Erasmus,1904,True
+2026-05,Yellow,dropoff,86,Queens,Far Rockaway,1542,True
+2026-05,Yellow,dropoff,87,Manhattan,Financial District North,37556,True
+2026-05,Yellow,dropoff,88,Manhattan,Financial District South,19673,True
+2026-05,Yellow,dropoff,89,Brooklyn,Flatbush/Ditmas Park,5998,True
+2026-05,Yellow,dropoff,90,Manhattan,Flatiron,55239,True
+2026-05,Yellow,dropoff,91,Brooklyn,Flatlands,2848,True
+2026-05,Yellow,dropoff,92,Queens,Flushing,3257,True
+2026-05,Yellow,dropoff,93,Queens,Flushing Meadows-Corona Park,4589,True
+2026-05,Yellow,dropoff,94,Bronx,Fordham South,658,True
+2026-05,Yellow,dropoff,95,Queens,Forest Hills,5872,True
+2026-05,Yellow,dropoff,96,Queens,Forest Park/Highland Park,180,True
+2026-05,Yellow,dropoff,97,Brooklyn,Fort Greene,7797,True
+2026-05,Yellow,dropoff,98,Queens,Fresh Meadows,688,True
+2026-05,Yellow,dropoff,99,Staten Island,Freshkills Park,3,True
+2026-05,Yellow,dropoff,100,Manhattan,Garment District,43378,True
+2026-05,Yellow,dropoff,101,Queens,Glen Oaks,549,True
+2026-05,Yellow,dropoff,102,Queens,Glendale,1174,True
+2026-05,Yellow,dropoff,103,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,True
+2026-05,Yellow,dropoff,104,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,True
+2026-05,Yellow,dropoff,105,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,True
+2026-05,Yellow,dropoff,106,Brooklyn,Gowanus,2129,True
+2026-05,Yellow,dropoff,107,Manhattan,Gramercy,72400,True
+2026-05,Yellow,dropoff,108,Brooklyn,Gravesend,684,True
+2026-05,Yellow,dropoff,109,Staten Island,Great Kills,32,True
+2026-05,Yellow,dropoff,110,Staten Island,Great Kills Park,0,True
+2026-05,Yellow,dropoff,111,Brooklyn,Green-Wood Cemetery,51,True
+2026-05,Yellow,dropoff,112,Brooklyn,Greenpoint,12531,True
+2026-05,Yellow,dropoff,113,Manhattan,Greenwich Village North,48621,True
+2026-05,Yellow,dropoff,114,Manhattan,Greenwich Village South,41434,True
+2026-05,Yellow,dropoff,115,Staten Island,Grymes Hill/Clifton,48,True
+2026-05,Yellow,dropoff,116,Manhattan,Hamilton Heights,14514,True
+2026-05,Yellow,dropoff,117,Queens,Hammels/Arverne,1206,True
+2026-05,Yellow,dropoff,118,Staten Island,Heartland Village/Todt Hill,68,True
+2026-05,Yellow,dropoff,119,Bronx,Highbridge,1559,True
+2026-05,Yellow,dropoff,120,Manhattan,Highbridge Park,285,True
+2026-05,Yellow,dropoff,121,Queens,Hillcrest/Pomonok,1354,True
+2026-05,Yellow,dropoff,122,Queens,Hollis,550,True
+2026-05,Yellow,dropoff,123,Brooklyn,Homecrest,1369,True
+2026-05,Yellow,dropoff,124,Queens,Howard Beach,1382,True
+2026-05,Yellow,dropoff,125,Manhattan,Hudson Sq,20708,True
+2026-05,Yellow,dropoff,126,Bronx,Hunts Point,1101,True
+2026-05,Yellow,dropoff,127,Manhattan,Inwood,5639,True
+2026-05,Yellow,dropoff,128,Manhattan,Inwood Hill Park,601,True
+2026-05,Yellow,dropoff,129,Queens,Jackson Heights,5579,True
+2026-05,Yellow,dropoff,130,Queens,Jamaica,4430,True
+2026-05,Yellow,dropoff,131,Queens,Jamaica Estates,1135,True
+2026-05,Yellow,dropoff,132,Queens,JFK Airport,36534,True
+2026-05,Yellow,dropoff,133,Brooklyn,Kensington,1497,True
+2026-05,Yellow,dropoff,134,Queens,Kew Gardens,1747,True
+2026-05,Yellow,dropoff,135,Queens,Kew Gardens Hills,1348,True
+2026-05,Yellow,dropoff,136,Bronx,Kingsbridge Heights,1049,True
+2026-05,Yellow,dropoff,137,Manhattan,Kips Bay,52692,True
+2026-05,Yellow,dropoff,138,Queens,LaGuardia Airport,38670,True
+2026-05,Yellow,dropoff,139,Queens,Laurelton,1116,True
+2026-05,Yellow,dropoff,140,Manhattan,Lenox Hill East,78198,True
+2026-05,Yellow,dropoff,141,Manhattan,Lenox Hill West,98769,True
+2026-05,Yellow,dropoff,142,Manhattan,Lincoln Square East,108320,True
+2026-05,Yellow,dropoff,143,Manhattan,Lincoln Square West,58154,True
+2026-05,Yellow,dropoff,144,Manhattan,Little Italy/NoLiTa,39149,True
+2026-05,Yellow,dropoff,145,Queens,Long Island City/Hunters Point,13032,True
+2026-05,Yellow,dropoff,146,Queens,Long Island City/Queens Plaza,3904,True
+2026-05,Yellow,dropoff,147,Bronx,Longwood,845,True
+2026-05,Yellow,dropoff,148,Manhattan,Lower East Side,50156,True
+2026-05,Yellow,dropoff,149,Brooklyn,Madison,1035,True
+2026-05,Yellow,dropoff,150,Brooklyn,Manhattan Beach,592,True
+2026-05,Yellow,dropoff,151,Manhattan,Manhattan Valley,35079,True
+2026-05,Yellow,dropoff,152,Manhattan,Manhattanville,8019,True
+2026-05,Yellow,dropoff,153,Manhattan,Marble Hill,348,True
+2026-05,Yellow,dropoff,154,Brooklyn,Marine Park/Floyd Bennett Field,469,True
+2026-05,Yellow,dropoff,155,Brooklyn,Marine Park/Mill Basin,1951,True
+2026-05,Yellow,dropoff,156,Staten Island,Mariners Harbor,26,True
+2026-05,Yellow,dropoff,157,Queens,Maspeth,2425,True
+2026-05,Yellow,dropoff,158,Manhattan,Meatpacking/West Village West,42352,True
+2026-05,Yellow,dropoff,159,Bronx,Melrose South,2071,True
+2026-05,Yellow,dropoff,160,Queens,Middle Village,1470,True
+2026-05,Yellow,dropoff,161,Manhattan,Midtown Center,136163,True
+2026-05,Yellow,dropoff,162,Manhattan,Midtown East,103074,True
+2026-05,Yellow,dropoff,163,Manhattan,Midtown North,89815,True
+2026-05,Yellow,dropoff,164,Manhattan,Midtown South,74987,True
+2026-05,Yellow,dropoff,165,Brooklyn,Midwood,1828,True
+2026-05,Yellow,dropoff,166,Manhattan,Morningside Heights,34831,True
+2026-05,Yellow,dropoff,167,Bronx,Morrisania/Melrose,1436,True
+2026-05,Yellow,dropoff,168,Bronx,Mott Haven/Port Morris,4025,True
+2026-05,Yellow,dropoff,169,Bronx,Mount Hope,1490,True
+2026-05,Yellow,dropoff,170,Manhattan,Murray Hill,107805,True
+2026-05,Yellow,dropoff,171,Queens,Murray Hill-Queens,891,True
+2026-05,Yellow,dropoff,172,Staten Island,New Dorp/Midland Beach,73,True
+2026-05,Yellow,dropoff,173,Queens,North Corona,1091,True
+2026-05,Yellow,dropoff,174,Bronx,Norwood,1551,True
+2026-05,Yellow,dropoff,175,Queens,Oakland Gardens,542,True
+2026-05,Yellow,dropoff,176,Staten Island,Oakwood,32,True
+2026-05,Yellow,dropoff,177,Brooklyn,Ocean Hill,2916,True
+2026-05,Yellow,dropoff,178,Brooklyn,Ocean Parkway South,513,True
+2026-05,Yellow,dropoff,179,Queens,Old Astoria,4611,True
+2026-05,Yellow,dropoff,180,Queens,Ozone Park,803,True
+2026-05,Yellow,dropoff,181,Brooklyn,Park Slope,11851,True
+2026-05,Yellow,dropoff,182,Bronx,Parkchester,1413,True
+2026-05,Yellow,dropoff,183,Bronx,Pelham Bay,484,True
+2026-05,Yellow,dropoff,184,Bronx,Pelham Bay Park,111,True
+2026-05,Yellow,dropoff,185,Bronx,Pelham Parkway,1227,True
+2026-05,Yellow,dropoff,186,Manhattan,Penn Station/Madison Sq West,75331,True
+2026-05,Yellow,dropoff,187,Staten Island,Port Richmond,24,True
+2026-05,Yellow,dropoff,188,Brooklyn,Prospect-Lefferts Gardens,6051,True
+2026-05,Yellow,dropoff,189,Brooklyn,Prospect Heights,4325,True
+2026-05,Yellow,dropoff,190,Brooklyn,Prospect Park,783,True
+2026-05,Yellow,dropoff,191,Queens,Queens Village,1628,True
+2026-05,Yellow,dropoff,192,Queens,Queensboro Hill,535,True
+2026-05,Yellow,dropoff,193,Queens,Queensbridge/Ravenswood,3640,True
+2026-05,Yellow,dropoff,194,Manhattan,Randalls Island,1015,True
+2026-05,Yellow,dropoff,195,Brooklyn,Red Hook,2356,True
+2026-05,Yellow,dropoff,196,Queens,Rego Park,2095,True
+2026-05,Yellow,dropoff,197,Queens,Richmond Hill,2408,True
+2026-05,Yellow,dropoff,198,Queens,Ridgewood,4140,True
+2026-05,Yellow,dropoff,199,Bronx,Rikers Island,0,True
+2026-05,Yellow,dropoff,200,Bronx,Riverdale/North Riverdale/Fieldston,1824,True
+2026-05,Yellow,dropoff,201,Queens,Rockaway Park,634,True
+2026-05,Yellow,dropoff,202,Manhattan,Roosevelt Island,2118,True
+2026-05,Yellow,dropoff,203,Queens,Rosedale,1088,True
+2026-05,Yellow,dropoff,204,Staten Island,Rossville/Woodrow,21,True
+2026-05,Yellow,dropoff,205,Queens,Saint Albans,2213,True
+2026-05,Yellow,dropoff,206,Staten Island,Saint George/New Brighton,122,True
+2026-05,Yellow,dropoff,207,Queens,Saint Michaels Cemetery/Woodside,944,True
+2026-05,Yellow,dropoff,208,Bronx,Schuylerville/Edgewater Park,1184,True
+2026-05,Yellow,dropoff,209,Manhattan,Seaport,11876,True
+2026-05,Yellow,dropoff,210,Brooklyn,Sheepshead Bay,1515,True
+2026-05,Yellow,dropoff,211,Manhattan,SoHo,35329,True
+2026-05,Yellow,dropoff,212,Bronx,Soundview/Bruckner,868,True
+2026-05,Yellow,dropoff,213,Bronx,Soundview/Castle Hill,1892,True
+2026-05,Yellow,dropoff,214,Staten Island,South Beach/Dongan Hills,91,True
+2026-05,Yellow,dropoff,215,Queens,South Jamaica,1870,True
+2026-05,Yellow,dropoff,216,Queens,South Ozone Park,5056,True
+2026-05,Yellow,dropoff,217,Brooklyn,South Williamsburg,1651,True
+2026-05,Yellow,dropoff,218,Queens,Springfield Gardens North,1666,True
+2026-05,Yellow,dropoff,219,Queens,Springfield Gardens South,1839,True
+2026-05,Yellow,dropoff,220,Bronx,Spuyten Duyvil/Kingsbridge,2303,True
+2026-05,Yellow,dropoff,221,Staten Island,Stapleton,86,True
+2026-05,Yellow,dropoff,222,Brooklyn,Starrett City,1477,True
+2026-05,Yellow,dropoff,223,Queens,Steinway,5800,True
+2026-05,Yellow,dropoff,224,Manhattan,Stuy Town/Peter Cooper Village,16914,True
+2026-05,Yellow,dropoff,225,Brooklyn,Stuyvesant Heights,7306,True
+2026-05,Yellow,dropoff,226,Queens,Sunnyside,7808,True
+2026-05,Yellow,dropoff,227,Brooklyn,Sunset Park East,1412,True
+2026-05,Yellow,dropoff,228,Brooklyn,Sunset Park West,3693,True
+2026-05,Yellow,dropoff,229,Manhattan,Sutton Place/Turtle Bay North,77189,True
+2026-05,Yellow,dropoff,230,Manhattan,Times Sq/Theatre District,107518,True
+2026-05,Yellow,dropoff,231,Manhattan,TriBeCa/Civic Center,66332,True
+2026-05,Yellow,dropoff,232,Manhattan,Two Bridges/Seward Park,24091,True
+2026-05,Yellow,dropoff,233,Manhattan,UN/Turtle Bay South,54483,True
+2026-05,Yellow,dropoff,234,Manhattan,Union Sq,90211,True
+2026-05,Yellow,dropoff,235,Bronx,University Heights/Morris Heights,1708,True
+2026-05,Yellow,dropoff,236,Manhattan,Upper East Side North,176133,True
+2026-05,Yellow,dropoff,237,Manhattan,Upper East Side South,174281,True
+2026-05,Yellow,dropoff,238,Manhattan,Upper West Side North,86651,True
+2026-05,Yellow,dropoff,239,Manhattan,Upper West Side South,106053,True
+2026-05,Yellow,dropoff,240,Bronx,Van Cortlandt Park,299,True
+2026-05,Yellow,dropoff,241,Bronx,Van Cortlandt Village,1475,True
+2026-05,Yellow,dropoff,242,Bronx,Van Nest/Morris Park,1435,True
+2026-05,Yellow,dropoff,243,Manhattan,Washington Heights North,12154,True
+2026-05,Yellow,dropoff,244,Manhattan,Washington Heights South,20735,True
+2026-05,Yellow,dropoff,245,Staten Island,West Brighton,57,True
+2026-05,Yellow,dropoff,246,Manhattan,West Chelsea/Hudson Yards,81569,True
+2026-05,Yellow,dropoff,247,Bronx,West Concourse,2523,True
+2026-05,Yellow,dropoff,248,Bronx,West Farms/Bronx River,856,True
+2026-05,Yellow,dropoff,249,Manhattan,West Village,70335,True
+2026-05,Yellow,dropoff,250,Bronx,Westchester Village/Unionport,1032,True
+2026-05,Yellow,dropoff,251,Staten Island,Westerleigh,45,True
+2026-05,Yellow,dropoff,252,Queens,Whitestone,876,True
+2026-05,Yellow,dropoff,253,Queens,Willets Point,79,True
+2026-05,Yellow,dropoff,254,Bronx,Williamsbridge/Olinville,1637,True
+2026-05,Yellow,dropoff,255,Brooklyn,Williamsburg (North Side),12608,True
+2026-05,Yellow,dropoff,256,Brooklyn,Williamsburg (South Side),11341,True
+2026-05,Yellow,dropoff,257,Brooklyn,Windsor Terrace,1956,True
+2026-05,Yellow,dropoff,258,Queens,Woodhaven,1498,True
+2026-05,Yellow,dropoff,259,Bronx,Woodlawn/Wakefield,949,True
+2026-05,Yellow,dropoff,260,Queens,Woodside,3100,True
+2026-05,Yellow,dropoff,261,Manhattan,World Trade Center,18820,True
+2026-05,Yellow,dropoff,262,Manhattan,Yorkville East,60342,True
+2026-05,Yellow,dropoff,263,Manhattan,Yorkville West,80692,True
+2026-05,Yellow,dropoff,264,Unknown,N/A,4117,False
+2026-05,Yellow,dropoff,265,N/A,Outside of NYC,17166,False
+2026-05,HVFHV,pickup,1,EWR,Newark Airport,1,True
+2026-05,HVFHV,pickup,2,Queens,Jamaica Bay,55,True
+2026-05,HVFHV,pickup,3,Bronx,Allerton/Pelham Gardens,52668,True
+2026-05,HVFHV,pickup,4,Manhattan,Alphabet City,57504,True
+2026-05,HVFHV,pickup,5,Staten Island,Arden Heights,6937,True
+2026-05,HVFHV,pickup,6,Staten Island,Arrochar/Fort Wadsworth,13259,True
+2026-05,HVFHV,pickup,7,Queens,Astoria,214692,True
+2026-05,HVFHV,pickup,8,Queens,Astoria Park,1138,True
+2026-05,HVFHV,pickup,9,Queens,Auburndale,21105,True
+2026-05,HVFHV,pickup,10,Queens,Baisley Park,76764,True
+2026-05,HVFHV,pickup,11,Brooklyn,Bath Beach,27137,True
+2026-05,HVFHV,pickup,12,Manhattan,Battery Park,2548,True
+2026-05,HVFHV,pickup,13,Manhattan,Battery Park City,87144,True
+2026-05,HVFHV,pickup,14,Brooklyn,Bay Ridge,127977,True
+2026-05,HVFHV,pickup,15,Queens,Bay Terrace/Fort Totten,16944,True
+2026-05,HVFHV,pickup,16,Queens,Bayside,48427,True
+2026-05,HVFHV,pickup,17,Brooklyn,Bedford,172585,True
+2026-05,HVFHV,pickup,18,Bronx,Bedford Park,106218,True
+2026-05,HVFHV,pickup,19,Queens,Bellerose,21079,True
+2026-05,HVFHV,pickup,20,Bronx,Belmont,69357,True
+2026-05,HVFHV,pickup,21,Brooklyn,Bensonhurst East,61489,True
+2026-05,HVFHV,pickup,22,Brooklyn,Bensonhurst West,81780,True
+2026-05,HVFHV,pickup,23,Staten Island,Bloomfield/Emerson Hill,35706,True
+2026-05,HVFHV,pickup,24,Manhattan,Bloomingdale,31170,True
+2026-05,HVFHV,pickup,25,Brooklyn,Boerum Hill,128231,True
+2026-05,HVFHV,pickup,26,Brooklyn,Borough Park,107885,True
+2026-05,HVFHV,pickup,27,Queens,Breezy Point/Fort Tilden/Riis Beach,1517,True
+2026-05,HVFHV,pickup,28,Queens,Briarwood/Jamaica Hills,57283,True
+2026-05,HVFHV,pickup,29,Brooklyn,Brighton Beach,47538,True
+2026-05,HVFHV,pickup,30,Queens,Broad Channel,1633,True
+2026-05,HVFHV,pickup,31,Bronx,Bronx Park,9051,True
+2026-05,HVFHV,pickup,32,Bronx,Bronxdale,55561,True
+2026-05,HVFHV,pickup,33,Brooklyn,Brooklyn Heights,108553,True
+2026-05,HVFHV,pickup,34,Brooklyn,Brooklyn Navy Yard,20089,True
+2026-05,HVFHV,pickup,35,Brooklyn,Brownsville,136059,True
+2026-05,HVFHV,pickup,36,Brooklyn,Bushwick North,181581,True
+2026-05,HVFHV,pickup,37,Brooklyn,Bushwick South,252103,True
+2026-05,HVFHV,pickup,38,Queens,Cambria Heights,28453,True
+2026-05,HVFHV,pickup,39,Brooklyn,Canarsie,168589,True
+2026-05,HVFHV,pickup,40,Brooklyn,Carroll Gardens,55806,True
+2026-05,HVFHV,pickup,41,Manhattan,Central Harlem,142480,True
+2026-05,HVFHV,pickup,42,Manhattan,Central Harlem North,193912,True
+2026-05,HVFHV,pickup,43,Manhattan,Central Park,34790,True
+2026-05,HVFHV,pickup,44,Staten Island,Charleston/Tottenville,10742,True
+2026-05,HVFHV,pickup,45,Manhattan,Chinatown,56715,True
+2026-05,HVFHV,pickup,46,Bronx,City Island,5502,True
+2026-05,HVFHV,pickup,47,Bronx,Claremont/Bathgate,76163,True
+2026-05,HVFHV,pickup,48,Manhattan,Clinton East,189292,True
+2026-05,HVFHV,pickup,49,Brooklyn,Clinton Hill,134548,True
+2026-05,HVFHV,pickup,50,Manhattan,Clinton West,105531,True
+2026-05,HVFHV,pickup,51,Bronx,Co-Op City,93189,True
+2026-05,HVFHV,pickup,52,Brooklyn,Cobble Hill,35594,True
+2026-05,HVFHV,pickup,53,Queens,College Point,35682,True
+2026-05,HVFHV,pickup,54,Brooklyn,Columbia Street,13257,True
+2026-05,HVFHV,pickup,55,Brooklyn,Coney Island,66055,True
+2026-05,HVFHV,pickup,56,Queens,Corona,73293,True
+2026-05,HVFHV,pickup,57,Queens,Corona,6186,True
+2026-05,HVFHV,pickup,58,Bronx,Country Club,8197,True
+2026-05,HVFHV,pickup,59,Bronx,Crotona Park,2854,True
+2026-05,HVFHV,pickup,60,Bronx,Crotona Park East,52393,True
+2026-05,HVFHV,pickup,61,Brooklyn,Crown Heights North,283994,True
+2026-05,HVFHV,pickup,62,Brooklyn,Crown Heights South,78343,True
+2026-05,HVFHV,pickup,63,Brooklyn,Cypress Hills,74602,True
+2026-05,HVFHV,pickup,64,Queens,Douglaston,15688,True
+2026-05,HVFHV,pickup,65,Brooklyn,Downtown Brooklyn/MetroTech,105706,True
+2026-05,HVFHV,pickup,66,Brooklyn,DUMBO/Vinegar Hill,84826,True
+2026-05,HVFHV,pickup,67,Brooklyn,Dyker Heights,42897,True
+2026-05,HVFHV,pickup,68,Manhattan,East Chelsea,218975,True
+2026-05,HVFHV,pickup,69,Bronx,East Concourse/Concourse Village,114950,True
+2026-05,HVFHV,pickup,70,Queens,East Elmhurst,56028,True
+2026-05,HVFHV,pickup,71,Brooklyn,East Flatbush/Farragut,94667,True
+2026-05,HVFHV,pickup,72,Brooklyn,East Flatbush/Remsen Village,112463,True
+2026-05,HVFHV,pickup,73,Queens,East Flushing,23505,True
+2026-05,HVFHV,pickup,74,Manhattan,East Harlem North,151560,True
+2026-05,HVFHV,pickup,75,Manhattan,East Harlem South,132914,True
+2026-05,HVFHV,pickup,76,Brooklyn,East New York,255275,True
+2026-05,HVFHV,pickup,77,Brooklyn,East New York/Pennsylvania Avenue,62886,True
+2026-05,HVFHV,pickup,78,Bronx,East Tremont,101836,True
+2026-05,HVFHV,pickup,79,Manhattan,East Village,254094,True
+2026-05,HVFHV,pickup,80,Brooklyn,East Williamsburg,168867,True
+2026-05,HVFHV,pickup,81,Bronx,Eastchester,66678,True
+2026-05,HVFHV,pickup,82,Queens,Elmhurst,172667,True
+2026-05,HVFHV,pickup,83,Queens,Elmhurst/Maspeth,55995,True
+2026-05,HVFHV,pickup,84,Staten Island,Eltingville/Annadale/Prince's Bay,11444,True
+2026-05,HVFHV,pickup,85,Brooklyn,Erasmus,72360,True
+2026-05,HVFHV,pickup,86,Queens,Far Rockaway,49123,True
+2026-05,HVFHV,pickup,87,Manhattan,Financial District North,131836,True
+2026-05,HVFHV,pickup,88,Manhattan,Financial District South,60334,True
+2026-05,HVFHV,pickup,89,Brooklyn,Flatbush/Ditmas Park,174608,True
+2026-05,HVFHV,pickup,90,Manhattan,Flatiron,133147,True
+2026-05,HVFHV,pickup,91,Brooklyn,Flatlands,109386,True
+2026-05,HVFHV,pickup,92,Queens,Flushing,123997,True
+2026-05,HVFHV,pickup,93,Queens,Flushing Meadows-Corona Park,18610,True
+2026-05,HVFHV,pickup,94,Bronx,Fordham South,48961,True
+2026-05,HVFHV,pickup,95,Queens,Forest Hills,158728,True
+2026-05,HVFHV,pickup,96,Queens,Forest Park/Highland Park,3824,True
+2026-05,HVFHV,pickup,97,Brooklyn,Fort Greene,150545,True
+2026-05,HVFHV,pickup,98,Queens,Fresh Meadows,22204,True
+2026-05,HVFHV,pickup,99,Staten Island,Freshkills Park,823,True
+2026-05,HVFHV,pickup,100,Manhattan,Garment District,108385,True
+2026-05,HVFHV,pickup,101,Queens,Glen Oaks,21836,True
+2026-05,HVFHV,pickup,102,Queens,Glendale,56783,True
+2026-05,HVFHV,pickup,103,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,True
+2026-05,HVFHV,pickup,104,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,True
+2026-05,HVFHV,pickup,105,Manhattan,Governor's Island/Ellis Island/Liberty Island,3,True
+2026-05,HVFHV,pickup,106,Brooklyn,Gowanus,53481,True
+2026-05,HVFHV,pickup,107,Manhattan,Gramercy,145933,True
+2026-05,HVFHV,pickup,108,Brooklyn,Gravesend,34399,True
+2026-05,HVFHV,pickup,109,Staten Island,Great Kills,16298,True
+2026-05,HVFHV,pickup,110,Staten Island,Great Kills Park,75,True
+2026-05,HVFHV,pickup,111,Brooklyn,Green-Wood Cemetery,1158,True
+2026-05,HVFHV,pickup,112,Brooklyn,Greenpoint,219569,True
+2026-05,HVFHV,pickup,113,Manhattan,Greenwich Village North,115631,True
+2026-05,HVFHV,pickup,114,Manhattan,Greenwich Village South,122658,True
+2026-05,HVFHV,pickup,115,Staten Island,Grymes Hill/Clifton,19112,True
+2026-05,HVFHV,pickup,116,Manhattan,Hamilton Heights,98054,True
+2026-05,HVFHV,pickup,117,Queens,Hammels/Arverne,37025,True
+2026-05,HVFHV,pickup,118,Staten Island,Heartland Village/Todt Hill,24130,True
+2026-05,HVFHV,pickup,119,Bronx,Highbridge,76376,True
+2026-05,HVFHV,pickup,120,Manhattan,Highbridge Park,2244,True
+2026-05,HVFHV,pickup,121,Queens,Hillcrest/Pomonok,49957,True
+2026-05,HVFHV,pickup,122,Queens,Hollis,29309,True
+2026-05,HVFHV,pickup,123,Brooklyn,Homecrest,67486,True
+2026-05,HVFHV,pickup,124,Queens,Howard Beach,35446,True
+2026-05,HVFHV,pickup,125,Manhattan,Hudson Sq,73574,True
+2026-05,HVFHV,pickup,126,Bronx,Hunts Point,72046,True
+2026-05,HVFHV,pickup,127,Manhattan,Inwood,90766,True
+2026-05,HVFHV,pickup,128,Manhattan,Inwood Hill Park,6477,True
+2026-05,HVFHV,pickup,129,Queens,Jackson Heights,180899,True
+2026-05,HVFHV,pickup,130,Queens,Jamaica,181446,True
+2026-05,HVFHV,pickup,131,Queens,Jamaica Estates,36208,True
+2026-05,HVFHV,pickup,132,Queens,JFK Airport,365545,True
+2026-05,HVFHV,pickup,133,Brooklyn,Kensington,41386,True
+2026-05,HVFHV,pickup,134,Queens,Kew Gardens,52538,True
+2026-05,HVFHV,pickup,135,Queens,Kew Gardens Hills,41544,True
+2026-05,HVFHV,pickup,136,Bronx,Kingsbridge Heights,57631,True
+2026-05,HVFHV,pickup,137,Manhattan,Kips Bay,106305,True
+2026-05,HVFHV,pickup,138,Queens,LaGuardia Airport,453507,True
+2026-05,HVFHV,pickup,139,Queens,Laurelton,47220,True
+2026-05,HVFHV,pickup,140,Manhattan,Lenox Hill East,115435,True
+2026-05,HVFHV,pickup,141,Manhattan,Lenox Hill West,132651,True
+2026-05,HVFHV,pickup,142,Manhattan,Lincoln Square East,141954,True
+2026-05,HVFHV,pickup,143,Manhattan,Lincoln Square West,100673,True
+2026-05,HVFHV,pickup,144,Manhattan,Little Italy/NoLiTa,145604,True
+2026-05,HVFHV,pickup,145,Queens,Long Island City/Hunters Point,207446,True
+2026-05,HVFHV,pickup,146,Queens,Long Island City/Queens Plaza,58199,True
+2026-05,HVFHV,pickup,147,Bronx,Longwood,46841,True
+2026-05,HVFHV,pickup,148,Manhattan,Lower East Side,220597,True
+2026-05,HVFHV,pickup,149,Brooklyn,Madison,55563,True
+2026-05,HVFHV,pickup,150,Brooklyn,Manhattan Beach,24831,True
+2026-05,HVFHV,pickup,151,Manhattan,Manhattan Valley,59828,True
+2026-05,HVFHV,pickup,152,Manhattan,Manhattanville,49384,True
+2026-05,HVFHV,pickup,153,Manhattan,Marble Hill,20911,True
+2026-05,HVFHV,pickup,154,Brooklyn,Marine Park/Floyd Bennett Field,2214,True
+2026-05,HVFHV,pickup,155,Brooklyn,Marine Park/Mill Basin,61260,True
+2026-05,HVFHV,pickup,156,Staten Island,Mariners Harbor,32242,True
+2026-05,HVFHV,pickup,157,Queens,Maspeth,81152,True
+2026-05,HVFHV,pickup,158,Manhattan,Meatpacking/West Village West,121781,True
+2026-05,HVFHV,pickup,159,Bronx,Melrose South,103357,True
+2026-05,HVFHV,pickup,160,Queens,Middle Village,51363,True
+2026-05,HVFHV,pickup,161,Manhattan,Midtown Center,246469,True
+2026-05,HVFHV,pickup,162,Manhattan,Midtown East,164162,True
+2026-05,HVFHV,pickup,163,Manhattan,Midtown North,169116,True
+2026-05,HVFHV,pickup,164,Manhattan,Midtown South,205959,True
+2026-05,HVFHV,pickup,165,Brooklyn,Midwood,67745,True
+2026-05,HVFHV,pickup,166,Manhattan,Morningside Heights,102376,True
+2026-05,HVFHV,pickup,167,Bronx,Morrisania/Melrose,84579,True
+2026-05,HVFHV,pickup,168,Bronx,Mott Haven/Port Morris,150049,True
+2026-05,HVFHV,pickup,169,Bronx,Mount Hope,106970,True
+2026-05,HVFHV,pickup,170,Manhattan,Murray Hill,178235,True
+2026-05,HVFHV,pickup,171,Queens,Murray Hill-Queens,46926,True
+2026-05,HVFHV,pickup,172,Staten Island,New Dorp/Midland Beach,15182,True
+2026-05,HVFHV,pickup,173,Queens,North Corona,62951,True
+2026-05,HVFHV,pickup,174,Bronx,Norwood,98439,True
+2026-05,HVFHV,pickup,175,Queens,Oakland Gardens,18342,True
+2026-05,HVFHV,pickup,176,Staten Island,Oakwood,7769,True
+2026-05,HVFHV,pickup,177,Brooklyn,Ocean Hill,97933,True
+2026-05,HVFHV,pickup,178,Brooklyn,Ocean Parkway South,22539,True
+2026-05,HVFHV,pickup,179,Queens,Old Astoria,79018,True
+2026-05,HVFHV,pickup,180,Queens,Ozone Park,40171,True
+2026-05,HVFHV,pickup,181,Brooklyn,Park Slope,211168,True
+2026-05,HVFHV,pickup,182,Bronx,Parkchester,59690,True
+2026-05,HVFHV,pickup,183,Bronx,Pelham Bay,31721,True
+2026-05,HVFHV,pickup,184,Bronx,Pelham Bay Park,6345,True
+2026-05,HVFHV,pickup,185,Bronx,Pelham Parkway,71105,True
+2026-05,HVFHV,pickup,186,Manhattan,Penn Station/Madison Sq West,120638,True
+2026-05,HVFHV,pickup,187,Staten Island,Port Richmond,17850,True
+2026-05,HVFHV,pickup,188,Brooklyn,Prospect-Lefferts Gardens,165235,True
+2026-05,HVFHV,pickup,189,Brooklyn,Prospect Heights,80616,True
+2026-05,HVFHV,pickup,190,Brooklyn,Prospect Park,15112,True
+2026-05,HVFHV,pickup,191,Queens,Queens Village,69353,True
+2026-05,HVFHV,pickup,192,Queens,Queensboro Hill,30533,True
+2026-05,HVFHV,pickup,193,Queens,Queensbridge/Ravenswood,39951,True
+2026-05,HVFHV,pickup,194,Manhattan,Randalls Island,5420,True
+2026-05,HVFHV,pickup,195,Brooklyn,Red Hook,47246,True
+2026-05,HVFHV,pickup,196,Queens,Rego Park,59727,True
+2026-05,HVFHV,pickup,197,Queens,Richmond Hill,101134,True
+2026-05,HVFHV,pickup,198,Queens,Ridgewood,146912,True
+2026-05,HVFHV,pickup,199,Bronx,Rikers Island,9,True
+2026-05,HVFHV,pickup,200,Bronx,Riverdale/North Riverdale/Fieldston,50336,True
+2026-05,HVFHV,pickup,201,Queens,Rockaway Park,16870,True
+2026-05,HVFHV,pickup,202,Manhattan,Roosevelt Island,13845,True
+2026-05,HVFHV,pickup,203,Queens,Rosedale,43742,True
+2026-05,HVFHV,pickup,204,Staten Island,Rossville/Woodrow,6502,True
+2026-05,HVFHV,pickup,205,Queens,Saint Albans,94823,True
+2026-05,HVFHV,pickup,206,Staten Island,Saint George/New Brighton,50347,True
+2026-05,HVFHV,pickup,207,Queens,Saint Michaels Cemetery/Woodside,3876,True
+2026-05,HVFHV,pickup,208,Bronx,Schuylerville/Edgewater Park,78896,True
+2026-05,HVFHV,pickup,209,Manhattan,Seaport,46769,True
+2026-05,HVFHV,pickup,210,Brooklyn,Sheepshead Bay,74566,True
+2026-05,HVFHV,pickup,211,Manhattan,SoHo,116754,True
+2026-05,HVFHV,pickup,212,Bronx,Soundview/Bruckner,65234,True
+2026-05,HVFHV,pickup,213,Bronx,Soundview/Castle Hill,111101,True
+2026-05,HVFHV,pickup,214,Staten Island,South Beach/Dongan Hills,19656,True
+2026-05,HVFHV,pickup,215,Queens,South Jamaica,71146,True
+2026-05,HVFHV,pickup,216,Queens,South Ozone Park,147924,True
+2026-05,HVFHV,pickup,217,Brooklyn,South Williamsburg,35969,True
+2026-05,HVFHV,pickup,218,Queens,Springfield Gardens North,48295,True
+2026-05,HVFHV,pickup,219,Queens,Springfield Gardens South,39991,True
+2026-05,HVFHV,pickup,220,Bronx,Spuyten Duyvil/Kingsbridge,84824,True
+2026-05,HVFHV,pickup,221,Staten Island,Stapleton,32736,True
+2026-05,HVFHV,pickup,222,Brooklyn,Starrett City,28640,True
+2026-05,HVFHV,pickup,223,Queens,Steinway,111081,True
+2026-05,HVFHV,pickup,224,Manhattan,Stuy Town/Peter Cooper Village,40274,True
+2026-05,HVFHV,pickup,225,Brooklyn,Stuyvesant Heights,176064,True
+2026-05,HVFHV,pickup,226,Queens,Sunnyside,145501,True
+2026-05,HVFHV,pickup,227,Brooklyn,Sunset Park East,57277,True
+2026-05,HVFHV,pickup,228,Brooklyn,Sunset Park West,120623,True
+2026-05,HVFHV,pickup,229,Manhattan,Sutton Place/Turtle Bay North,116091,True
+2026-05,HVFHV,pickup,230,Manhattan,Times Sq/Theatre District,246985,True
+2026-05,HVFHV,pickup,231,Manhattan,TriBeCa/Civic Center,231330,True
+2026-05,HVFHV,pickup,232,Manhattan,Two Bridges/Seward Park,91314,True
+2026-05,HVFHV,pickup,233,Manhattan,UN/Turtle Bay South,106663,True
+2026-05,HVFHV,pickup,234,Manhattan,Union Sq,209620,True
+2026-05,HVFHV,pickup,235,Bronx,University Heights/Morris Heights,96034,True
+2026-05,HVFHV,pickup,236,Manhattan,Upper East Side North,152878,True
+2026-05,HVFHV,pickup,237,Manhattan,Upper East Side South,184727,True
+2026-05,HVFHV,pickup,238,Manhattan,Upper West Side North,106544,True
+2026-05,HVFHV,pickup,239,Manhattan,Upper West Side South,129902,True
+2026-05,HVFHV,pickup,240,Bronx,Van Cortlandt Park,17347,True
+2026-05,HVFHV,pickup,241,Bronx,Van Cortlandt Village,85205,True
+2026-05,HVFHV,pickup,242,Bronx,Van Nest/Morris Park,87750,True
+2026-05,HVFHV,pickup,243,Manhattan,Washington Heights North,121816,True
+2026-05,HVFHV,pickup,244,Manhattan,Washington Heights South,166357,True
+2026-05,HVFHV,pickup,245,Staten Island,West Brighton,19206,True
+2026-05,HVFHV,pickup,246,Manhattan,West Chelsea/Hudson Yards,226381,True
+2026-05,HVFHV,pickup,247,Bronx,West Concourse,119495,True
+2026-05,HVFHV,pickup,248,Bronx,West Farms/Bronx River,58124,True
+2026-05,HVFHV,pickup,249,Manhattan,West Village,183973,True
+2026-05,HVFHV,pickup,250,Bronx,Westchester Village/Unionport,57033,True
+2026-05,HVFHV,pickup,251,Staten Island,Westerleigh,19568,True
+2026-05,HVFHV,pickup,252,Queens,Whitestone,30534,True
+2026-05,HVFHV,pickup,253,Queens,Willets Point,1027,True
+2026-05,HVFHV,pickup,254,Bronx,Williamsbridge/Olinville,114068,True
+2026-05,HVFHV,pickup,255,Brooklyn,Williamsburg (North Side),224266,True
+2026-05,HVFHV,pickup,256,Brooklyn,Williamsburg (South Side),188247,True
+2026-05,HVFHV,pickup,257,Brooklyn,Windsor Terrace,35132,True
+2026-05,HVFHV,pickup,258,Queens,Woodhaven,73475,True
+2026-05,HVFHV,pickup,259,Bronx,Woodlawn/Wakefield,79959,True
+2026-05,HVFHV,pickup,260,Queens,Woodside,104273,True
+2026-05,HVFHV,pickup,261,Manhattan,World Trade Center,73666,True
+2026-05,HVFHV,pickup,262,Manhattan,Yorkville East,72319,True
+2026-05,HVFHV,pickup,263,Manhattan,Yorkville West,109833,True
+2026-05,HVFHV,pickup,264,Unknown,N/A,0,False
+2026-05,HVFHV,pickup,265,N/A,Outside of NYC,1182,False
+2026-05,HVFHV,dropoff,1,EWR,Newark Airport,165240,True
+2026-05,HVFHV,dropoff,2,Queens,Jamaica Bay,62,True
+2026-05,HVFHV,dropoff,3,Bronx,Allerton/Pelham Gardens,50996,True
+2026-05,HVFHV,dropoff,4,Manhattan,Alphabet City,49881,True
+2026-05,HVFHV,dropoff,5,Staten Island,Arden Heights,6495,True
+2026-05,HVFHV,dropoff,6,Staten Island,Arrochar/Fort Wadsworth,13653,True
+2026-05,HVFHV,dropoff,7,Queens,Astoria,210183,True
+2026-05,HVFHV,dropoff,8,Queens,Astoria Park,1147,True
+2026-05,HVFHV,dropoff,9,Queens,Auburndale,21005,True
+2026-05,HVFHV,dropoff,10,Queens,Baisley Park,66875,True
+2026-05,HVFHV,dropoff,11,Brooklyn,Bath Beach,26842,True
+2026-05,HVFHV,dropoff,12,Manhattan,Battery Park,3624,True
+2026-05,HVFHV,dropoff,13,Manhattan,Battery Park City,75613,True
+2026-05,HVFHV,dropoff,14,Brooklyn,Bay Ridge,131467,True
+2026-05,HVFHV,dropoff,15,Queens,Bay Terrace/Fort Totten,16800,True
+2026-05,HVFHV,dropoff,16,Queens,Bayside,46756,True
+2026-05,HVFHV,dropoff,17,Brooklyn,Bedford,177848,True
+2026-05,HVFHV,dropoff,18,Bronx,Bedford Park,99740,True
+2026-05,HVFHV,dropoff,19,Queens,Bellerose,16231,True
+2026-05,HVFHV,dropoff,20,Bronx,Belmont,65626,True
+2026-05,HVFHV,dropoff,21,Brooklyn,Bensonhurst East,60172,True
+2026-05,HVFHV,dropoff,22,Brooklyn,Bensonhurst West,80207,True
+2026-05,HVFHV,dropoff,23,Staten Island,Bloomfield/Emerson Hill,38884,True
+2026-05,HVFHV,dropoff,24,Manhattan,Bloomingdale,28922,True
+2026-05,HVFHV,dropoff,25,Brooklyn,Boerum Hill,113749,True
+2026-05,HVFHV,dropoff,26,Brooklyn,Borough Park,111941,True
+2026-05,HVFHV,dropoff,27,Queens,Breezy Point/Fort Tilden/Riis Beach,2209,True
+2026-05,HVFHV,dropoff,28,Queens,Briarwood/Jamaica Hills,54923,True
+2026-05,HVFHV,dropoff,29,Brooklyn,Brighton Beach,49486,True
+2026-05,HVFHV,dropoff,30,Queens,Broad Channel,1488,True
+2026-05,HVFHV,dropoff,31,Bronx,Bronx Park,10329,True
+2026-05,HVFHV,dropoff,32,Bronx,Bronxdale,50673,True
+2026-05,HVFHV,dropoff,33,Brooklyn,Brooklyn Heights,103046,True
+2026-05,HVFHV,dropoff,34,Brooklyn,Brooklyn Navy Yard,23059,True
+2026-05,HVFHV,dropoff,35,Brooklyn,Brownsville,129942,True
+2026-05,HVFHV,dropoff,36,Brooklyn,Bushwick North,173339,True
+2026-05,HVFHV,dropoff,37,Brooklyn,Bushwick South,253039,True
+2026-05,HVFHV,dropoff,38,Queens,Cambria Heights,22557,True
+2026-05,HVFHV,dropoff,39,Brooklyn,Canarsie,161235,True
+2026-05,HVFHV,dropoff,40,Brooklyn,Carroll Gardens,53711,True
+2026-05,HVFHV,dropoff,41,Manhattan,Central Harlem,127892,True
+2026-05,HVFHV,dropoff,42,Manhattan,Central Harlem North,175126,True
+2026-05,HVFHV,dropoff,43,Manhattan,Central Park,46244,True
+2026-05,HVFHV,dropoff,44,Staten Island,Charleston/Tottenville,10791,True
+2026-05,HVFHV,dropoff,45,Manhattan,Chinatown,47395,True
+2026-05,HVFHV,dropoff,46,Bronx,City Island,6077,True
+2026-05,HVFHV,dropoff,47,Bronx,Claremont/Bathgate,73085,True
+2026-05,HVFHV,dropoff,48,Manhattan,Clinton East,150250,True
+2026-05,HVFHV,dropoff,49,Brooklyn,Clinton Hill,132379,True
+2026-05,HVFHV,dropoff,50,Manhattan,Clinton West,87085,True
+2026-05,HVFHV,dropoff,51,Bronx,Co-Op City,85932,True
+2026-05,HVFHV,dropoff,52,Brooklyn,Cobble Hill,31896,True
+2026-05,HVFHV,dropoff,53,Queens,College Point,36604,True
+2026-05,HVFHV,dropoff,54,Brooklyn,Columbia Street,12686,True
+2026-05,HVFHV,dropoff,55,Brooklyn,Coney Island,67589,True
+2026-05,HVFHV,dropoff,56,Queens,Corona,66606,True
+2026-05,HVFHV,dropoff,57,Queens,Corona,5310,True
+2026-05,HVFHV,dropoff,58,Bronx,Country Club,7565,True
+2026-05,HVFHV,dropoff,59,Bronx,Crotona Park,3467,True
+2026-05,HVFHV,dropoff,60,Bronx,Crotona Park East,47475,True
+2026-05,HVFHV,dropoff,61,Brooklyn,Crown Heights North,301771,True
+2026-05,HVFHV,dropoff,62,Brooklyn,Crown Heights South,78496,True
+2026-05,HVFHV,dropoff,63,Brooklyn,Cypress Hills,71671,True
+2026-05,HVFHV,dropoff,64,Queens,Douglaston,13809,True
+2026-05,HVFHV,dropoff,65,Brooklyn,Downtown Brooklyn/MetroTech,93687,True
+2026-05,HVFHV,dropoff,66,Brooklyn,DUMBO/Vinegar Hill,74419,True
+2026-05,HVFHV,dropoff,67,Brooklyn,Dyker Heights,44177,True
+2026-05,HVFHV,dropoff,68,Manhattan,East Chelsea,215532,True
+2026-05,HVFHV,dropoff,69,Bronx,East Concourse/Concourse Village,113282,True
+2026-05,HVFHV,dropoff,70,Queens,East Elmhurst,49922,True
+2026-05,HVFHV,dropoff,71,Brooklyn,East Flatbush/Farragut,94947,True
+2026-05,HVFHV,dropoff,72,Brooklyn,East Flatbush/Remsen Village,109995,True
+2026-05,HVFHV,dropoff,73,Queens,East Flushing,23024,True
+2026-05,HVFHV,dropoff,74,Manhattan,East Harlem North,146235,True
+2026-05,HVFHV,dropoff,75,Manhattan,East Harlem South,134412,True
+2026-05,HVFHV,dropoff,76,Brooklyn,East New York,253699,True
+2026-05,HVFHV,dropoff,77,Brooklyn,East New York/Pennsylvania Avenue,63734,True
+2026-05,HVFHV,dropoff,78,Bronx,East Tremont,96279,True
+2026-05,HVFHV,dropoff,79,Manhattan,East Village,203210,True
+2026-05,HVFHV,dropoff,80,Brooklyn,East Williamsburg,161583,True
+2026-05,HVFHV,dropoff,81,Bronx,Eastchester,60512,True
+2026-05,HVFHV,dropoff,82,Queens,Elmhurst,166736,True
+2026-05,HVFHV,dropoff,83,Queens,Elmhurst/Maspeth,54679,True
+2026-05,HVFHV,dropoff,84,Staten Island,Eltingville/Annadale/Prince's Bay,10667,True
+2026-05,HVFHV,dropoff,85,Brooklyn,Erasmus,71638,True
+2026-05,HVFHV,dropoff,86,Queens,Far Rockaway,40828,True
+2026-05,HVFHV,dropoff,87,Manhattan,Financial District North,118618,True
+2026-05,HVFHV,dropoff,88,Manhattan,Financial District South,59677,True
+2026-05,HVFHV,dropoff,89,Brooklyn,Flatbush/Ditmas Park,179982,True
+2026-05,HVFHV,dropoff,90,Manhattan,Flatiron,110392,True
+2026-05,HVFHV,dropoff,91,Brooklyn,Flatlands,102522,True
+2026-05,HVFHV,dropoff,92,Queens,Flushing,120910,True
+2026-05,HVFHV,dropoff,93,Queens,Flushing Meadows-Corona Park,28909,True
+2026-05,HVFHV,dropoff,94,Bronx,Fordham South,43841,True
+2026-05,HVFHV,dropoff,95,Queens,Forest Hills,162773,True
+2026-05,HVFHV,dropoff,96,Queens,Forest Park/Highland Park,4460,True
+2026-05,HVFHV,dropoff,97,Brooklyn,Fort Greene,138438,True
+2026-05,HVFHV,dropoff,98,Queens,Fresh Meadows,21696,True
+2026-05,HVFHV,dropoff,99,Staten Island,Freshkills Park,724,True
+2026-05,HVFHV,dropoff,100,Manhattan,Garment District,84664,True
+2026-05,HVFHV,dropoff,101,Queens,Glen Oaks,15847,True
+2026-05,HVFHV,dropoff,102,Queens,Glendale,56658,True
+2026-05,HVFHV,dropoff,103,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,True
+2026-05,HVFHV,dropoff,104,Manhattan,Governor's Island/Ellis Island/Liberty Island,1,True
+2026-05,HVFHV,dropoff,105,Manhattan,Governor's Island/Ellis Island/Liberty Island,8,True
+2026-05,HVFHV,dropoff,106,Brooklyn,Gowanus,49413,True
+2026-05,HVFHV,dropoff,107,Manhattan,Gramercy,125625,True
+2026-05,HVFHV,dropoff,108,Brooklyn,Gravesend,34826,True
+2026-05,HVFHV,dropoff,109,Staten Island,Great Kills,15534,True
+2026-05,HVFHV,dropoff,110,Staten Island,Great Kills Park,131,True
+2026-05,HVFHV,dropoff,111,Brooklyn,Green-Wood Cemetery,1268,True
+2026-05,HVFHV,dropoff,112,Brooklyn,Greenpoint,213462,True
+2026-05,HVFHV,dropoff,113,Manhattan,Greenwich Village North,95103,True
+2026-05,HVFHV,dropoff,114,Manhattan,Greenwich Village South,103349,True
+2026-05,HVFHV,dropoff,115,Staten Island,Grymes Hill/Clifton,17242,True
+2026-05,HVFHV,dropoff,116,Manhattan,Hamilton Heights,93441,True
+2026-05,HVFHV,dropoff,117,Queens,Hammels/Arverne,33547,True
+2026-05,HVFHV,dropoff,118,Staten Island,Heartland Village/Todt Hill,25383,True
+2026-05,HVFHV,dropoff,119,Bronx,Highbridge,75074,True
+2026-05,HVFHV,dropoff,120,Manhattan,Highbridge Park,3257,True
+2026-05,HVFHV,dropoff,121,Queens,Hillcrest/Pomonok,49160,True
+2026-05,HVFHV,dropoff,122,Queens,Hollis,26284,True
+2026-05,HVFHV,dropoff,123,Brooklyn,Homecrest,69566,True
+2026-05,HVFHV,dropoff,124,Queens,Howard Beach,33870,True
+2026-05,HVFHV,dropoff,125,Manhattan,Hudson Sq,63883,True
+2026-05,HVFHV,dropoff,126,Bronx,Hunts Point,80632,True
+2026-05,HVFHV,dropoff,127,Manhattan,Inwood,86818,True
+2026-05,HVFHV,dropoff,128,Manhattan,Inwood Hill Park,7573,True
+2026-05,HVFHV,dropoff,129,Queens,Jackson Heights,166094,True
+2026-05,HVFHV,dropoff,130,Queens,Jamaica,179507,True
+2026-05,HVFHV,dropoff,131,Queens,Jamaica Estates,35648,True
+2026-05,HVFHV,dropoff,132,Queens,JFK Airport,443360,True
+2026-05,HVFHV,dropoff,133,Brooklyn,Kensington,42519,True
+2026-05,HVFHV,dropoff,134,Queens,Kew Gardens,51857,True
+2026-05,HVFHV,dropoff,135,Queens,Kew Gardens Hills,41979,True
+2026-05,HVFHV,dropoff,136,Bronx,Kingsbridge Heights,55115,True
+2026-05,HVFHV,dropoff,137,Manhattan,Kips Bay,104519,True
+2026-05,HVFHV,dropoff,138,Queens,LaGuardia Airport,475502,True
+2026-05,HVFHV,dropoff,139,Queens,Laurelton,39402,True
+2026-05,HVFHV,dropoff,140,Manhattan,Lenox Hill East,120538,True
+2026-05,HVFHV,dropoff,141,Manhattan,Lenox Hill West,111401,True
+2026-05,HVFHV,dropoff,142,Manhattan,Lincoln Square East,132836,True
+2026-05,HVFHV,dropoff,143,Manhattan,Lincoln Square West,77459,True
+2026-05,HVFHV,dropoff,144,Manhattan,Little Italy/NoLiTa,116190,True
+2026-05,HVFHV,dropoff,145,Queens,Long Island City/Hunters Point,198796,True
+2026-05,HVFHV,dropoff,146,Queens,Long Island City/Queens Plaza,58414,True
+2026-05,HVFHV,dropoff,147,Bronx,Longwood,44466,True
+2026-05,HVFHV,dropoff,148,Manhattan,Lower East Side,164425,True
+2026-05,HVFHV,dropoff,149,Brooklyn,Madison,53927,True
+2026-05,HVFHV,dropoff,150,Brooklyn,Manhattan Beach,28404,True
+2026-05,HVFHV,dropoff,151,Manhattan,Manhattan Valley,54467,True
+2026-05,HVFHV,dropoff,152,Manhattan,Manhattanville,50000,True
+2026-05,HVFHV,dropoff,153,Manhattan,Marble Hill,17383,True
+2026-05,HVFHV,dropoff,154,Brooklyn,Marine Park/Floyd Bennett Field,2768,True
+2026-05,HVFHV,dropoff,155,Brooklyn,Marine Park/Mill Basin,64156,True
+2026-05,HVFHV,dropoff,156,Staten Island,Mariners Harbor,27440,True
+2026-05,HVFHV,dropoff,157,Queens,Maspeth,78327,True
+2026-05,HVFHV,dropoff,158,Manhattan,Meatpacking/West Village West,106919,True
+2026-05,HVFHV,dropoff,159,Bronx,Melrose South,106020,True
+2026-05,HVFHV,dropoff,160,Queens,Middle Village,53639,True
+2026-05,HVFHV,dropoff,161,Manhattan,Midtown Center,209723,True
+2026-05,HVFHV,dropoff,162,Manhattan,Midtown East,166421,True
+2026-05,HVFHV,dropoff,163,Manhattan,Midtown North,144011,True
+2026-05,HVFHV,dropoff,164,Manhattan,Midtown South,168767,True
+2026-05,HVFHV,dropoff,165,Brooklyn,Midwood,65833,True
+2026-05,HVFHV,dropoff,166,Manhattan,Morningside Heights,103808,True
+2026-05,HVFHV,dropoff,167,Bronx,Morrisania/Melrose,81060,True
+2026-05,HVFHV,dropoff,168,Bronx,Mott Haven/Port Morris,149452,True
+2026-05,HVFHV,dropoff,169,Bronx,Mount Hope,100904,True
+2026-05,HVFHV,dropoff,170,Manhattan,Murray Hill,171101,True
+2026-05,HVFHV,dropoff,171,Queens,Murray Hill-Queens,46426,True
+2026-05,HVFHV,dropoff,172,Staten Island,New Dorp/Midland Beach,14372,True
+2026-05,HVFHV,dropoff,173,Queens,North Corona,58286,True
+2026-05,HVFHV,dropoff,174,Bronx,Norwood,94545,True
+2026-05,HVFHV,dropoff,175,Queens,Oakland Gardens,18385,True
+2026-05,HVFHV,dropoff,176,Staten Island,Oakwood,7285,True
+2026-05,HVFHV,dropoff,177,Brooklyn,Ocean Hill,94046,True
+2026-05,HVFHV,dropoff,178,Brooklyn,Ocean Parkway South,21182,True
+2026-05,HVFHV,dropoff,179,Queens,Old Astoria,81507,True
+2026-05,HVFHV,dropoff,180,Queens,Ozone Park,35477,True
+2026-05,HVFHV,dropoff,181,Brooklyn,Park Slope,214397,True
+2026-05,HVFHV,dropoff,182,Bronx,Parkchester,51007,True
+2026-05,HVFHV,dropoff,183,Bronx,Pelham Bay,28054,True
+2026-05,HVFHV,dropoff,184,Bronx,Pelham Bay Park,6789,True
+2026-05,HVFHV,dropoff,185,Bronx,Pelham Parkway,67335,True
+2026-05,HVFHV,dropoff,186,Manhattan,Penn Station/Madison Sq West,132785,True
+2026-05,HVFHV,dropoff,187,Staten Island,Port Richmond,16102,True
+2026-05,HVFHV,dropoff,188,Brooklyn,Prospect-Lefferts Gardens,171506,True
+2026-05,HVFHV,dropoff,189,Brooklyn,Prospect Heights,79973,True
+2026-05,HVFHV,dropoff,190,Brooklyn,Prospect Park,20282,True
+2026-05,HVFHV,dropoff,191,Queens,Queens Village,56197,True
+2026-05,HVFHV,dropoff,192,Queens,Queensboro Hill,29491,True
+2026-05,HVFHV,dropoff,193,Queens,Queensbridge/Ravenswood,39185,True
+2026-05,HVFHV,dropoff,194,Manhattan,Randalls Island,10714,True
+2026-05,HVFHV,dropoff,195,Brooklyn,Red Hook,48774,True
+2026-05,HVFHV,dropoff,196,Queens,Rego Park,55326,True
+2026-05,HVFHV,dropoff,197,Queens,Richmond Hill,95222,True
+2026-05,HVFHV,dropoff,198,Queens,Ridgewood,150418,True
+2026-05,HVFHV,dropoff,199,Bronx,Rikers Island,1,True
+2026-05,HVFHV,dropoff,200,Bronx,Riverdale/North Riverdale/Fieldston,47037,True
+2026-05,HVFHV,dropoff,201,Queens,Rockaway Park,16752,True
+2026-05,HVFHV,dropoff,202,Manhattan,Roosevelt Island,15350,True
+2026-05,HVFHV,dropoff,203,Queens,Rosedale,31811,True
+2026-05,HVFHV,dropoff,204,Staten Island,Rossville/Woodrow,6196,True
+2026-05,HVFHV,dropoff,205,Queens,Saint Albans,82679,True
+2026-05,HVFHV,dropoff,206,Staten Island,Saint George/New Brighton,52206,True
+2026-05,HVFHV,dropoff,207,Queens,Saint Michaels Cemetery/Woodside,4355,True
+2026-05,HVFHV,dropoff,208,Bronx,Schuylerville/Edgewater Park,79061,True
+2026-05,HVFHV,dropoff,209,Manhattan,Seaport,39887,True
+2026-05,HVFHV,dropoff,210,Brooklyn,Sheepshead Bay,73946,True
+2026-05,HVFHV,dropoff,211,Manhattan,SoHo,103639,True
+2026-05,HVFHV,dropoff,212,Bronx,Soundview/Bruckner,58792,True
+2026-05,HVFHV,dropoff,213,Bronx,Soundview/Castle Hill,108761,True
+2026-05,HVFHV,dropoff,214,Staten Island,South Beach/Dongan Hills,19927,True
+2026-05,HVFHV,dropoff,215,Queens,South Jamaica,61170,True
+2026-05,HVFHV,dropoff,216,Queens,South Ozone Park,132664,True
+2026-05,HVFHV,dropoff,217,Brooklyn,South Williamsburg,37545,True
+2026-05,HVFHV,dropoff,218,Queens,Springfield Gardens North,39875,True
+2026-05,HVFHV,dropoff,219,Queens,Springfield Gardens South,33211,True
+2026-05,HVFHV,dropoff,220,Bronx,Spuyten Duyvil/Kingsbridge,74956,True
+2026-05,HVFHV,dropoff,221,Staten Island,Stapleton,26454,True
+2026-05,HVFHV,dropoff,222,Brooklyn,Starrett City,27093,True
+2026-05,HVFHV,dropoff,223,Queens,Steinway,116996,True
+2026-05,HVFHV,dropoff,224,Manhattan,Stuy Town/Peter Cooper Village,33101,True
+2026-05,HVFHV,dropoff,225,Brooklyn,Stuyvesant Heights,185321,True
+2026-05,HVFHV,dropoff,226,Queens,Sunnyside,143738,True
+2026-05,HVFHV,dropoff,227,Brooklyn,Sunset Park East,61212,True
+2026-05,HVFHV,dropoff,228,Brooklyn,Sunset Park West,121884,True
+2026-05,HVFHV,dropoff,229,Manhattan,Sutton Place/Turtle Bay North,91492,True
+2026-05,HVFHV,dropoff,230,Manhattan,Times Sq/Theatre District,213080,True
+2026-05,HVFHV,dropoff,231,Manhattan,TriBeCa/Civic Center,190645,True
+2026-05,HVFHV,dropoff,232,Manhattan,Two Bridges/Seward Park,78254,True
+2026-05,HVFHV,dropoff,233,Manhattan,UN/Turtle Bay South,94921,True
+2026-05,HVFHV,dropoff,234,Manhattan,Union Sq,183666,True
+2026-05,HVFHV,dropoff,235,Bronx,University Heights/Morris Heights,93135,True
+2026-05,HVFHV,dropoff,236,Manhattan,Upper East Side North,147745,True
+2026-05,HVFHV,dropoff,237,Manhattan,Upper East Side South,175428,True
+2026-05,HVFHV,dropoff,238,Manhattan,Upper West Side North,98253,True
+2026-05,HVFHV,dropoff,239,Manhattan,Upper West Side South,118023,True
+2026-05,HVFHV,dropoff,240,Bronx,Van Cortlandt Park,13741,True
+2026-05,HVFHV,dropoff,241,Bronx,Van Cortlandt Village,83532,True
+2026-05,HVFHV,dropoff,242,Bronx,Van Nest/Morris Park,87181,True
+2026-05,HVFHV,dropoff,243,Manhattan,Washington Heights North,108003,True
+2026-05,HVFHV,dropoff,244,Manhattan,Washington Heights South,159041,True
+2026-05,HVFHV,dropoff,245,Staten Island,West Brighton,18458,True
+2026-05,HVFHV,dropoff,246,Manhattan,West Chelsea/Hudson Yards,209371,True
+2026-05,HVFHV,dropoff,247,Bronx,West Concourse,113390,True
+2026-05,HVFHV,dropoff,248,Bronx,West Farms/Bronx River,50612,True
+2026-05,HVFHV,dropoff,249,Manhattan,West Village,155677,True
+2026-05,HVFHV,dropoff,250,Bronx,Westchester Village/Unionport,58586,True
+2026-05,HVFHV,dropoff,251,Staten Island,Westerleigh,17565,True
+2026-05,HVFHV,dropoff,252,Queens,Whitestone,31456,True
+2026-05,HVFHV,dropoff,253,Queens,Willets Point,1456,True
+2026-05,HVFHV,dropoff,254,Bronx,Williamsbridge/Olinville,98596,True
+2026-05,HVFHV,dropoff,255,Brooklyn,Williamsburg (North Side),202525,True
+2026-05,HVFHV,dropoff,256,Brooklyn,Williamsburg (South Side),175440,True
+2026-05,HVFHV,dropoff,257,Brooklyn,Windsor Terrace,37391,True
+2026-05,HVFHV,dropoff,258,Queens,Woodhaven,68686,True
+2026-05,HVFHV,dropoff,259,Bronx,Woodlawn/Wakefield,62260,True
+2026-05,HVFHV,dropoff,260,Queens,Woodside,100402,True
+2026-05,HVFHV,dropoff,261,Manhattan,World Trade Center,68199,True
+2026-05,HVFHV,dropoff,262,Manhattan,Yorkville East,61794,True
+2026-05,HVFHV,dropoff,263,Manhattan,Yorkville West,99576,True
+2026-05,HVFHV,dropoff,264,Unknown,N/A,456,False
+2026-05,HVFHV,dropoff,265,N/A,Outside of NYC,1018509,False

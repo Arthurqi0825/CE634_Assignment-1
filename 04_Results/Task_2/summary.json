@@ -1,0 +1,976 @@
+{
+  "generated_at": "2026-10-02T15:59:56+08:00",
+  "method": "Pickup timestamp assigns month across all four source files. Completed trip requires valid pickup/dropoff, April/May pickup, and dropoff after pickup. Hotspots require a valid endpoint; directed OD requires both official lookup IDs and retains A→A. Spending requires finite, nonnegative Yellow total_amount or all eight finite HVFHV components with a nonnegative sum; driver_pay excluded. Recorded completed trips are demand, not all requests.",
+  "reconciliation": [
+    {
+      "month": "2026-04",
+      "service": "Yellow",
+      "completed": 3781728,
+      "pu_invalid": 0,
+      "do_invalid": 0,
+      "either_invalid": 0,
+      "od_eligible": 3781728,
+      "spending_missing": 0,
+      "spending_negative": 14874,
+      "spending_eligible": 3766854,
+      "od_grouped_count": 3781728,
+      "spending_grouped_count": 3766854,
+      "within_zone_trips": 172417
+    },
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "completed": 15378858,
+      "pu_invalid": 0,
+      "do_invalid": 0,
+      "either_invalid": 0,
+      "od_eligible": 15378858,
+      "spending_missing": 0,
+      "spending_negative": 2230,
+      "spending_eligible": 15376628,
+      "od_grouped_count": 15378858,
+      "spending_grouped_count": 15376628,
+      "within_zone_trips": 1207271
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "completed": 5617095,
+      "pu_invalid": 0,
+      "do_invalid": 0,
+      "either_invalid": 0,
+      "od_eligible": 5617095,
+      "spending_missing": 0,
+      "spending_negative": 5,
+      "spending_eligible": 5617090,
+      "od_grouped_count": 5617095,
+      "spending_grouped_count": 5617090,
+      "within_zone_trips": 469586
+    },
+    {
+      "month": "2026-04",
+      "service": "Other HVFHV",
+      "completed": 0,
+      "pu_invalid": 0,
+      "do_invalid": 0,
+      "either_invalid": 0,
+      "od_eligible": 0,
+      "spending_missing": 0,
+      "spending_negative": 0,
+      "spending_eligible": 0,
+      "od_grouped_count": 0,
+      "spending_grouped_count": 0,
+      "within_zone_trips": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Yellow",
+      "completed": 4038760,
+      "pu_invalid": 0,
+      "do_invalid": 0,
+      "either_invalid": 0,
+      "od_eligible": 4038760,
+      "spending_missing": 0,
+      "spending_negative": 14877,
+      "spending_eligible": 4023883,
+      "od_grouped_count": 4038760,
+      "spending_grouped_count": 4023883,
+      "within_zone_trips": 183240
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "completed": 15354816,
+      "pu_invalid": 0,
+      "do_invalid": 0,
+      "either_invalid": 0,
+      "od_eligible": 15354816,
+      "spending_missing": 0,
+      "spending_negative": 2351,
+      "spending_eligible": 15352465,
+      "od_grouped_count": 15354816,
+      "spending_grouped_count": 15352465,
+      "within_zone_trips": 1210480
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "completed": 6770928,
+      "pu_invalid": 0,
+      "do_invalid": 0,
+      "either_invalid": 0,
+      "od_eligible": 6770928,
+      "spending_missing": 0,
+      "spending_negative": 8,
+      "spending_eligible": 6770920,
+      "od_grouped_count": 6770928,
+      "spending_grouped_count": 6770920,
+      "within_zone_trips": 539738
+    },
+    {
+      "month": "2026-05",
+      "service": "Other HVFHV",
+      "completed": 0,
+      "pu_invalid": 0,
+      "do_invalid": 0,
+      "either_invalid": 0,
+      "od_eligible": 0,
+      "spending_missing": 0,
+      "spending_negative": 0,
+      "spending_eligible": 0,
+      "od_grouped_count": 0,
+      "spending_grouped_count": 0,
+      "within_zone_trips": 0
+    }
+  ],
+  "leading_zones": [
+    {
+      "month": "2026-04",
+      "service": "Yellow",
+      "measure": "pickup",
+      "top3": [
+        {
+          "month": "2026-04",
+          "service": "Yellow",
+          "measure": "pickup",
+          "LocationID": 237,
+          "borough": "Manhattan",
+          "zone": "Upper East Side South",
+          "trip_count": 179336,
+          "drawable": true
+        },
+        {
+          "month": "2026-04",
+          "service": "Yellow",
+          "measure": "pickup",
+          "LocationID": 161,
+          "borough": "Manhattan",
+          "zone": "Midtown Center",
+          "trip_count": 161098,
+          "drawable": true
+        },
+        {
+          "month": "2026-04",
+          "service": "Yellow",
+          "measure": "pickup",
+          "LocationID": 236,
+          "borough": "Manhattan",
+          "zone": "Upper East Side North",
+          "trip_count": 158209,
+          "drawable": true
+        }
+      ],
+      "unmapped_264_265_trips": 5973
+    },
+    {
+      "month": "2026-04",
+      "service": "Yellow",
+      "measure": "dropoff",
+      "top3": [
+        {
+          "month": "2026-04",
+          "service": "Yellow",
+          "measure": "dropoff",
+          "LocationID": 236,
+          "borough": "Manhattan",
+          "zone": "Upper East Side North",
+          "trip_count": 164064,
+          "drawable": true
+        },
+        {
+          "month": "2026-04",
+          "service": "Yellow",
+          "measure": "dropoff",
+          "LocationID": 237,
+          "borough": "Manhattan",
+          "zone": "Upper East Side South",
+          "trip_count": 162183,
+          "drawable": true
+        },
+        {
+          "month": "2026-04",
+          "service": "Yellow",
+          "measure": "dropoff",
+          "LocationID": 161,
+          "borough": "Manhattan",
+          "zone": "Midtown Center",
+          "trip_count": 131612,
+          "drawable": true
+        }
+      ],
+      "unmapped_264_265_trips": 20081
+    },
+    {
+      "month": "2026-04",
+      "service": "HVFHV",
+      "measure": "pickup",
+      "top3": [
+        {
+          "month": "2026-04",
+          "service": "HVFHV",
+          "measure": "pickup",
+          "LocationID": 138,
+          "borough": "Queens",
+          "zone": "LaGuardia Airport",
+          "trip_count": 412983,
+          "drawable": true
+        },
+        {
+          "month": "2026-04",
+          "service": "HVFHV",
+          "measure": "pickup",
+          "LocationID": 132,
+          "borough": "Queens",
+          "zone": "JFK Airport",
+          "trip_count": 318541,
+          "drawable": true
+        },
+        {
+          "month": "2026-04",
+          "service": "HVFHV",
+          "measure": "pickup",
+          "LocationID": 61,
+          "borough": "Brooklyn",
+          "zone": "Crown Heights North",
+          "trip_count": 270911,
+          "drawable": true
+        }
+      ],
+      "unmapped_264_265_trips": 1020
+    },
+    {
+      "month": "2026-04",
+      "service": "HVFHV",
+      "measure": "dropoff",
+      "top3": [
+        {
+          "month": "2026-04",
+          "service": "HVFHV",
+          "measure": "dropoff",
+          "LocationID": 265,
+          "borough": "N/A",
+          "zone": "Outside of NYC",
+          "trip_count": 930707,
+          "drawable": false
+        },
+        {
+          "month": "2026-04",
+          "service": "HVFHV",
+          "measure": "dropoff",
+          "LocationID": 138,
+          "borough": "Queens",
+          "zone": "LaGuardia Airport",
+          "trip_count": 434881,
+          "drawable": true
+        },
+        {
+          "month": "2026-04",
+          "service": "HVFHV",
+          "measure": "dropoff",
+          "LocationID": 132,
+          "borough": "Queens",
+          "zone": "JFK Airport",
+          "trip_count": 378047,
+          "drawable": true
+        }
+      ],
+      "unmapped_264_265_trips": 931102
+    },
+    {
+      "month": "2026-05",
+      "service": "Yellow",
+      "measure": "pickup",
+      "top3": [
+        {
+          "month": "2026-05",
+          "service": "Yellow",
+          "measure": "pickup",
+          "LocationID": 237,
+          "borough": "Manhattan",
+          "zone": "Upper East Side South",
+          "trip_count": 194209,
+          "drawable": true
+        },
+        {
+          "month": "2026-05",
+          "service": "Yellow",
+          "measure": "pickup",
+          "LocationID": 236,
+          "borough": "Manhattan",
+          "zone": "Upper East Side North",
+          "trip_count": 172093,
+          "drawable": true
+        },
+        {
+          "month": "2026-05",
+          "service": "Yellow",
+          "measure": "pickup",
+          "LocationID": 161,
+          "borough": "Manhattan",
+          "zone": "Midtown Center",
+          "trip_count": 158714,
+          "drawable": true
+        }
+      ],
+      "unmapped_264_265_trips": 6427
+    },
+    {
+      "month": "2026-05",
+      "service": "Yellow",
+      "measure": "dropoff",
+      "top3": [
+        {
+          "month": "2026-05",
+          "service": "Yellow",
+          "measure": "dropoff",
+          "LocationID": 236,
+          "borough": "Manhattan",
+          "zone": "Upper East Side North",
+          "trip_count": 176133,
+          "drawable": true
+        },
+        {
+          "month": "2026-05",
+          "service": "Yellow",
+          "measure": "dropoff",
+          "LocationID": 237,
+          "borough": "Manhattan",
+          "zone": "Upper East Side South",
+          "trip_count": 174281,
+          "drawable": true
+        },
+        {
+          "month": "2026-05",
+          "service": "Yellow",
+          "measure": "dropoff",
+          "LocationID": 161,
+          "borough": "Manhattan",
+          "zone": "Midtown Center",
+          "trip_count": 136163,
+          "drawable": true
+        }
+      ],
+      "unmapped_264_265_trips": 21283
+    },
+    {
+      "month": "2026-05",
+      "service": "HVFHV",
+      "measure": "pickup",
+      "top3": [
+        {
+          "month": "2026-05",
+          "service": "HVFHV",
+          "measure": "pickup",
+          "LocationID": 138,
+          "borough": "Queens",
+          "zone": "LaGuardia Airport",
+          "trip_count": 453507,
+          "drawable": true
+        },
+        {
+          "month": "2026-05",
+          "service": "HVFHV",
+          "measure": "pickup",
+          "LocationID": 132,
+          "borough": "Queens",
+          "zone": "JFK Airport",
+          "trip_count": 365545,
+          "drawable": true
+        },
+        {
+          "month": "2026-05",
+          "service": "HVFHV",
+          "measure": "pickup",
+          "LocationID": 61,
+          "borough": "Brooklyn",
+          "zone": "Crown Heights North",
+          "trip_count": 283994,
+          "drawable": true
+        }
+      ],
+      "unmapped_264_265_trips": 1182
+    },
+    {
+      "month": "2026-05",
+      "service": "HVFHV",
+      "measure": "dropoff",
+      "top3": [
+        {
+          "month": "2026-05",
+          "service": "HVFHV",
+          "measure": "dropoff",
+          "LocationID": 265,
+          "borough": "N/A",
+          "zone": "Outside of NYC",
+          "trip_count": 1018509,
+          "drawable": false
+        },
+        {
+          "month": "2026-05",
+          "service": "HVFHV",
+          "measure": "dropoff",
+          "LocationID": 138,
+          "borough": "Queens",
+          "zone": "LaGuardia Airport",
+          "trip_count": 475502,
+          "drawable": true
+        },
+        {
+          "month": "2026-05",
+          "service": "HVFHV",
+          "measure": "dropoff",
+          "LocationID": 132,
+          "borough": "Queens",
+          "zone": "JFK Airport",
+          "trip_count": 443360,
+          "drawable": true
+        }
+      ],
+      "unmapped_264_265_trips": 1018965
+    }
+  ],
+  "volume_spending_comparison": [
+    {
+      "month": "2026-04",
+      "service": "Yellow",
+      "top10_overlap": 3,
+      "volume_top1": {
+        "month": "2026-04",
+        "service": "Yellow",
+        "rank": 1,
+        "PULocationID": 237,
+        "origin_borough": "Manhattan",
+        "origin_zone": "Upper East Side South",
+        "DOLocationID": 236,
+        "destination_borough": "Manhattan",
+        "destination_zone": "Upper East Side North",
+        "trip_count": 26749,
+        "share_of_service_month": 0.007073221553744743,
+        "service_month_denominator": 3781728,
+        "within_zone": false,
+        "also_spending_top10": true
+      },
+      "spending_top1": {
+        "month": "2026-04",
+        "service": "Yellow",
+        "rank": 1,
+        "PULocationID": 132,
+        "origin_borough": "Queens",
+        "origin_zone": "JFK Airport",
+        "DOLocationID": 265,
+        "destination_borough": "N/A",
+        "destination_zone": "Outside of NYC",
+        "valid_spending_trip_count": 6976,
+        "total_spending_usd": 857379.46,
+        "mean_payment_usd": 122.9,
+        "service_month_valid_spending_denominator": 3766854,
+        "also_volume_top10": false,
+        "within_zone": false
+      },
+      "volume_top10_total_share": 0.03807122035217763
+    },
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "top10_overlap": 2,
+      "volume_top1": {
+        "month": "2026-04",
+        "service": "Uber",
+        "rank": 1,
+        "PULocationID": 76,
+        "origin_borough": "Brooklyn",
+        "origin_zone": "East New York",
+        "DOLocationID": 76,
+        "destination_borough": "Brooklyn",
+        "destination_zone": "East New York",
+        "trip_count": 57764,
+        "share_of_service_month": 0.0037560656324416284,
+        "service_month_denominator": 15378858,
+        "within_zone": true,
+        "also_spending_top10": false
+      },
+      "spending_top1": {
+        "month": "2026-04",
+        "service": "Uber",
+        "rank": 1,
+        "PULocationID": 132,
+        "origin_borough": "Queens",
+        "origin_zone": "JFK Airport",
+        "DOLocationID": 265,
+        "destination_borough": "N/A",
+        "destination_zone": "Outside of NYC",
+        "valid_spending_trip_count": 51491,
+        "total_spending_usd": 8216762.03,
+        "mean_payment_usd": 159.58,
+        "service_month_valid_spending_denominator": 15376628,
+        "also_volume_top10": true,
+        "within_zone": false
+      },
+      "volume_top10_total_share": 0.02173646443708629
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "top10_overlap": 2,
+      "volume_top1": {
+        "month": "2026-04",
+        "service": "Lyft",
+        "rank": 1,
+        "PULocationID": 76,
+        "origin_borough": "Brooklyn",
+        "origin_zone": "East New York",
+        "DOLocationID": 76,
+        "destination_borough": "Brooklyn",
+        "destination_zone": "East New York",
+        "trip_count": 25065,
+        "share_of_service_month": 0.0044622709781479575,
+        "service_month_denominator": 5617095,
+        "within_zone": true,
+        "also_spending_top10": false
+      },
+      "spending_top1": {
+        "month": "2026-04",
+        "service": "Lyft",
+        "rank": 1,
+        "PULocationID": 138,
+        "origin_borough": "Queens",
+        "origin_zone": "LaGuardia Airport",
+        "DOLocationID": 265,
+        "destination_borough": "N/A",
+        "destination_zone": "Outside of NYC",
+        "valid_spending_trip_count": 15720,
+        "total_spending_usd": 2082850.23,
+        "mean_payment_usd": 132.5,
+        "service_month_valid_spending_denominator": 5617090,
+        "also_volume_top10": true,
+        "within_zone": false
+      },
+      "volume_top10_total_share": 0.021929306874816965
+    },
+    {
+      "month": "2026-05",
+      "service": "Yellow",
+      "top10_overlap": 3,
+      "volume_top1": {
+        "month": "2026-05",
+        "service": "Yellow",
+        "rank": 1,
+        "PULocationID": 237,
+        "origin_borough": "Manhattan",
+        "origin_zone": "Upper East Side South",
+        "DOLocationID": 236,
+        "destination_borough": "Manhattan",
+        "destination_zone": "Upper East Side North",
+        "trip_count": 28964,
+        "share_of_service_month": 0.007171508086640454,
+        "service_month_denominator": 4038760,
+        "within_zone": false,
+        "also_spending_top10": true
+      },
+      "spending_top1": {
+        "month": "2026-05",
+        "service": "Yellow",
+        "rank": 1,
+        "PULocationID": 132,
+        "origin_borough": "Queens",
+        "origin_zone": "JFK Airport",
+        "DOLocationID": 265,
+        "destination_borough": "N/A",
+        "destination_zone": "Outside of NYC",
+        "valid_spending_trip_count": 6276,
+        "total_spending_usd": 786157.47,
+        "mean_payment_usd": 125.26,
+        "service_month_valid_spending_denominator": 4023883,
+        "also_volume_top10": false,
+        "within_zone": false
+      },
+      "volume_top10_total_share": 0.03827090493121652
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "top10_overlap": 2,
+      "volume_top1": {
+        "month": "2026-05",
+        "service": "Uber",
+        "rank": 1,
+        "PULocationID": 76,
+        "origin_borough": "Brooklyn",
+        "origin_zone": "East New York",
+        "DOLocationID": 76,
+        "destination_borough": "Brooklyn",
+        "destination_zone": "East New York",
+        "trip_count": 56166,
+        "share_of_service_month": 0.0036578751578657796,
+        "service_month_denominator": 15354816,
+        "within_zone": true,
+        "also_spending_top10": false
+      },
+      "spending_top1": {
+        "month": "2026-05",
+        "service": "Uber",
+        "rank": 1,
+        "PULocationID": 132,
+        "origin_borough": "Queens",
+        "origin_zone": "JFK Airport",
+        "DOLocationID": 265,
+        "destination_borough": "N/A",
+        "destination_zone": "Outside of NYC",
+        "valid_spending_trip_count": 50182,
+        "total_spending_usd": 7925114.78,
+        "mean_payment_usd": 157.93,
+        "service_month_valid_spending_denominator": 15352465,
+        "also_volume_top10": true,
+        "within_zone": false
+      },
+      "volume_top10_total_share": 0.02165092697952226
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "top10_overlap": 2,
+      "volume_top1": {
+        "month": "2026-05",
+        "service": "Lyft",
+        "rank": 1,
+        "PULocationID": 76,
+        "origin_borough": "Brooklyn",
+        "origin_zone": "East New York",
+        "DOLocationID": 76,
+        "destination_borough": "Brooklyn",
+        "destination_zone": "East New York",
+        "trip_count": 28444,
+        "share_of_service_month": 0.004200901264937391,
+        "service_month_denominator": 6770928,
+        "within_zone": true,
+        "also_spending_top10": false
+      },
+      "spending_top1": {
+        "month": "2026-05",
+        "service": "Lyft",
+        "rank": 1,
+        "PULocationID": 132,
+        "origin_borough": "Queens",
+        "origin_zone": "JFK Airport",
+        "DOLocationID": 265,
+        "destination_borough": "N/A",
+        "destination_zone": "Outside of NYC",
+        "valid_spending_trip_count": 20915,
+        "total_spending_usd": 2836939.68,
+        "mean_payment_usd": 135.64,
+        "service_month_valid_spending_denominator": 6770920,
+        "also_volume_top10": true,
+        "within_zone": false
+      },
+      "volume_top10_total_share": 0.022405052896737346
+    }
+  ],
+  "missing_component_counts": [
+    {
+      "month": "2026-04",
+      "service": "Yellow",
+      "component": "total_amount",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "component": "base_passenger_fare",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "component": "tolls",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "component": "bcf",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "component": "sales_tax",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "component": "congestion_surcharge",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "component": "airport_fee",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "component": "tips",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Uber",
+      "component": "cbd_congestion_fee",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "component": "base_passenger_fare",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "component": "tolls",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "component": "bcf",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "component": "sales_tax",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "component": "congestion_surcharge",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "component": "airport_fee",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "component": "tips",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Lyft",
+      "component": "cbd_congestion_fee",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Other HVFHV",
+      "component": "base_passenger_fare",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Other HVFHV",
+      "component": "tolls",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Other HVFHV",
+      "component": "bcf",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Other HVFHV",
+      "component": "sales_tax",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Other HVFHV",
+      "component": "congestion_surcharge",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Other HVFHV",
+      "component": "airport_fee",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Other HVFHV",
+      "component": "tips",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-04",
+      "service": "Other HVFHV",
+      "component": "cbd_congestion_fee",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Yellow",
+      "component": "total_amount",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "component": "base_passenger_fare",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "component": "tolls",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "component": "bcf",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "component": "sales_tax",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "component": "congestion_surcharge",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "component": "airport_fee",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "component": "tips",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Uber",
+      "component": "cbd_congestion_fee",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "component": "base_passenger_fare",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "component": "tolls",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "component": "bcf",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "component": "sales_tax",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "component": "congestion_surcharge",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "component": "airport_fee",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "component": "tips",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Lyft",
+      "component": "cbd_congestion_fee",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Other HVFHV",
+      "component": "base_passenger_fare",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Other HVFHV",
+      "component": "tolls",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Other HVFHV",
+      "component": "bcf",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Other HVFHV",
+      "component": "sales_tax",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Other HVFHV",
+      "component": "congestion_surcharge",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Other HVFHV",
+      "component": "airport_fee",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Other HVFHV",
+      "component": "tips",
+      "missing_or_nonfinite": 0
+    },
+    {
+      "month": "2026-05",
+      "service": "Other HVFHV",
+      "component": "cbd_congestion_fee",
+      "missing_or_nonfinite": 0
+    }
+  ],
+  "figure_count": 21,
+  "limitations": [
+    "Yellow total_amount excludes unrecorded cash tips.",
+    "Zone IDs 264/265 are valid in the official lookup but have no shapefile polygon; their counts appear in CSV.",
+    "Flow maps use zone centroids or labelled off-map nodes, not actual road routes or exact trip endpoints."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "task": 3,
+  "command": [
+    "./.venv/bin/python",
+    "-m",
+    "analysis.tasks.task3_analysis"
+  ],
+  "cwd": "/home/ziqi-zhang/Desktop/coursework/Assignment_1/05_Submission/CE634_Assignment1_LaTeX",
+  "requirements": "requirements.txt",
+  "runner_python": "3.8.8",
+  "started_at": "2026-10-02T15:59:56+08:00",
+  "finished_at": "2026-10-02T16:00:27+08:00",
+  "exit_code": 0,
+  "output_dir": "04_Results/Task_3"
+}

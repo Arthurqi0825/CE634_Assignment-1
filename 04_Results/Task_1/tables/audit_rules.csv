@@ -1,0 +1,136 @@
+source_file,service,rule,description,affected_records,raw_records,share_of_raw
+yellow_2026_04,yellow,pickup_missing,Pickup timestamp missing,0,3831240,0.0
+yellow_2026_04,yellow,dropoff_missing,Dropoff timestamp missing,0,3831240,0.0
+yellow_2026_04,yellow,pickup_outside_study,Pickup outside April–May 2026,11,3831240,2.8711331057307815e-06
+yellow_2026_04,yellow,pickup_file_month_mismatch,Pickup month differs from source filename month,12,3831240,3.132145206251762e-06
+yellow_2026_04,yellow,duration_nonpositive,Dropoff is at/before pickup,49511,3831240,0.012922970108894248
+yellow_2026_04,yellow,duration_gt24h,Timestamp duration exceeds 24 hours,21,3831240,5.481254110940584e-06
+yellow_2026_04,yellow,pu_zone_missing,Pickup zone ID missing,0,3831240,0.0
+yellow_2026_04,yellow,pu_zone_invalid,Pickup zone ID outside official lookup,0,3831240,0.0
+yellow_2026_04,yellow,do_zone_missing,Dropoff zone ID missing,0,3831240,0.0
+yellow_2026_04,yellow,do_zone_invalid,Dropoff zone ID outside official lookup,0,3831240,0.0
+yellow_2026_04,yellow,distance_missing,Distance missing or nonfinite,0,3831240,0.0
+yellow_2026_04,yellow,distance_nonpositive,Distance is zero or negative,93515,3831240,0.02440854658021946
+yellow_2026_04,yellow,distance_gt100mi,Distance exceeds 100 miles,136,3831240,3.54976456708533e-05
+yellow_2026_04,yellow,payment_missing,Passenger spending missing or nonfinite,0,3831240,0.0
+yellow_2026_04,yellow,payment_negative,Passenger spending negative,14874,3831240,0.003882293983149059
+yellow_2026_04,yellow,payment_gt1000,"Passenger spending exceeds $1,000",3,3831240,7.830363015629405e-07
+yellow_2026_04,yellow,fare_base_negative,Base fare negative,14328,3831240,0.0037397813762646034
+yellow_2026_04,yellow,request_missing,HVFHV request timestamp missing,0,3831240,0.0
+yellow_2026_04,yellow,request_after_pickup,HVFHV request after pickup,0,3831240,0.0
+yellow_2026_04,yellow,on_scene_order_invalid,HVFHV on-scene time outside request-to-pickup order,0,3831240,0.0
+yellow_2026_04,yellow,trip_time_missing,HVFHV trip_time missing or nonfinite,0,3831240,0.0
+yellow_2026_04,yellow,trip_time_nonpositive,HVFHV trip_time nonpositive,0,3831240,0.0
+yellow_2026_04,yellow,trip_time_gt24h,HVFHV trip_time exceeds 24 hours,0,3831240,0.0
+yellow_2026_04,yellow,shared_flag_other,HVFHV request/match flag missing or outside Y/N,0,3831240,0.0
+yellow_2026_04,yellow,shared_ny,HVFHV request N / match Y,0,3831240,0.0
+yellow_2026_04,yellow,company_other,HVFHV company code outside HV0002/HV0003/HV0004/HV0005,0,3831240,0.0
+yellow_2026_04,yellow,payment_type_voided,Yellow payment_type 6 (voided),0,3831240,0.0
+yellow_2026_05,yellow,pickup_missing,Pickup timestamp missing,0,4090836,0.0
+yellow_2026_05,yellow,dropoff_missing,Dropoff timestamp missing,0,4090836,0.0
+yellow_2026_05,yellow,pickup_outside_study,Pickup outside April–May 2026,3,4090836,7.333464357896527e-07
+yellow_2026_05,yellow,pickup_file_month_mismatch,Pickup month differs from source filename month,14,4090836,3.4222833670183795e-06
+yellow_2026_05,yellow,duration_nonpositive,Dropoff is at/before pickup,52063,4090836,0.012726738495505565
+yellow_2026_05,yellow,duration_gt24h,Timestamp duration exceeds 24 hours,32,4090836,7.822361981756297e-06
+yellow_2026_05,yellow,pu_zone_missing,Pickup zone ID missing,0,4090836,0.0
+yellow_2026_05,yellow,pu_zone_invalid,Pickup zone ID outside official lookup,0,4090836,0.0
+yellow_2026_05,yellow,do_zone_missing,Dropoff zone ID missing,0,4090836,0.0
+yellow_2026_05,yellow,do_zone_invalid,Dropoff zone ID outside official lookup,0,4090836,0.0
+yellow_2026_05,yellow,distance_missing,Distance missing or nonfinite,0,4090836,0.0
+yellow_2026_05,yellow,distance_nonpositive,Distance is zero or negative,113031,4090836,0.02763029366124675
+yellow_2026_05,yellow,distance_gt100mi,Distance exceeds 100 miles,136,4090836,3.324503842246426e-05
+yellow_2026_05,yellow,payment_missing,Passenger spending missing or nonfinite,0,4090836,0.0
+yellow_2026_05,yellow,payment_negative,Passenger spending negative,14877,4090836,0.003636664975080888
+yellow_2026_05,yellow,payment_gt1000,"Passenger spending exceeds $1,000",7,4090836,1.7111416835091898e-06
+yellow_2026_05,yellow,fare_base_negative,Base fare negative,14231,4090836,0.003478751042574183
+yellow_2026_05,yellow,request_missing,HVFHV request timestamp missing,0,4090836,0.0
+yellow_2026_05,yellow,request_after_pickup,HVFHV request after pickup,0,4090836,0.0
+yellow_2026_05,yellow,on_scene_order_invalid,HVFHV on-scene time outside request-to-pickup order,0,4090836,0.0
+yellow_2026_05,yellow,trip_time_missing,HVFHV trip_time missing or nonfinite,0,4090836,0.0
+yellow_2026_05,yellow,trip_time_nonpositive,HVFHV trip_time nonpositive,0,4090836,0.0
+yellow_2026_05,yellow,trip_time_gt24h,HVFHV trip_time exceeds 24 hours,0,4090836,0.0
+yellow_2026_05,yellow,shared_flag_other,HVFHV request/match flag missing or outside Y/N,0,4090836,0.0
+yellow_2026_05,yellow,shared_ny,HVFHV request N / match Y,0,4090836,0.0
+yellow_2026_05,yellow,company_other,HVFHV company code outside HV0002/HV0003/HV0004/HV0005,0,4090836,0.0
+yellow_2026_05,yellow,payment_type_voided,Yellow payment_type 6 (voided),0,4090836,0.0
+fhvhv_2026_04,fhvhv,pickup_missing,Pickup timestamp missing,0,20995953,0.0
+fhvhv_2026_04,fhvhv,dropoff_missing,Dropoff timestamp missing,0,20995953,0.0
+fhvhv_2026_04,fhvhv,pickup_outside_study,Pickup outside April–May 2026,0,20995953,0.0
+fhvhv_2026_04,fhvhv,pickup_file_month_mismatch,Pickup month differs from source filename month,0,20995953,0.0
+fhvhv_2026_04,fhvhv,duration_nonpositive,Dropoff is at/before pickup,0,20995953,0.0
+fhvhv_2026_04,fhvhv,duration_gt24h,Timestamp duration exceeds 24 hours,0,20995953,0.0
+fhvhv_2026_04,fhvhv,pu_zone_missing,Pickup zone ID missing,0,20995953,0.0
+fhvhv_2026_04,fhvhv,pu_zone_invalid,Pickup zone ID outside official lookup,0,20995953,0.0
+fhvhv_2026_04,fhvhv,do_zone_missing,Dropoff zone ID missing,0,20995953,0.0
+fhvhv_2026_04,fhvhv,do_zone_invalid,Dropoff zone ID outside official lookup,0,20995953,0.0
+fhvhv_2026_04,fhvhv,distance_missing,Distance missing or nonfinite,0,20995953,0.0
+fhvhv_2026_04,fhvhv,distance_nonpositive,Distance is zero or negative,1857,20995953,8.84456161623147e-05
+fhvhv_2026_04,fhvhv,distance_gt100mi,Distance exceeds 100 miles,1555,20995953,7.406189183220214e-05
+fhvhv_2026_04,fhvhv,payment_missing,Passenger spending missing or nonfinite,0,20995953,0.0
+fhvhv_2026_04,fhvhv,payment_negative,Passenger spending negative,2235,20995953,0.00010644908568808474
+fhvhv_2026_04,fhvhv,payment_gt1000,"Passenger spending exceeds $1,000",46,20995953,2.1908984078979412e-06
+fhvhv_2026_04,fhvhv,fare_base_negative,Base fare negative,5436,20995953,0.00025890703794202626
+fhvhv_2026_04,fhvhv,request_missing,HVFHV request timestamp missing,0,20995953,0.0
+fhvhv_2026_04,fhvhv,request_after_pickup,HVFHV request after pickup,268958,20995953,0.012809992478074227
+fhvhv_2026_04,fhvhv,on_scene_order_invalid,HVFHV on-scene time outside request-to-pickup order,362125,20995953,0.017247371433913954
+fhvhv_2026_04,fhvhv,trip_time_missing,HVFHV trip_time missing or nonfinite,0,20995953,0.0
+fhvhv_2026_04,fhvhv,trip_time_nonpositive,HVFHV trip_time nonpositive,29,20995953,1.3812185615008759e-06
+fhvhv_2026_04,fhvhv,trip_time_gt24h,HVFHV trip_time exceeds 24 hours,0,20995953,0.0
+fhvhv_2026_04,fhvhv,shared_flag_other,HVFHV request/match flag missing or outside Y/N,0,20995953,0.0
+fhvhv_2026_04,fhvhv,shared_ny,HVFHV request N / match Y,783,20995953,3.729290116052365e-05
+fhvhv_2026_04,fhvhv,company_other,HVFHV company code outside HV0002/HV0003/HV0004/HV0005,0,20995953,0.0
+fhvhv_2026_04,fhvhv,payment_type_voided,Yellow payment_type 6 (voided),0,20995953,0.0
+fhvhv_2026_05,fhvhv,pickup_missing,Pickup timestamp missing,0,22125744,0.0
+fhvhv_2026_05,fhvhv,dropoff_missing,Dropoff timestamp missing,0,22125744,0.0
+fhvhv_2026_05,fhvhv,pickup_outside_study,Pickup outside April–May 2026,0,22125744,0.0
+fhvhv_2026_05,fhvhv,pickup_file_month_mismatch,Pickup month differs from source filename month,0,22125744,0.0
+fhvhv_2026_05,fhvhv,duration_nonpositive,Dropoff is at/before pickup,0,22125744,0.0
+fhvhv_2026_05,fhvhv,duration_gt24h,Timestamp duration exceeds 24 hours,0,22125744,0.0
+fhvhv_2026_05,fhvhv,pu_zone_missing,Pickup zone ID missing,0,22125744,0.0
+fhvhv_2026_05,fhvhv,pu_zone_invalid,Pickup zone ID outside official lookup,0,22125744,0.0
+fhvhv_2026_05,fhvhv,do_zone_missing,Dropoff zone ID missing,0,22125744,0.0
+fhvhv_2026_05,fhvhv,do_zone_invalid,Dropoff zone ID outside official lookup,0,22125744,0.0
+fhvhv_2026_05,fhvhv,distance_missing,Distance missing or nonfinite,0,22125744,0.0
+fhvhv_2026_05,fhvhv,distance_nonpositive,Distance is zero or negative,2285,22125744,0.00010327336337254918
+fhvhv_2026_05,fhvhv,distance_gt100mi,Distance exceeds 100 miles,2213,22125744,0.00010001923551135726
+fhvhv_2026_05,fhvhv,payment_missing,Passenger spending missing or nonfinite,0,22125744,0.0
+fhvhv_2026_05,fhvhv,payment_negative,Passenger spending negative,2359,22125744,0.00010661788367432978
+fhvhv_2026_05,fhvhv,payment_gt1000,"Passenger spending exceeds $1,000",144,22125744,6.508255722383844e-06
+fhvhv_2026_05,fhvhv,fare_base_negative,Base fare negative,7728,22125744,0.0003492763904345996
+fhvhv_2026_05,fhvhv,request_missing,HVFHV request timestamp missing,0,22125744,0.0
+fhvhv_2026_05,fhvhv,request_after_pickup,HVFHV request after pickup,275536,22125744,0.01245318575501913
+fhvhv_2026_05,fhvhv,on_scene_order_invalid,HVFHV on-scene time outside request-to-pickup order,402971,22125744,0.01821276608822736
+fhvhv_2026_05,fhvhv,trip_time_missing,HVFHV trip_time missing or nonfinite,0,22125744,0.0
+fhvhv_2026_05,fhvhv,trip_time_nonpositive,HVFHV trip_time nonpositive,49,22125744,2.2146147944222803e-06
+fhvhv_2026_05,fhvhv,trip_time_gt24h,HVFHV trip_time exceeds 24 hours,0,22125744,0.0
+fhvhv_2026_05,fhvhv,shared_flag_other,HVFHV request/match flag missing or outside Y/N,0,22125744,0.0
+fhvhv_2026_05,fhvhv,shared_ny,HVFHV request N / match Y,1177,22125744,5.319595128642906e-05
+fhvhv_2026_05,fhvhv,company_other,HVFHV company code outside HV0002/HV0003/HV0004/HV0005,0,22125744,0.0
+fhvhv_2026_05,fhvhv,payment_type_voided,Yellow payment_type 6 (voided),0,22125744,0.0
+TOTAL,all,pickup_missing,Pickup timestamp missing,0,51043773,0.0
+TOTAL,all,dropoff_missing,Dropoff timestamp missing,0,51043773,0.0
+TOTAL,all,pickup_outside_study,Pickup outside April–May 2026,14,51043773,2.7427439582101425e-07
+TOTAL,all,pickup_file_month_mismatch,Pickup month differs from source filename month,26,51043773,5.093667350961693e-07
+TOTAL,all,duration_nonpositive,Dropoff is at/before pickup,101574,51043773,0.0019899391057945502
+TOTAL,all,duration_gt24h,Timestamp duration exceeds 24 hours,53,51043773,1.0383244984652682e-06
+TOTAL,all,pu_zone_missing,Pickup zone ID missing,0,51043773,0.0
+TOTAL,all,pu_zone_invalid,Pickup zone ID outside official lookup,0,51043773,0.0
+TOTAL,all,do_zone_missing,Dropoff zone ID missing,0,51043773,0.0
+TOTAL,all,do_zone_invalid,Dropoff zone ID outside official lookup,0,51043773,0.0
+TOTAL,all,distance_missing,Distance missing or nonfinite,0,51043773,0.0
+TOTAL,all,distance_nonpositive,Distance is zero or negative,210688,51043773,0.004127594564766989
+TOTAL,all,distance_gt100mi,Distance exceeds 100 miles,4040,51043773,7.914775422263554e-05
+TOTAL,all,payment_missing,Passenger spending missing or nonfinite,0,51043773,0.0
+TOTAL,all,payment_negative,Passenger spending negative,34345,51043773,0.0006728538660337668
+TOTAL,all,payment_gt1000,"Passenger spending exceeds $1,000",200,51043773,3.918205654585918e-06
+TOTAL,all,fare_base_negative,Base fare negative,41723,51043773,0.0008173964726314412
+TOTAL,all,request_missing,HVFHV request timestamp missing,0,51043773,0.0
+TOTAL,all,request_after_pickup,HVFHV request after pickup,544494,51043773,0.010667197348440524
+TOTAL,all,on_scene_order_invalid,HVFHV on-scene time outside request-to-pickup order,765096,51043773,0.014989017367505337
+TOTAL,all,trip_time_missing,HVFHV trip_time missing or nonfinite,0,51043773,0.0
+TOTAL,all,trip_time_nonpositive,HVFHV trip_time nonpositive,78,51043773,1.528100205288508e-06
+TOTAL,all,trip_time_gt24h,HVFHV trip_time exceeds 24 hours,0,51043773,0.0
+TOTAL,all,shared_flag_other,HVFHV request/match flag missing or outside Y/N,0,51043773,0.0
+TOTAL,all,shared_ny,HVFHV request N / match Y,1960,51043773,3.8398415414941996e-05
+TOTAL,all,company_other,HVFHV company code outside HV0002/HV0003/HV0004/HV0005,0,51043773,0.0
+TOTAL,all,payment_type_voided,Yellow payment_type 6 (voided),0,51043773,0.0

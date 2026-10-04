@@ -1,0 +1,11 @@
+rule_or_set,records
+raw_uber_rows,30733674
+completed_uber,30733674
+od_eligible_uber,30733674
+reference_status_nn,29927521
+shared_status_yy,476289
+reference_duration_valid,29927446
+shared_duration_valid,476287
+excluded_missing_or_invalid_od,0
+excluded_nonpositive_or_over24h_trip_time_nn,75
+excluded_nonpositive_or_over24h_trip_time_yy,2

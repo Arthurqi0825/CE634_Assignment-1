@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CE634 NYC Ride-Pooling Assignment</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#overview" aria-label="CE634 assignment dashboard">
+      <span class="brand-mark">CE</span>
+      <span>
+        <strong>CE634 Assignment 1</strong>
+        <small>NYC taxi and HVFHV ride-pooling analysis</small>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Dashboard sections">
+      <a href="#overview">Overview</a>
+      <a href="#tasks">Tasks</a>
+      <a href="#figures">Figures</a>
+      <a href="#reproduce">Reproduce</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="overview" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">April-May 2026, NYC TLC trip records</p>
+        <h1>Ride-pooling demand, matching, travel time, and fare evidence in one reproducible dashboard.</h1>
+        <p class="lede">This static page turns the submitted task outputs into a compact browser view. It reads packaged JSON, CSV, and PNG artifacts only; raw Parquet files stay outside the repository.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="main.pdf">Open report PDF</a>
+          <a class="button" href="visualizations/index.html">Legacy gallery</a>
+          <a class="button" href="README.md">Repository README</a>
+        </div>
+      </div>
+      <aside class="snapshot" aria-label="Project snapshot">
+        <div>
+          <span class="metric" data-kpi="rawRecords">51.0M</span>
+          <span class="label">raw records audited</span>
+        </div>
+        <div>
+          <span class="metric" data-kpi="retainedTrips">50.9M</span>
+          <span class="label">completed trips retained</span>
+        </div>
+        <div>
+          <span class="metric">47</span>
+          <span class="label">recreated task figures</span>
+        </div>
+        <div>
+          <span class="metric">5</span>
+          <span class="label">assignment tasks</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="panel" aria-labelledby="insights-title">
+      <div class="section-heading">
+        <p class="eyebrow">Key readout</p>
+        <h2 id="insights-title">What the analysis says</h2>
+      </div>
+      <div class="insight-grid">
+        <article>
+          <h3>Pooling is mostly an Uber signal</h3>
+          <p data-insight="task3">Uber has materially higher pooling request and reported match rates than Lyft in both months.</p>
+        </article>
+        <article>
+          <h3>Shared rides add travel time</h3>
+          <p data-insight="task4">Supported Uber shared trips show median excess travel time of about 4.5 to 5.0 minutes.</p>
+        </article>
+        <article>
+          <h3>Shared fares are lower in matched cells</h3>
+          <p data-insight="task5">Supported Y/Y trips are cheaper than comparable N/N reference cells in all service-month estimates.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="tasks" class="panel" aria-labelledby="tasks-title">
+      <div class="section-heading">
+        <p class="eyebrow">Task map</p>
+        <h2 id="tasks-title">Five linked outputs</h2>
+      </div>
+      <div class="task-grid" id="taskGrid"></div>
+    </section>
+
+    <section id="figures" class="panel" aria-labelledby="figures-title">
+      <div class="section-heading with-controls">
+        <div>
+          <p class="eyebrow">Visual evidence</p>
+          <h2 id="figures-title">Main figures</h2>
+        </div>
+        <div class="segmented" role="tablist" aria-label="Figure filter">
+          <button class="active" type="button" data-filter="all">All</button>
+          <button type="button" data-filter="1">Task 1</button>
+          <button type="button" data-filter="2">Task 2</button>
+          <button type="button" data-filter="3">Task 3</button>
+          <button type="button" data-filter="4">Task 4</button>
+          <button type="button" data-filter="5">Task 5</button>
+        </div>
+      </div>
+      <div class="figure-grid" id="figureGrid"></div>
+    </section>
+
+    <section id="reproduce" class="panel reproduce" aria-labelledby="reproduce-title">
+      <div class="section-heading">
+        <p class="eyebrow">Reproducibility</p>
+        <h2 id="reproduce-title">Repository status for GitHub Pages</h2>
+      </div>
+      <div class="repro-grid">
+        <div>
+          <h3>Publish source</h3>
+          <p>Use GitHub Pages from the repository root so this page can reference <code>04_Results/</code>, <code>visualizations/</code>, and <code>main.pdf</code>.</p>
+        </div>
+        <div>
+          <h3>Data boundary</h3>
+          <p>The four raw TLC Parquet files are excluded by <code>.gitignore</code>. Processed task outputs and figures are included for review.</p>
+        </div>
+        <div>
+          <h3>Local checks</h3>
+          <p><code>python3 -m analysis.helpers.inspect_results check</code> verifies packaged task bundles and cross-task reconciliation.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>CE634 Urban Big Data Assignment 1</span>
+    <span>Static dashboard for GitHub Pages</span>
+  </footer>
+
+  <script src="assets/site.js" defer></script>
+</body>
+</html>

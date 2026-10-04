@@ -1,0 +1,61 @@
+month,service,rank,PULocationID,origin_borough,origin_zone,DOLocationID,destination_borough,destination_zone,valid_spending_trip_count,total_spending_usd,mean_payment_usd,service_month_valid_spending_denominator,also_volume_top10,within_zone
+2026-04,Yellow,1,132,Queens,JFK Airport,265,N/A,Outside of NYC,6976,857379.46,122.9,3766854,False,False
+2026-04,Yellow,2,132,Queens,JFK Airport,230,Manhattan,Times Sq/Theatre District,6037,587039.84,97.24,3766854,False,False
+2026-04,Yellow,3,138,Queens,LaGuardia Airport,230,Manhattan,Times Sq/Theatre District,5318,435739.73,81.94,3766854,False,False
+2026-04,Yellow,4,237,Manhattan,Upper East Side South,236,Manhattan,Upper East Side North,26666,427292.28,16.02,3766854,True,False
+2026-04,Yellow,5,132,Queens,JFK Airport,132,Queens,JFK Airport,6776,424628.26,62.67,3766854,False,True
+2026-04,Yellow,6,236,Manhattan,Upper East Side North,237,Manhattan,Upper East Side South,22584,376011.58,16.65,3766854,True,False
+2026-04,Yellow,7,132,Queens,JFK Airport,164,Manhattan,Midtown South,3046,299810.77,98.43,3766854,False,False
+2026-04,Yellow,8,138,Queens,LaGuardia Airport,161,Manhattan,Midtown Center,3716,290780.57,78.25,3766854,False,False
+2026-04,Yellow,9,237,Manhattan,Upper East Side South,237,Manhattan,Upper East Side South,18206,271300.18,14.9,3766854,True,True
+2026-04,Yellow,10,132,Queens,JFK Airport,48,Manhattan,Clinton East,2724,263449.35,96.71,3766854,False,False
+2026-04,Uber,1,132,Queens,JFK Airport,265,N/A,Outside of NYC,51491,8216762.03,159.58,15376628,True,False
+2026-04,Uber,2,138,Queens,LaGuardia Airport,265,N/A,Outside of NYC,42911,6769854.22,157.77,15376628,True,False
+2026-04,Uber,3,161,Manhattan,Midtown Center,265,N/A,Outside of NYC,16900,2414820.77,142.89,15376628,False,False
+2026-04,Uber,4,230,Manhattan,Times Sq/Theatre District,265,N/A,Outside of NYC,17811,2236165.37,125.55,15376628,False,False
+2026-04,Uber,5,138,Queens,LaGuardia Airport,230,Manhattan,Times Sq/Theatre District,14361,1524083.36,106.13,15376628,False,False
+2026-04,Uber,6,162,Manhattan,Midtown East,265,N/A,Outside of NYC,9846,1409849.55,143.19,15376628,False,False
+2026-04,Uber,7,68,Manhattan,East Chelsea,265,N/A,Outside of NYC,12334,1388033.48,112.54,15376628,False,False
+2026-04,Uber,8,230,Manhattan,Times Sq/Theatre District,138,Queens,LaGuardia Airport,13567,1362290.19,100.41,15376628,False,False
+2026-04,Uber,9,163,Manhattan,Midtown North,265,N/A,Outside of NYC,9210,1356052.44,147.24,15376628,False,False
+2026-04,Uber,10,246,Manhattan,West Chelsea/Hudson Yards,265,N/A,Outside of NYC,11001,1288935.73,117.17,15376628,False,False
+2026-04,Lyft,1,138,Queens,LaGuardia Airport,265,N/A,Outside of NYC,15720,2082850.23,132.5,5617090,True,False
+2026-04,Lyft,2,132,Queens,JFK Airport,265,N/A,Outside of NYC,14149,2041524.12,144.29,5617090,True,False
+2026-04,Lyft,3,230,Manhattan,Times Sq/Theatre District,265,N/A,Outside of NYC,6430,614419.95,95.56,5617090,False,False
+2026-04,Lyft,4,161,Manhattan,Midtown Center,265,N/A,Outside of NYC,4733,489390.33,103.4,5617090,False,False
+2026-04,Lyft,5,48,Manhattan,Clinton East,265,N/A,Outside of NYC,5544,421492.65,76.03,5617090,False,False
+2026-04,Lyft,6,68,Manhattan,East Chelsea,265,N/A,Outside of NYC,5007,415989.44,83.08,5617090,False,False
+2026-04,Lyft,7,164,Manhattan,Midtown South,265,N/A,Outside of NYC,4471,397315.49,88.87,5617090,False,False
+2026-04,Lyft,8,138,Queens,LaGuardia Airport,230,Manhattan,Times Sq/Theatre District,3979,362114.45,91.01,5617090,False,False
+2026-04,Lyft,9,234,Manhattan,Union Sq,265,N/A,Outside of NYC,3940,362058.95,91.89,5617090,False,False
+2026-04,Lyft,10,246,Manhattan,West Chelsea/Hudson Yards,265,N/A,Outside of NYC,4143,352928.55,85.19,5617090,False,False
+2026-05,Yellow,1,132,Queens,JFK Airport,265,N/A,Outside of NYC,6276,786157.47,125.26,4023883,False,False
+2026-05,Yellow,2,132,Queens,JFK Airport,230,Manhattan,Times Sq/Theatre District,6074,589431.69,97.04,4023883,False,False
+2026-05,Yellow,3,138,Queens,LaGuardia Airport,230,Manhattan,Times Sq/Theatre District,6064,509735.24,84.06,4023883,False,False
+2026-05,Yellow,4,237,Manhattan,Upper East Side South,236,Manhattan,Upper East Side North,28907,471363.41,16.31,4023883,True,False
+2026-05,Yellow,5,132,Queens,JFK Airport,132,Queens,JFK Airport,7427,459359.61,61.85,4023883,False,True
+2026-05,Yellow,6,236,Manhattan,Upper East Side North,237,Manhattan,Upper East Side South,24751,418225.26,16.9,4023883,True,False
+2026-05,Yellow,7,138,Queens,LaGuardia Airport,161,Manhattan,Midtown Center,4142,332580.07,80.29,4023883,False,False
+2026-05,Yellow,8,132,Queens,JFK Airport,164,Manhattan,Midtown South,3210,314998.27,98.13,4023883,False,False
+2026-05,Yellow,9,132,Queens,JFK Airport,161,Manhattan,Midtown Center,3048,296780.92,97.37,4023883,False,False
+2026-05,Yellow,10,237,Manhattan,Upper East Side South,237,Manhattan,Upper East Side South,19601,295785.11,15.09,4023883,True,True
+2026-05,Uber,1,132,Queens,JFK Airport,265,N/A,Outside of NYC,50182,7925114.78,157.93,15352465,True,False
+2026-05,Uber,2,138,Queens,LaGuardia Airport,265,N/A,Outside of NYC,39209,6419364.08,163.72,15352465,True,False
+2026-05,Uber,3,161,Manhattan,Midtown Center,265,N/A,Outside of NYC,16379,2483415.24,151.62,15352465,False,False
+2026-05,Uber,4,230,Manhattan,Times Sq/Theatre District,265,N/A,Outside of NYC,18864,2482313.74,131.59,15352465,False,False
+2026-05,Uber,5,68,Manhattan,East Chelsea,265,N/A,Outside of NYC,13840,1795647.61,129.74,15352465,False,False
+2026-05,Uber,6,138,Queens,LaGuardia Airport,230,Manhattan,Times Sq/Theatre District,15529,1750319.81,112.71,15352465,False,False
+2026-05,Uber,7,230,Manhattan,Times Sq/Theatre District,138,Queens,LaGuardia Airport,15150,1601418.34,105.7,15352465,False,False
+2026-05,Uber,8,246,Manhattan,West Chelsea/Hudson Yards,265,N/A,Outside of NYC,12432,1546036.04,124.36,15352465,False,False
+2026-05,Uber,9,163,Manhattan,Midtown North,265,N/A,Outside of NYC,9235,1428346.43,154.67,15352465,False,False
+2026-05,Uber,10,162,Manhattan,Midtown East,265,N/A,Outside of NYC,9395,1419847.07,151.13,15352465,False,False
+2026-05,Lyft,1,132,Queens,JFK Airport,265,N/A,Outside of NYC,20915,2836939.68,135.64,6770920,True,False
+2026-05,Lyft,2,138,Queens,LaGuardia Airport,265,N/A,Outside of NYC,21798,2722834.87,124.91,6770920,True,False
+2026-05,Lyft,3,230,Manhattan,Times Sq/Theatre District,265,N/A,Outside of NYC,6977,671051.42,96.18,6770920,False,False
+2026-05,Lyft,4,138,Queens,LaGuardia Airport,230,Manhattan,Times Sq/Theatre District,6165,553295.1,89.75,6770920,False,False
+2026-05,Lyft,5,68,Manhattan,East Chelsea,265,N/A,Outside of NYC,6002,552456.13,92.05,6770920,False,False
+2026-05,Lyft,6,161,Manhattan,Midtown Center,265,N/A,Outside of NYC,5088,542314.83,106.59,6770920,False,False
+2026-05,Lyft,7,48,Manhattan,Clinton East,265,N/A,Outside of NYC,6655,518457.89,77.91,6770920,False,False
+2026-05,Lyft,8,164,Manhattan,Midtown South,265,N/A,Outside of NYC,5379,482040.41,89.62,6770920,False,False
+2026-05,Lyft,9,230,Manhattan,Times Sq/Theatre District,138,Queens,LaGuardia Airport,5475,450030.52,82.2,6770920,False,False
+2026-05,Lyft,10,246,Manhattan,West Chelsea/Hudson Yards,265,N/A,Outside of NYC,4890,421969.82,86.29,6770920,False,False

@@ -1,0 +1,2 @@
+# Python csv.writer uses CRLF as its standard CSV record terminator.
+*.csv whitespace=-blank-at-eol
