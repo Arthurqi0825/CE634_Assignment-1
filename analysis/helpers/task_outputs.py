@@ -26,7 +26,7 @@ TITLES = {
     2: "Demand and passenger spending",
     3: "Reported sharing",
     4: "Uber excess travel time",
-    5: "Shared-trip price comparison",
+    5: "Shared-trip price comparison and potential shareability",
 }
 
 

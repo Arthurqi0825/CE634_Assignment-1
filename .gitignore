@@ -10,6 +10,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
+.cache/
 
 # LaTeX build intermediates; the reviewed main.pdf is kept.
 *.aux

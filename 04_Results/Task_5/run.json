@@ -1,15 +1,15 @@
 {
   "task": 5,
   "command": [
-    "./.venv/bin/python",
+    "python3",
     "-m",
-    "analysis.tasks.task5_price_analysis"
+    "analysis.tasks.task5_potential_sharing"
   ],
-  "cwd": "/home/ziqi-zhang/Desktop/coursework/Assignment_1/05_Submission/CE634_Assignment1_LaTeX",
+  "cwd": "/Users/zhangziqi/MPhil/Coursework/UrbanBigData/ce634_taskpaper",
   "requirements": "requirements.txt",
-  "runner_python": "3.8.8",
-  "started_at": "2026-10-02T16:01:03+08:00",
-  "finished_at": "2026-10-02T16:01:50+08:00",
+  "runner_python": "3.11.5",
+  "started_at": "2026-10-04T15:00:54+08:00",
+  "finished_at": "2026-10-04T15:03:32+08:00",
   "exit_code": 0,
   "output_dir": "04_Results/Task_5"
 }

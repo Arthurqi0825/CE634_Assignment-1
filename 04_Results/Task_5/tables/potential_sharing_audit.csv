@@ -1,0 +1,5 @@
+month,service,completed_nn,invalid_od,invalid_distance,eligible_nn,excluded_union,overlap_excess_flags
+2026-04,Uber,14961455,0,2751,14958704,2751,0
+2026-04,Lyft,5614374,0,610,5613764,610,0
+2026-05,Uber,14966066,0,3322,14962744,3322,0
+2026-05,Lyft,6767729,0,1123,6766606,1123,0

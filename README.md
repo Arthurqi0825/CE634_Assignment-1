@@ -1,9 +1,9 @@
 # CE634 Assignment 1: reproducible code and English report
 
 This folder is a standalone submission package. It contains the final English
-LaTeX report, compiled PDF, processed results, 47 PNG visualizations, reference
+LaTeX report, compiled PDF, processed results, PNG/PDF visualizations, reference
 files, and the Python code used for Tasks 1–5. The four raw monthly Parquet
-files are **not included**. Task 5.1 is complete; Task 5.2 is not claimed.
+files are **not included**. Task 5.1 and the bonus Task 5.2 analysis are complete.
 
 ## Layout
 
@@ -73,6 +73,12 @@ For a temporary read-only check against raw files stored elsewhere, set
 That override is optional; normal submission reproduction uses the paths
 above. None of the task scripts writes to the raw directory.
 
+Example for the author's local raw-data layout:
+
+```bash
+export ASSIGNMENT_RAW_DIR=/Users/zhangziqi/.codex/.chatgpt-projects/g-p-6aa7cf2a7bd081918e32c5e7f08a5dbb/output/UrbanBigData/03_Assignments/Assignment_1/01_Data/Raw/TLC_Trip_Records
+```
+
 ## Reproduce the analyses in order
 
 Run every command from this folder. `task_outputs run` records the command,
@@ -103,6 +109,10 @@ the task's output directory to the analysis script.
 # Task 5.1: Y/Y versus N/N passenger-spending comparison, date-clustered
 # uncertainty, reference-threshold sensitivity, and its figure.
 ./.venv/bin/python -m analysis.helpers.task_outputs run 5 -- ./.venv/bin/python -m analysis.tasks.task5_price_analysis
+
+# Task 5.2 bonus: potential sharing among N/N trips under same-OD
+# pickup-time-window rules, including 5/10/15-minute sensitivity.
+./.venv/bin/python -m analysis.helpers.task_outputs run 5 -- ./.venv/bin/python -m analysis.tasks.task5_potential_sharing
 
 # Redraw the explanatory Task 2--5 charts from the processed CSV supplements.
 ./.venv/bin/python -m analysis.helpers.report_figures
@@ -143,7 +153,8 @@ and Tkinter are available. `initial_tlc_inspection` is an additional raw-data
 diagnostic helper; it is not required to reproduce the formal task results.
 The CSV supplements give exact OD counts, service-month denominators,
 spending counts and means, sharing numerators/denominators, reference cells,
-coverage, exclusion overlaps, and Task 5.1 sensitivity estimates.
+coverage, exclusion overlaps, Task 5.1 sensitivity estimates, and Task 5.2
+potential-shareability screens by pickup-time window, pickup zone, and OD pair.
 
 ## Rebuild and review the report
 
@@ -153,7 +164,7 @@ pdflatex -interaction=nonstopmode -halt-on-error main.tex
 ```
 
 The second pass resolves figure references. The narrative contains the Task
-2--5 explanatory charts, followed by the map atlas. All 47 processed PNGs are
+2--5 explanatory charts, followed by the map atlas. The processed PNGs are
 available through `visualizations/index.html`, including non-map charts that
 are not repeated in the atlas. Zones 264/265 are valid lookup IDs without
 drawable polygons; their counts remain in the CSVs. OD flow lines connect
@@ -179,7 +190,7 @@ intermediate files. The `dist/` folder is ignored by Git.
 All submitted plotting inputs are already separated from the monthly Parquet
 files. The CSV-to-figure mapping is in `visualizations/PLOT_DATA.md`; the Taxi
 Zone lookup and shapefile are under `01_Data/Reference/`. After installing the
-project-local dependencies, this command recreates **all 47 PNGs** without
+project-local dependencies, this command recreates the packaged PNG figures without
 opening any raw monthly file:
 
 ```bash

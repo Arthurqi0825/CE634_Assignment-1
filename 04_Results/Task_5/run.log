@@ -88,3 +88,82 @@ Scanning fhvhv_tripdata_2026-05.parquet: 22,125,744 rows
   }
 ]
 Exit code: 0; finished: 2026-10-02T16:01:50+08:00
+
+=== Task 5 run started 2026-10-04T14:49:18+08:00 ===
+Command: ["python3", "-m", "analysis.tasks.task5_potential_sharing"]
+Matplotlib created a temporary cache directory at /var/folders/27/nbgt8p4d5g3_1t449grfjlnw0000gn/T/matplotlib-yjxa1emp because the default path (/Users/zhangziqi/.matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/zhangziqi/.cache/fontconfig
+	/Users/zhangziqi/.fontconfig
+Scanning /Users/zhangziqi/.codex/.chatgpt-projects/g-p-6aa7cf2a7bd081918e32c5e7f08a5dbb/output/UrbanBigData/03_Assignments/Assignment_1/01_Data/Raw/TLC_Trip_Records/fhvhv_tripdata_2026-04.parquet: 20,995,953 rows
+Interrupted by user.
+Exit code: -15; finished: 2026-10-04T14:53:15+08:00
+
+=== Task 5 run started 2026-10-04T14:53:29+08:00 ===
+Command: ["python3", "-m", "analysis.tasks.task5_potential_sharing"]
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/zhangziqi/.cache/fontconfig
+	/Users/zhangziqi/.fontconfig
+Scanning /Users/zhangziqi/.codex/.chatgpt-projects/g-p-6aa7cf2a7bd081918e32c5e7f08a5dbb/output/UrbanBigData/03_Assignments/Assignment_1/01_Data/Raw/TLC_Trip_Records/fhvhv_tripdata_2026-04.parquet: 20,995,953 rows
+  scanned 20,995,953
+Scanning /Users/zhangziqi/.codex/.chatgpt-projects/g-p-6aa7cf2a7bd081918e32c5e7f08a5dbb/output/UrbanBigData/03_Assignments/Assignment_1/01_Data/Raw/TLC_Trip_Records/fhvhv_tripdata_2026-05.parquet: 22,125,744 rows
+Interrupted by user.
+Exit code: -15; finished: 2026-10-04T15:00:25+08:00
+
+=== Task 5 run started 2026-10-04T15:00:54+08:00 ===
+Command: ["python3", "-m", "analysis.tasks.task5_potential_sharing"]
+Scanning /Users/zhangziqi/.codex/.chatgpt-projects/g-p-6aa7cf2a7bd081918e32c5e7f08a5dbb/output/UrbanBigData/03_Assignments/Assignment_1/01_Data/Raw/TLC_Trip_Records/fhvhv_tripdata_2026-04.parquet: 20,995,953 rows
+  scanned 20,995,953
+Scanning /Users/zhangziqi/.codex/.chatgpt-projects/g-p-6aa7cf2a7bd081918e32c5e7f08a5dbb/output/UrbanBigData/03_Assignments/Assignment_1/01_Data/Raw/TLC_Trip_Records/fhvhv_tripdata_2026-05.parquet: 22,125,744 rows
+  scanned 22,125,744
+[
+  {
+    "window_minutes": 10,
+    "month": "2026-04",
+    "service": "Uber",
+    "eligible_nonshared_trips": 14958704,
+    "potentially_shareable_trips": 6790245,
+    "potentially_shareable_share": 0.453932707004564,
+    "candidate_trip_pairs": 9356742,
+    "nonempty_cells": 10642048,
+    "multi_trip_cells": 2473589
+  },
+  {
+    "window_minutes": 10,
+    "month": "2026-04",
+    "service": "Lyft",
+    "eligible_nonshared_trips": 5613764,
+    "potentially_shareable_trips": 1497505,
+    "potentially_shareable_share": 0.2667559591033752,
+    "candidate_trip_pairs": 1361286,
+    "nonempty_cells": 4738962,
+    "multi_trip_cells": 622703
+  },
+  {
+    "window_minutes": 10,
+    "month": "2026-05",
+    "service": "Uber",
+    "eligible_nonshared_trips": 14962744,
+    "potentially_shareable_trips": 6701182,
+    "potentially_shareable_share": 0.44785782607789054,
+    "candidate_trip_pairs": 9060008,
+    "nonempty_cells": 10714311,
+    "multi_trip_cells": 2452749
+  },
+  {
+    "window_minutes": 10,
+    "month": "2026-05",
+    "service": "Lyft",
+    "eligible_nonshared_trips": 6766606,
+    "potentially_shareable_trips": 1915041,
+    "potentially_shareable_share": 0.28301352258429113,
+    "candidate_trip_pairs": 1812575,
+    "nonempty_cells": 5640897,
+    "multi_trip_cells": 789332
+  }
+]
+Exit code: 0; finished: 2026-10-04T15:03:32+08:00

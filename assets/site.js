@@ -33,11 +33,11 @@ const taskMeta = [
   },
   {
     id: 5,
-    title: "Passenger-spending comparison",
-    body: "Observed Y/Y fares compared with N/N reference means, with day-clustered uncertainty.",
+    title: "Spending and potential sharing",
+    body: "Observed Y/Y fares compared with N/N reference means, plus a bonus screen for potentially shareable N/N trips.",
     summary: "04_Results/Task_5/summary.json",
-    table: "04_Results/Task_5/tables/price_comparison.csv",
-    figure: "04_Results/report_figures/main/task5_passenger_spending_difference.png"
+    table: "04_Results/Task_5/tables/potential_sharing_sensitivity.csv",
+    figure: "04_Results/Task_5/figures/potential_sharing.png"
   }
 ];
 
@@ -49,7 +49,8 @@ const figures = [
   ["3", "Pooling metrics", "04_Results/report_figures/main/task3_ride_pooling_metrics.png", "Request, reported match, and matching success rates for Uber and Lyft."],
   ["4", "Travel-time difference", "04_Results/report_figures/main/task4_travel_time_difference.png", "Supported shared trips compared with non-shared reference cells."],
   ["4", "Hourly coverage", "04_Results/report_figures/main/task4_hourly_pattern_coverage.png", "Hourly excess-time and reference-coverage patterns."],
-  ["5", "Fare difference", "04_Results/report_figures/main/task5_passenger_spending_difference.png", "Passenger-spending differences with confidence intervals."]
+  ["5", "Fare difference", "04_Results/report_figures/main/task5_passenger_spending_difference.png", "Passenger-spending differences with confidence intervals."],
+  ["5", "Potential sharing", "04_Results/Task_5/figures/potential_sharing.png", "N/N trips with at least one same-platform, same-OD neighbor in a pickup-time window."]
 ];
 
 const formatCompact = new Intl.NumberFormat("en", {
@@ -141,8 +142,11 @@ async function hydrateMetrics() {
     const uberFareDiffs = task5.comparison
       .filter((row) => row.service === "Uber")
       .map((row) => row.mean_difference_usd.toFixed(2));
+    const uberPotential = task5.task5_2.main_results
+      .filter((row) => row.service === "Uber")
+      .map((row) => formatPercent(row.potentially_shareable_share));
     document.querySelector('[data-insight="task5"]').textContent =
-      `Uber supported shared fares were ${uberFareDiffs[0]} USD and ${uberFareDiffs[1]} USD below comparable non-shared references in April and May.`;
+      `Uber supported shared fares were ${uberFareDiffs[0]} USD and ${uberFareDiffs[1]} USD below comparable non-shared references; ${uberPotential[0]} and ${uberPotential[1]} of Uber N/N trips had same-OD 10-minute neighbors.`;
   } catch (error) {
     console.warn(error);
   }

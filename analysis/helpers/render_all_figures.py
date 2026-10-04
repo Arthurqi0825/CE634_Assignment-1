@@ -224,6 +224,55 @@ def task4_figures(shapes: dict) -> None:
     plt.close(fig)
 
 
+def task5_potential_figure() -> None:
+    """Redraw the Task 5.2 potential-sharing sensitivity chart from CSV."""
+    rows5 = rows(5, "potential_sharing_sensitivity.csv")
+    main = [row for row in rows5 if int(row["window_minutes"]) == 10]
+    fig, axes = plt.subplots(1, 2, figsize=(9.5, 4.0), layout="constrained")
+    labels = [f"{row['service']}\n{row['month'][-2]}" for row in main]
+    x = np.arange(len(main))
+    shares = [100 * float(row["potentially_shareable_share"]) for row in main]
+    colors = ["#2f6f9f" if row["service"] == "Uber" else "#7b4b8a" for row in main]
+    axes[0].bar(x, shares, color=colors)
+    axes[0].set_xticks(x, labels)
+    axes[0].set_ylabel("Potentially shareable N/N trips (%)")
+    axes[0].set_title("Same OD and 10-minute pickup window")
+    for xi, val in zip(x, shares):
+        axes[0].text(xi, val + 0.8, f"{val:.1f}%", ha="center", fontsize=9, weight="bold")
+    axes[0].spines[["top", "right"]].set_visible(False)
+    axes[0].grid(axis="y", color="#e4e8eb")
+
+    for service, color in [("Uber", "#2f6f9f"), ("Lyft", "#7b4b8a")]:
+        for month, style in [("2026-04", "-"), ("2026-05", "--")]:
+            subset = [
+                row
+                for row in rows5
+                if row["service"] == service and row["month"] == month
+            ]
+            subset.sort(key=lambda row: int(row["window_minutes"]))
+            axes[1].plot(
+                [int(row["window_minutes"]) for row in subset],
+                [100 * float(row["potentially_shareable_share"]) for row in subset],
+                marker="o",
+                linestyle=style,
+                color=color,
+                label=f"{service} {month[-2:]}",
+            )
+    axes[1].set_xlabel("Pickup-time window (minutes)")
+    axes[1].set_ylabel("Potentially shareable N/N trips (%)")
+    axes[1].set_title("Threshold sensitivity")
+    axes[1].legend(frameon=False, fontsize=8.5)
+    axes[1].spines[["top", "right"]].set_visible(False)
+    axes[1].grid(axis="y", color="#e4e8eb")
+    fig.suptitle("Task 5.2 potential sharing among non-shared trips", weight="bold")
+    fig.savefig(
+        RESULTS_DIR / "Task_5/figures/potential_sharing.png",
+        dpi=180,
+        bbox_inches="tight",
+    )
+    plt.close(fig)
+
+
 def main() -> None:
     task1_figures.main()
     shapes = task2_analysis.load_shapes()
@@ -232,12 +281,13 @@ def main() -> None:
     task3_maps(shapes, lookup)
     task4_figures(shapes)
     report_figures.main()
-    expected = {1: 3, 2: 22, 3: 13, 4: 8, 5: 1}
+    task5_potential_figure()
+    expected = {1: 3, 2: 22, 3: 13, 4: 8, 5: 2}
     for task, count in expected.items():
         actual = len(list((RESULTS_DIR / f"Task_{task}/figures").glob("*.png")))
         if actual != count:
             raise AssertionError(f"Task {task}: expected {count} PNGs, found {actual}")
-    print("All 47 PNG figures recreated without opening raw Parquet files.")
+    print("All 48 PNG figures recreated without opening raw Parquet files.")
 
 
 if __name__ == "__main__":

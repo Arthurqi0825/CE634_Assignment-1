@@ -1,6 +1,6 @@
 # Plot data independent of raw Parquet
 
-All 47 submitted PNGs can be recreated from the processed CSV files in
+All 48 submitted PNGs can be recreated from the processed CSV files in
 `04_Results/Task_N/tables/`, the Taxi Zone lookup and shapefile in
 `01_Data/Reference/`, and `04_Results/Task_4/summary.json`. No raw monthly
 Parquet file is read during this drawing stage.
@@ -13,6 +13,7 @@ Parquet file is read during this drawing stage.
 | Task 3 twelve rate maps and monthly sharing chart | `Task_3/tables/zone_rates.csv`, `monthly_rates.csv`, Taxi Zone lookup and shapefile |
 | Task 4 excess-time maps, hourly charts, summaries and histogram | `Task_4/tables/zone_summary.csv`, `hourly_summary.csv`, `month_summary.csv`, `excess_distribution_bins.csv`, `Task_4/summary.json`, Taxi Zone shapefile |
 | Task 5.1 price chart | `Task_5/tables/price_comparison.csv` |
+| Task 5.2 potential-shareability chart | `Task_5/tables/potential_sharing_sensitivity.csv` |
 
 From the package root, after creating the local virtual environment described
 in `README.md`, run:
