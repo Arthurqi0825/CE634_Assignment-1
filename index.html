@@ -19,7 +19,7 @@
       <a href="#overview">Overview</a>
       <a href="#tasks">Tasks</a>
       <a href="#figures">Figures</a>
-      <a href="#reproduce">Reproduce</a>
+      <a href="#methods">Methods</a>
     </nav>
   </header>
 
@@ -27,12 +27,12 @@
     <section id="overview" class="hero">
       <div class="hero-copy">
         <p class="eyebrow">April-May 2026, NYC TLC trip records</p>
-        <h1>Ride-pooling demand, matching, travel time, and fare evidence in one reproducible dashboard.</h1>
-        <p class="lede">This static page turns the submitted task outputs into a compact browser view. It reads packaged JSON, CSV, and PNG artifacts only; raw Parquet files stay outside the repository.</p>
+        <h1>NYC ride-pooling evidence, distilled into a review-ready dashboard.</h1>
+        <p class="lede">A compact companion to the CE634 report: service demand, OD structure, reported pooling, shared-trip time costs, fare differences, and latent shareability are presented as readable findings rather than raw output files.</p>
         <div class="hero-actions">
           <a class="button primary" href="main.pdf">Open report PDF</a>
-          <a class="button" href="visualizations/index.html">Legacy gallery</a>
-          <a class="button" href="README.md">Repository README</a>
+          <a class="button" href="#figures">View figures</a>
+          <a class="button" href="visualizations/index.html">Figure gallery</a>
         </div>
       </div>
       <aside class="snapshot" aria-label="Project snapshot">
@@ -45,8 +45,8 @@
           <span class="label">completed trips retained</span>
         </div>
         <div>
-          <span class="metric">Task</span>
-          <span class="label">figures and supplements</span>
+          <span class="metric">48</span>
+          <span class="label">processed figures</span>
         </div>
         <div>
           <span class="metric">5</span>
@@ -79,7 +79,7 @@
     <section id="tasks" class="panel" aria-labelledby="tasks-title">
       <div class="section-heading">
         <p class="eyebrow">Task map</p>
-        <h2 id="tasks-title">Five linked outputs</h2>
+        <h2 id="tasks-title">Five linked analytical findings</h2>
       </div>
       <div class="task-grid" id="taskGrid"></div>
     </section>
@@ -102,23 +102,23 @@
       <div class="figure-grid" id="figureGrid"></div>
     </section>
 
-    <section id="reproduce" class="panel reproduce" aria-labelledby="reproduce-title">
+    <section id="methods" class="panel methods" aria-labelledby="methods-title">
       <div class="section-heading">
-        <p class="eyebrow">Reproducibility</p>
-        <h2 id="reproduce-title">Repository status for GitHub Pages</h2>
+        <p class="eyebrow">Method guardrails</p>
+        <h2 id="methods-title">How to read the evidence</h2>
       </div>
-      <div class="repro-grid">
+      <div class="method-grid">
         <div>
-          <h3>Publish source</h3>
-          <p>Use GitHub Pages from the repository root so this page can reference <code>04_Results/</code>, <code>visualizations/</code>, and <code>main.pdf</code>.</p>
+          <h3>Observed completed trips</h3>
+          <p>Counts describe recorded trips in TLC files, not unique people, all app requests, or causal demand.</p>
         </div>
         <div>
-          <h3>Data boundary</h3>
-          <p>The four raw TLC Parquet files are excluded by <code>.gitignore</code>. Processed task outputs and figures are included for review.</p>
+          <h3>Comparable cells</h3>
+          <p>Shared-trip time and fare comparisons use matched OD-time reference cells and report support coverage.</p>
         </div>
         <div>
-          <h3>Local checks</h3>
-          <p><code>python3 -m analysis.helpers.inspect_results check</code> verifies packaged task bundles and cross-task reconciliation.</p>
+          <h3>Potential sharing</h3>
+          <p>Task 5.2 is a zone-time co-occurrence screen, not a platform dispatch simulation or guaranteed match.</p>
         </div>
       </div>
     </section>

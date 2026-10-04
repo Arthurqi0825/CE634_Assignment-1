@@ -2,41 +2,41 @@ const taskMeta = [
   {
     id: 1,
     title: "Data audit",
-    body: "Retained-trip counts, quality flags, and sharing-status denominators for all downstream tasks.",
-    summary: "04_Results/Task_1/summary.json",
-    table: "04_Results/Task_1/tables/task1_2_counts.csv",
+    body: "50.9M completed trips retained after task-specific screening; HVFHV sharing statuses reconcile to monthly totals.",
+    stat: "50.9M trips",
+    note: "Audit denominator",
     figure: "04_Results/report_figures/main/task1_service_status_overview.png"
   },
   {
     id: 2,
     title: "Demand and OD flows",
-    body: "Pickup/dropoff hotspots and directed OD rankings by trip volume and passenger spending.",
-    summary: "04_Results/Task_2/summary.json",
-    table: "04_Results/Task_2/tables/top10_volume_od.csv",
+    body: "Yellow Taxi demand concentrates in Manhattan, while HVFHV demand is broader and strongly airport-linked.",
+    stat: "8 hotspot maps",
+    note: "Task 2.1 in main report",
     figure: "04_Results/report_figures/main/task2_demand_april.png"
   },
   {
     id: 3,
     title: "Pooling requests and matches",
-    body: "Platform-level request rates, reported match rates, matching success, and zone thresholds.",
-    summary: "04_Results/Task_3/summary.json",
-    table: "04_Results/Task_3/tables/monthly_rates.csv",
+    body: "Uber dominates reported pooling activity; Lyft has very small shared-request and matched-trip samples.",
+    stat: "2.5-2.7%",
+    note: "Uber request rate",
     figure: "04_Results/report_figures/main/task3_ride_pooling_metrics.png"
   },
   {
     id: 4,
     title: "Travel-time comparison",
-    body: "Uber Y/Y trips compared with supported N/N reference cells by OD, hour, and day type.",
-    summary: "04_Results/Task_4/summary.json",
-    table: "04_Results/Task_4/tables/month_summary.csv",
+    body: "Supported Uber shared trips take about five more minutes than comparable non-shared references.",
+    stat: "+4.5 to +5.0 min",
+    note: "Median excess time",
     figure: "04_Results/report_figures/main/task4_travel_time_difference.png"
   },
   {
     id: 5,
     title: "Spending and potential sharing",
-    body: "Observed Y/Y fares compared with N/N reference means, plus a bonus screen for potentially shareable N/N trips.",
-    summary: "04_Results/Task_5/summary.json",
-    table: "04_Results/Task_5/tables/potential_sharing_sensitivity.csv",
+    body: "Supported Uber shared trips cost about $8 less, and many non-shared trips have same-OD temporal neighbors.",
+    stat: "45% Uber N/N",
+    note: "10-minute shareability screen",
     figure: "04_Results/Task_5/figures/potential_sharing.png"
   }
 ];
@@ -66,13 +66,15 @@ function renderTasks() {
   const grid = document.querySelector("#taskGrid");
   grid.innerHTML = taskMeta.map((task) => `
     <article class="task-card">
-      <span class="task-number">${task.id}</span>
+      <div class="task-topline">
+        <span class="task-number">${task.id}</span>
+        <span class="task-stat">${task.stat}</span>
+      </div>
       <h3>${task.title}</h3>
       <p>${task.body}</p>
-      <div class="task-links">
-        <a href="${task.summary}">Summary</a>
-        <a href="${task.table}">CSV</a>
-        <a href="${task.figure}">Figure</a>
+      <div class="task-footer">
+        <span>${task.note}</span>
+        <a href="${task.figure}" aria-label="Open ${task.title} figure">Open figure</a>
       </div>
     </article>
   `).join("");
