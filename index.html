@@ -3,132 +3,82 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CE634 NYC Ride-Pooling Assignment</title>
+  <meta name="theme-color" content="#f5f7f7">
+  <meta name="description" content="Explore five evidence-led analyses of New York City taxi and high-volume for-hire vehicle trips in April and May 2026.">
+  <title>CE634 | NYC Ride-Pooling Evidence</title>
   <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="topbar">
-    <a class="brand" href="#overview" aria-label="CE634 assignment dashboard">
-      <span class="brand-mark">CE</span>
-      <span>
-        <strong>CE634 Assignment 1</strong>
-        <small>NYC taxi and HVFHV ride-pooling analysis</small>
-      </span>
+    <a class="brand" href="#overview" aria-label="CE634 overview">
+      <span class="brand-mark" aria-hidden="true">CE</span>
+      <span class="brand-text"><strong>CE634</strong><small>Urban Big Data / Assignment 1</small></span>
     </a>
-    <nav class="nav" aria-label="Dashboard sections">
+    <nav class="nav" aria-label="Main navigation">
       <a href="#overview">Overview</a>
-      <a href="#tasks">Tasks</a>
+      <a href="#tasks">Explore tasks</a>
       <a href="#figures">Figures</a>
       <a href="#methods">Methods</a>
     </nav>
+    <a class="report-link" href="main.pdf">Read report <span aria-hidden="true">&#8599;</span></a>
   </header>
 
-  <main>
-    <section id="overview" class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">April-May 2026, NYC TLC trip records</p>
-        <h1>NYC ride-pooling evidence, distilled into a review-ready dashboard.</h1>
-        <p class="lede">A compact companion to the CE634 report: service demand, OD structure, reported pooling, shared-trip time costs, fare differences, and latent shareability are presented as readable findings rather than raw output files.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="main.pdf">Open report PDF</a>
-          <a class="button" href="#figures">View figures</a>
-          <a class="button" href="visualizations/index.html">Figure gallery</a>
+  <main id="main">
+    <section id="overview" class="overview section-wrap" aria-labelledby="page-title">
+      <div class="overview-heading">
+        <div>
+          <p class="eyebrow">New York City / April &amp; May 2026</p>
+          <h1 id="page-title">Ride-pooling, through the evidence.</h1>
+          <p class="intro">Five connected analyses of TLC trip records, from demand and reported matching to the time and fare differences experienced on supported shared rides.</p>
+        </div>
+        <div class="overview-actions">
+          <a class="button button-primary" href="#tasks">Explore the analysis <span aria-hidden="true">&#8594;</span></a>
+          <a class="button button-outline" href="main.pdf">Full report PDF <span aria-hidden="true">&#8599;</span></a>
         </div>
       </div>
-      <aside class="snapshot" aria-label="Project snapshot">
-        <div>
-          <span class="metric" data-kpi="rawRecords">51.0M</span>
-          <span class="label">raw records audited</span>
-        </div>
-        <div>
-          <span class="metric" data-kpi="retainedTrips">50.9M</span>
-          <span class="label">completed trips retained</span>
-        </div>
-        <div>
-          <span class="metric">48</span>
-          <span class="label">processed figures</span>
-        </div>
-        <div>
-          <span class="metric">5</span>
-          <span class="label">assignment tasks</span>
-        </div>
-      </aside>
-    </section>
-
-    <section class="panel" aria-labelledby="insights-title">
-      <div class="section-heading">
-        <p class="eyebrow">Key readout</p>
-        <h2 id="insights-title">What the analysis says</h2>
-      </div>
-      <div class="insight-grid">
-        <article>
-          <h3>Pooling is mostly an Uber signal</h3>
-          <p data-insight="task3">Uber has materially higher pooling request and reported match rates than Lyft in both months.</p>
-        </article>
-        <article>
-          <h3>Shared rides add travel time</h3>
-          <p data-insight="task4">Supported Uber shared trips show median excess travel time of about 4.5 to 5.0 minutes.</p>
-        </article>
-        <article>
-          <h3>Shared fares are lower; many N/N trips cluster</h3>
-          <p data-insight="task5">Supported Y/Y trips are cheaper than comparable N/N reference cells, and many N/N trips have same-OD temporal neighbors.</p>
-        </article>
+      <div class="metric-strip" aria-label="Dataset at a glance">
+        <div class="metric-item"><strong data-kpi="rawRecords">51.0M</strong><span>raw records audited</span></div>
+        <div class="metric-item"><strong data-kpi="retainedTrips">50.9M</strong><span>completed trips retained</span></div>
+        <div class="metric-item"><strong>2 months</strong><span>April to May 2026</span></div>
+        <div class="metric-item"><strong>5 tasks</strong><span>one linked analysis</span></div>
       </div>
     </section>
 
-    <section id="tasks" class="panel" aria-labelledby="tasks-title">
-      <div class="section-heading">
-        <p class="eyebrow">Task map</p>
-        <h2 id="tasks-title">Five linked analytical findings</h2>
+    <section class="readout" aria-labelledby="readout-title">
+      <div class="section-wrap">
+        <div class="section-heading"><div><p class="eyebrow">The short read</p><h2 id="readout-title">Three findings to carry forward</h2></div><span class="section-index">01 / Findings</span></div>
+        <div class="finding-grid">
+          <article class="finding"><span class="finding-index">01</span><h3>Pooling is concentrated in Uber</h3><p data-insight="task3">Uber has materially higher pooling request and reported match rates than Lyft in both months.</p><a href="#tasks" data-go-task="3">See Task 3 <span aria-hidden="true">&#8594;</span></a></article>
+          <article class="finding"><span class="finding-index">02</span><h3>Sharing adds travel time</h3><p data-insight="task4">Supported Uber shared trips show median excess travel time of about 4.5 to 5.0 minutes.</p><a href="#tasks" data-go-task="4">See Task 4 <span aria-hidden="true">&#8594;</span></a></article>
+          <article class="finding"><span class="finding-index">03</span><h3>Lower fares, latent overlap</h3><p data-insight="task5">Supported shared fares are lower than comparable non-shared fares; many non-shared trips have same-OD temporal neighbors.</p><a href="#tasks" data-go-task="5">See Task 5 <span aria-hidden="true">&#8594;</span></a></article>
+        </div>
       </div>
-      <div class="task-grid" id="taskGrid"></div>
     </section>
 
-    <section id="figures" class="panel" aria-labelledby="figures-title">
-      <div class="section-heading with-controls">
-        <div>
-          <p class="eyebrow">Visual evidence</p>
-          <h2 id="figures-title">Main figures</h2>
-        </div>
-        <div class="segmented" role="tablist" aria-label="Figure filter">
-          <button class="active" type="button" data-filter="all">All</button>
-          <button type="button" data-filter="1">Task 1</button>
-          <button type="button" data-filter="2">Task 2</button>
-          <button type="button" data-filter="3">Task 3</button>
-          <button type="button" data-filter="4">Task 4</button>
-          <button type="button" data-filter="5">Task 5</button>
-        </div>
-      </div>
-      <div class="figure-grid" id="figureGrid"></div>
+    <section id="tasks" class="explorer section-wrap" aria-labelledby="tasks-title">
+      <div class="section-heading"><div><p class="eyebrow">Task explorer</p><h2 id="tasks-title">Follow the analytical path</h2></div><span class="section-index">02 / Tasks 1-5</span></div>
+      <div class="task-tabs" role="tablist" aria-label="Choose assignment task" id="taskTabs"></div>
+      <div class="task-detail" id="taskDetail" role="tabpanel" tabindex="0" aria-live="polite"></div>
     </section>
 
-    <section id="methods" class="panel methods" aria-labelledby="methods-title">
-      <div class="section-heading">
-        <p class="eyebrow">Method guardrails</p>
-        <h2 id="methods-title">How to read the evidence</h2>
+    <section id="figures" class="figures-band" aria-labelledby="figures-title">
+      <div class="section-wrap">
+        <div class="section-heading"><div><p class="eyebrow">Visual evidence</p><h2 id="figures-title">Figure library</h2></div><a class="text-link" href="visualizations/index.html">All 48 figures <span aria-hidden="true">&#8599;</span></a></div>
+        <div class="figure-toolbar"><div class="segmented" role="group" aria-label="Filter figures by task" id="figureFilters"><button type="button" class="active" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="1" aria-pressed="false">Task 1</button><button type="button" data-filter="2" aria-pressed="false">Task 2</button><button type="button" data-filter="3" aria-pressed="false">Task 3</button><button type="button" data-filter="4" aria-pressed="false">Task 4</button><button type="button" data-filter="5" aria-pressed="false">Task 5</button></div><span id="figureCount" class="figure-count" aria-live="polite">9 figures</span></div>
+        <div class="figure-grid" id="figureGrid"></div>
       </div>
-      <div class="method-grid">
-        <div>
-          <h3>Observed completed trips</h3>
-          <p>Counts describe recorded trips in TLC files, not unique people, all app requests, or causal demand.</p>
-        </div>
-        <div>
-          <h3>Comparable cells</h3>
-          <p>Shared-trip time and fare comparisons use matched OD-time reference cells and report support coverage.</p>
-        </div>
-        <div>
-          <h3>Potential sharing</h3>
-          <p>Task 5.2 is a zone-time co-occurrence screen, not a platform dispatch simulation or guaranteed match.</p>
-        </div>
-      </div>
+    </section>
+
+    <section id="methods" class="methods section-wrap" aria-labelledby="methods-title">
+      <div class="section-heading"><div><p class="eyebrow">Interpretation</p><h2 id="methods-title">Boundaries of the evidence</h2></div><span class="section-index">03 / Methods</span></div>
+      <div class="method-list"><div><span>01</span><h3>Observed completed trips</h3><p>Counts describe recorded TLC trips, not unique people, every app request, or causal demand.</p></div><div><span>02</span><h3>Comparable reference cells</h3><p>Shared-trip time and fare comparisons use matched OD-time reference cells and report support coverage.</p></div><div><span>03</span><h3>Potential sharing</h3><p>Task 5.2 screens for zone-time co-occurrence. It is not a dispatch simulation or a guaranteed match.</p></div></div>
+      <div class="resource-row"><a href="main.pdf">Read the full methodology <span aria-hidden="true">&#8599;</span></a><a href="README.md">Reproduce the analysis <span aria-hidden="true">&#8599;</span></a></div>
     </section>
   </main>
 
-  <footer>
-    <span>CE634 Urban Big Data Assignment 1</span>
-    <span>Static dashboard for GitHub Pages</span>
-  </footer>
-
+  <footer><span>CE634 Urban Big Data / Assignment 1</span><span>NYC TLC trip records / April-May 2026</span></footer>
+  <dialog id="figureDialog" class="figure-dialog" aria-labelledby="dialogTitle"><div class="dialog-head"><div><span id="dialogTask" class="dialog-task"></span><h2 id="dialogTitle"></h2></div><button type="button" id="closeDialog" class="icon-button" aria-label="Close figure">&times;</button></div><img id="dialogImage" alt=""><p id="dialogDescription"></p><a id="dialogOriginal" href="">Open original image <span aria-hidden="true">&#8599;</span></a></dialog>
   <script src="assets/site.js" defer></script>
 </body>
 </html>

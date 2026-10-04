@@ -1,5 +1,5 @@
-\documentclass[11pt,a4paper]{article}
-\usepackage[margin=2.0cm]{geometry}
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=1.8cm]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
@@ -13,7 +13,10 @@
 \usepackage[hidelinks]{hyperref}
 \hypersetup{pdftitle={CE634 Assignment 1: Urban Mobility and Ride-Pooling Analysis in New York City}}
 \setlength{\parindent}{1.25em}
-\setlength{\parskip}{0.25em}
+\setlength{\parskip}{0pt}
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
 \setlength{\emergencystretch}{2em}
 \captionsetup{font=small,skip=5pt,labelfont=bf}
 \newcommand{\usd}{\$}
@@ -32,7 +35,7 @@ ZHANG Ziqi / 24111604R}
 \maketitle
 
 \begin{abstract}
-This report analyses New York City Yellow Taxi and High-Volume For-Hire Vehicle (HVFHV) trip records for April and May 2026. The assignment is organized into five tasks covering data auditing, spatial demand and origin--destination (OD) structure, reported ride-pooling activity, travel-time comparison, and passenger-spending comparison. After validity screening, 50,942,185 completed trips are retained. Spatial analysis shows that Yellow Taxi activity is concentrated in Manhattan, whereas HVFHV activity is more geographically distributed and strongly influenced by airport-related demand. The highest-volume OD flows differ markedly from the highest-spending flows, with only two or three pairs overlapping between the respective top-ten rankings. Uber's pooling-request rate is 2.71\% in April and 2.53\% in May, far above Lyft's approximately 0.03\%. Among Uber shared trips with sufficiently populated non-shared reference cells, the median observed travel-time difference is +4.53 min in April and +4.98 min in May. A separate within-cell passenger-spending comparison gives mean Uber shared-minus-reference differences of about -\usd8. A bonus potential-shareability screen finds that roughly 45\% of eligible Uber non-shared trips and 27--28\% of eligible Lyft non-shared trips have at least one same-platform, same-OD non-shared neighbor in the same 10-minute pickup window. These comparisons are descriptive and observational: they quantify differences and co-occurrence in recorded trips under explicit matching rules rather than causal effects of ride pooling. The related code and visualizations are available at \url{https://github.com/Arthurqi0825/CE634_Assignment-1}. And visualization results are also available at \url{https://arthurqi0825.github.io/CE634_Assignment-1/}.
+This report analyses New York City Yellow Taxi and High-Volume For-Hire Vehicle (HVFHV) trip records for April and May 2026. The assignment is organized into five tasks covering data auditing, spatial demand and origin--destination (OD) structure, reported ride-pooling activity, travel-time comparison, and passenger-spending comparison. After validity screening, 50,942,185 completed trips are retained. Spatial analysis shows that Yellow Taxi activity is concentrated in Manhattan, whereas HVFHV activity is more geographically distributed and strongly influenced by airport-related demand. The highest-volume OD flows differ markedly from the highest-spending flows, with only two or three pairs overlapping between the respective top-ten rankings. Uber's pooling-request rate is 2.71\% in April and 2.53\% in May, far above Lyft's approximately 0.03\%. Among Uber shared trips with sufficiently populated non-shared reference cells, the median observed travel-time difference is +4.53 min in April and +4.98 min in May. A separate within-cell passenger-spending comparison gives mean Uber shared-minus-reference differences of about -\usd8. A bonus potential-shareability screen finds that roughly 45\% of eligible Uber non-shared trips and 27--28\% of eligible Lyft non-shared trips have at least one same-platform, same-OD non-shared neighbor in the same 10-minute pickup window. These comparisons are descriptive and observational: they quantify differences and co-occurrence in recorded trips under explicit matching rules rather than causal effects of ride pooling. The code and visualizations are available at \url{https://github.com/Arthurqi0825/CE634_Assignment-1/}; the interactive results are available at \url{https://arthurqi0825.github.io/CE634_Assignment-1/}.
 \end{abstract}
 
 \section{Introduction}
@@ -53,7 +56,7 @@ A completed trip requires valid pickup and dropoff timestamps, pickup during the
 
 The TLC HVFHV dictionary defines \texttt{shared\_request\_flag} as whether the passenger agreed to a shared/pooled ride and \texttt{shared\_match\_flag} as whether the passenger was matched with another separately booked passenger during the trip \cite{tlc_hvfhv}. These two fields define four recorded states: \NN{} (no request/no match), \YN{} (request/no match), \YY{} (request/match), and \NY{} (no request/match). The rare \NY{} state is retained as an observed inconsistency rather than silently recoded.
 
-For Yellow Taxi, recorded passenger spending is represented by \texttt{total\_amount}. For HVFHV, spending is constructed from the relevant passenger-paid fare components, including the base passenger fare, tolls, Black Car Fund contribution, sales tax, congestion surcharge, airport fee, tips, and CBD congestion fee; driver pay is excluded. Non-finite components are not replaced with zero, and negative total spending is excluded from spending comparisons as a likely correction or refund.
+For Yellow Taxi, recorded passenger spending is represented by \texttt{total\_amount}, which excludes any cash tips not recorded in the data. For HVFHV, spending is constructed from the relevant passenger-paid fare components, including the base passenger fare, tolls, Black Car Fund contribution, sales tax, congestion surcharge, airport fee, tips, and CBD congestion fee; driver pay is excluded. Non-finite components are not replaced with zero, and negative total spending is excluded from spending comparisons as a likely correction or refund.
 
 \section{Task 1: Data Audit and Retained Trip Population}
 \subsection{Objective and method}
@@ -125,7 +128,7 @@ Figure~\ref{fig:dataset} combines the service-level sample size with the observe
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=.98\linewidth]{04_Results/paper_figures/main/fig1_dataset_overview.pdf}
+\includegraphics[width=.94\linewidth]{04_Results/paper_figures/main/fig1_dataset_overview.pdf}
 \caption{\textbf{Dataset overview and reported shared-trip support.} The left panel summarizes retained completed trips by service and month. The right-side annotations highlight the size of the reported \YY{} sample available for later comparisons. Uber contributes essentially all recorded matched shared trips, whereas Lyft contributes only a very small sample.}
 \label{fig:dataset}
 \end{figure}
@@ -135,36 +138,22 @@ Figure~\ref{fig:dataset} combines the service-level sample size with the observe
 \subsection{Method}
 Pickup and dropoff demand are calculated as counts of completed trips by TLC Taxi Zone. Logarithmic color scales are used because zone counts span several orders of magnitude. Zone 265 (Outside of NYC) is a valid TLC lookup category but has no drawable polygon; it is retained in all tables and OD rankings even though it cannot be colored on the choropleth maps.
 
-Directed OD analysis treats $A\rightarrow B$ and $B\rightarrow A$ as different flows and retains within-zone trips $A\rightarrow A$. For each month and service, OD pairs are ranked independently by (i) completed-trip count and (ii) aggregate recorded passenger spending. Comparing the two top-ten rankings tests whether the corridors with the most trips are also the corridors with the greatest monetary magnitude.
+Directed OD analysis treats $A\rightarrow B$ and $B\rightarrow A$ as different flows and retains within-zone trips $A\rightarrow A$. For each month and service, OD pairs are ranked independently by (i) completed-trip count and (ii) aggregate recorded passenger spending. Comparing the two top-ten rankings assesses whether the corridors with the most trips also account for the greatest aggregate passenger spending.
 
 \subsection{Pickup and dropoff demand}
-Figures~\ref{fig:spatial_apr} and \ref{fig:spatial_may} place the eight required Task 2.1 hotspot maps in the main report rather than in the appendix: for each month, the four panels show Yellow Taxi pickups, Yellow Taxi dropoffs, HVFHV pickups, and HVFHV dropoffs. They show a stable contrast between Yellow Taxi and HVFHV activity. Yellow Taxi pickup and dropoff demand is concentrated in Manhattan. In April, the highest Yellow pickup counts occur in Upper East Side South (179,336), Midtown Center (161,098), and Upper East Side North (158,209). In May, the corresponding leading zones are Upper East Side South (194,209), Upper East Side North (172,093), and Midtown Center (158,714). The geographic concentration is therefore persistent across both months.
+The supplementary map atlas presents the eight required Task 2.1 hotspot maps: for each month, four panels show Yellow Taxi pickups, Yellow Taxi dropoffs, HVFHV pickups, and HVFHV dropoffs. They show a stable contrast between Yellow Taxi and HVFHV activity. Yellow Taxi pickup and dropoff demand is concentrated in Manhattan. In April, the highest Yellow pickup counts occur in Upper East Side South (179,336), Midtown Center (161,098), and Upper East Side North (158,209). In May, the corresponding leading zones are Upper East Side South (194,209), Upper East Side North (172,093), and Midtown Center (158,714). The geographic concentration is therefore persistent across both months.
 
 HVFHV demand is more dispersed. The leading drawable pickup zones are LaGuardia Airport, JFK Airport, and Crown Heights North in both months. LaGuardia increases from 412,983 pickups in April to 453,507 in May, while JFK increases from 318,541 to 365,545. HVFHV dropoffs to the non-drawable Outside of NYC category are even larger: 930,707 in April and 1,018,509 in May. Reporting this category explicitly prevents the map geometry from hiding an important destination pattern.
-
-\begin{figure}[!htbp]
-\centering
-\includegraphics[width=.91\linewidth]{04_Results/paper_figures/main/fig2_spatial_demand_april.pdf}
-\caption{\textbf{Task 2.1 hotspot maps for April 2026.} The four main-text panels show Yellow Taxi origins, Yellow Taxi destinations, HVFHV origins, and HVFHV destinations. Each panel lists its three leading drawable zones and marks the highest-count drawable zone directly on the map. Yellow Taxi demand is strongly Manhattan-centered, whereas HVFHV demand is more geographically distributed and shows strong airport activity. Zone 265 is counted in the analysis but cannot be colored because no polygon is provided.}
-\label{fig:spatial_apr}
-\end{figure}
-
-\begin{figure}[!htbp]
-\centering
-\includegraphics[width=.91\linewidth]{04_Results/paper_figures/main/fig3_spatial_demand_may.pdf}
-\caption{\textbf{Task 2.1 hotspot maps for May 2026.} The four main-text panels show Yellow Taxi origins, Yellow Taxi destinations, HVFHV origins, and HVFHV destinations. The same service/measure scales are used as in April to support month-to-month comparison. The main spatial pattern remains stable, while several airport and Manhattan zones record higher counts.}
-\label{fig:spatial_may}
-\end{figure}
 
 \subsection{Volume versus passenger spending}
 The OD rankings show that trip frequency and aggregate passenger spending identify different mobility structures. In both months, the highest-volume Yellow Taxi OD pair is Upper East Side South (237) $\rightarrow$ Upper East Side North (236). For Uber and Lyft, the highest-volume pair is East New York (76) $\rightarrow$ East New York (76), a high-frequency within-zone movement.
 
-The spending rankings point elsewhere. For Yellow Taxi and Uber, JFK Airport (132) $\rightarrow$ Outside of NYC (265) is the leading OD pair by aggregate spending in both months. Lyft is led by LaGuardia Airport (138) $\rightarrow$ Outside of NYC in April and JFK Airport $\rightarrow$ Outside of NYC in May. Only 3 of Yellow's 10 highest-volume OD pairs also appear in its spending top ten, and only 2 of 10 overlap for Uber and Lyft in either month. Thus, a volume-only ranking would miss several corridors that are monetarily important despite lower trip frequency.
+The spending rankings point elsewhere. For Yellow Taxi and Uber, JFK Airport (132) $\rightarrow$ Outside of NYC (265) is the leading OD pair by aggregate spending in both months. Lyft is led by LaGuardia Airport (138) $\rightarrow$ Outside of NYC in April and JFK Airport $\rightarrow$ Outside of NYC in May. Only 3 of Yellow's 10 highest-volume OD pairs also appear in its spending top ten, and only 2 of 10 overlap for Uber and Lyft in either month. Thus, a volume-only ranking would miss several corridors that are monetarily important despite lower trip frequency. Full top-ten rankings, including trip counts, service-month denominators and shares, valid-spending trip counts, aggregate spending, and mean payment, are provided in the companion CSV tables \texttt{04\_Results/Task\_2/tables/top10\_volume\_od.csv} and \texttt{04\_Results/Task\_2/tables/top10\_spending\_od.csv}.
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=.98\linewidth]{04_Results/paper_figures/main/fig4_od_ranking_summary.pdf}
-\caption{\textbf{Trip volume and aggregate passenger spending identify different directed OD structures.} Panel (a) reports the overlap between the independently constructed top-ten volume and spending lists. Panel (b) names the leading OD pair under each criterion, making the contrast between high-frequency local flows and high-spending airport/outside-city flows explicit. Detailed top-ten OD-flow maps are provided in Appendix~\ref{app:spatial}; the eight required hotspot maps are included above in the main text.}
+\includegraphics[width=.94\linewidth]{04_Results/paper_figures/main/fig4_od_ranking_summary.pdf}
+\caption{\textbf{Trip volume and aggregate passenger spending identify different directed OD structures.} Panel (a) reports the overlap between the independently constructed top-ten volume and spending lists. Panel (b) names the leading OD pair under each criterion, making the contrast between high-frequency local flows and high-spending airport/outside-city flows explicit. Detailed top-ten OD-flow maps and the eight required hotspot maps are provided in the supplementary map atlas.}
 \label{fig:od}
 \end{figure}
 \FloatBarrier
@@ -192,7 +181,7 @@ Zone-level comparisons use the assignment thresholds directly. Reported matched 
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=.98\linewidth]{04_Results/paper_figures/main/fig5_pooling_metrics.pdf}
+\includegraphics[width=.94\linewidth]{04_Results/paper_figures/main/fig5_pooling_metrics.pdf}
 \caption{\textbf{Reported ride-pooling activity by platform and month.} The top row shows Uber and the bottom row Lyft. Columns separately report pooling requests per valid trip, reported matches per valid trip, and matching success among pooling requests. Numerical annotations should be used for cross-panel comparison because each panel has its own y-axis scale.}
 \label{fig:pooling}
 \end{figure}
@@ -210,13 +199,13 @@ R_i &= 100\frac{T_i-T_{\mathrm{ref},i}}{T_{\mathrm{ref},i}}.
 Negative values are retained. A shared trip without a sufficiently populated reference cell is not assigned a synthetic comparison. Instead, reference coverage is reported as part of the result.
 
 \subsection{Monthly results}
-In April, 121,673 of 255,383 eligible Uber \YY{} trips are supported, giving 47.64\% coverage. Their median observed shared-minus-reference travel-time difference is +4.53 min, with an interquartile range of 0.25--10.01 min. In May, 110,559 of 220,904 eligible shared trips are supported (50.05\% coverage), and the median difference is +4.98 min with an interquartile range of 0.71--10.48 min. Median relative differences are 25.83\% and 29.35\%, respectively.
+In April, 121,673 of 255,383 eligible Uber \YY{} trips are supported, giving 47.64\% coverage. Their median observed shared-minus-reference travel-time difference is +4.53 min, with an interquartile range of 0.25--10.01 min. In May, 110,559 of 220,904 eligible shared trips are supported (50.05\% coverage), and the median difference is +4.98 min with an interquartile range of 0.71--10.48 min. Median relative differences are 25.83\% (interquartile range: 1.53--55.04\%) and 29.35\% (4.48--58.93\%), respectively.
 
 Two aspects should be read together. First, the median supported shared trip has a longer recorded travel time than the median non-shared trip in the same OD--hour--day-type cell. Second, only about half of the eligible shared trips have a sufficiently populated reference. The result therefore characterizes the supported subset rather than the complete Uber shared-trip population.
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=.98\linewidth]{04_Results/paper_figures/main/fig6_travel_time_monthly.pdf}
+\includegraphics[width=.94\linewidth]{04_Results/paper_figures/main/fig6_travel_time_monthly.pdf}
 \caption{\textbf{Monthly observed travel-time differences for supported Uber shared trips.} Panel (a) shows the interquartile range and median of $E_i=T_i-T_{\mathrm{ref},i}$; positive values indicate a longer recorded travel time than the non-shared cell median. Panel (b) gives reference coverage and the supported/eligible sample counts. The approximately +4.5 to +5.0 min medians should therefore be interpreted together with the 47.6--50.0\% coverage.}
 \label{fig:traveltime}
 \end{figure}
@@ -228,7 +217,7 @@ The within-zone and between-zone split shows that most supported shared trips ar
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=.98\linewidth]{04_Results/paper_figures/main/fig7_travel_time_hourly.pdf}
+\includegraphics[width=.94\linewidth]{04_Results/paper_figures/main/fig7_travel_time_hourly.pdf}
 \caption{\textbf{Hourly travel-time pattern and reference coverage.} Panel (a) plots the hourly median observed travel-time difference and annotates the within-month minima and maxima. Panel (b) plots the corresponding support rate and highlights coverage below 30\%. The travel-time curve changes moderately through the day, whereas reference support varies more strongly.}
 \label{fig:hourly}
 \end{figure}
@@ -251,7 +240,7 @@ Lyft's supported estimates are more negative (-\usd16.26 in April and -\usd20.85
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=.98\linewidth]{04_Results/paper_figures/main/fig8_spending_difference.pdf}
+\includegraphics[width=.94\linewidth]{04_Results/paper_figures/main/fig8_spending_difference.pdf}
 \caption{\textbf{Observed passenger-spending differences in supported comparison cells.} Points show the mean shared-minus-reference spending difference and horizontal segments show date-clustered 95\% confidence intervals. Negative values indicate lower observed spending for reported shared trips. Uber estimates are close to -\usd8 in both months with tens of thousands of supported trips; Lyft estimates are based on only 47 and 38 trips.}
 \label{fig:spending}
 \end{figure}
@@ -259,7 +248,7 @@ Lyft's supported estimates are more negative (-\usd16.26 in April and -\usd20.85
 As in Task 4, this is a descriptive comparison rather than a causal estimate. Matching controls for coarse spatial and temporal context but not exact endpoints, route choice, passenger selection, dynamic pricing, promotions, or the true overlap period of pooled passengers.
 
 \subsection{Task 5.2 potential shareability among non-shared trips}
-For the bonus Task 5.2 analysis, eligible \NN{} trips are screened for coarse latent sharing opportunities. A non-shared trip is counted as potentially shareable if at least one other \NN{} trip from the same platform and pickup month has the same directed OD pair and falls in the same pickup-time window. The main specification uses a 10-minute pickup window and requires completed trips with official pickup/dropoff zones and $0<\mathrm{trip\_miles}\leq100$. Sensitivity checks use 5- and 15-minute windows.
+In Task 5.2, eligible \NN{} trips are screened for coarse latent sharing opportunities. A non-shared trip is counted as potentially shareable if at least one other \NN{} trip from the same platform and pickup month has the same directed OD pair and falls in the same pickup-time window. The main specification uses a 10-minute pickup window and requires completed trips with official pickup/dropoff zones and $0<\mathrm{trip\_miles}\leq100$. Sensitivity checks use 5- and 15-minute windows.
 
 \begin{table}[!htbp]
 \centering
@@ -285,7 +274,7 @@ Month & Platform & Eligible \NN{} & Potentially shareable & Share & Candidate pa
 \label{fig:t5potential}
 \end{figure}
 
-Table~\ref{tab:t5potential} and Figure~\ref{fig:t5potential} show substantial latent co-occurrence in the non-shared trip stream. Under the 10-minute rule, approximately 45\% of eligible Uber \NN{} trips and 27--28\% of eligible Lyft \NN{} trips have at least one same-OD neighbor. The sensitivity check is monotonic: a 5-minute rule gives lower potential-shareable shares, while a 15-minute rule gives higher shares. This is not a dispatch simulation or realized matching rate. Taxi Zones hide exact endpoints; the rule does not model waiting tolerance, detour cost, vehicle capacity, route compatibility, platform dispatch constraints, or passenger willingness to share. It should therefore be interpreted as an upper-screening measure of spatial-temporal co-occurrence among non-shared completed trips.
+Table~\ref{tab:t5potential} and Figure~\ref{fig:t5potential} show substantial latent co-occurrence in the non-shared trip stream. Under the 10-minute rule, approximately 45\% of eligible Uber \NN{} trips and 27--28\% of eligible Lyft \NN{} trips have at least one same-OD neighbor. The sensitivity check is monotonic: a 5-minute rule gives lower potential-shareable shares, while a 15-minute rule gives higher shares. This is not a dispatch simulation or realized matching rate. Taxi Zones hide exact endpoints; the rule does not model waiting tolerance, detour cost, vehicle capacity, route compatibility, platform dispatch constraints, or passenger willingness to share. It should therefore be interpreted as a coarse indicator of spatiotemporal co-occurrence among non-shared completed trips.
 \FloatBarrier
 
 \section{Overall Discussion}
@@ -310,11 +299,5 @@ New York City Taxi and Limousine Commission, ``Data Dictionary -- High Volume FH
 \bibitem{tlc_zoneguide}
 New York City Taxi and Limousine Commission, ``Trip Record User Guide: Taxi Zone Maps and Lookup Tables,'' available via the TLC Trip Record Data documentation. Available: \url{https://www.nyc.gov/assets/tlc/downloads/pdf/trip_record_user_guide.pdf}.
 \end{thebibliography}
-
-\appendix
-\section{Supplementary Spatial Results}
-\label{app:spatial}
-The appendix contains the detailed OD-flow rankings and zone-level diagnostics supporting Tasks 2--4. The eight required Task 2.1 hotspot maps are included in the main text in Figures~\ref{fig:spatial_apr} and \ref{fig:spatial_may}. OD arrows connect Taxi Zone centroids and should not be interpreted as driven routes. Zone 265 (Outside of NYC) is retained in ranked lists but has no drawable polygon. Gray areas in zone-level pooling maps indicate insufficient sample rather than a zero rate.
-\input{visualizations/paper_appendix.tex}
 
 \end{document}

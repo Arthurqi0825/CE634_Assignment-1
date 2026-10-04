@@ -9,13 +9,13 @@ files are **not included**. Task 5.1 and the bonus Task 5.2 analysis are complet
 
 | Path | Purpose |
 | --- | --- |
-| `main.tex`, `main.pdf` | Formal English report and compiled copy; eight narrative pages plus a separate map atlas. |
+| `main.tex`, `main.pdf` | Ten-page English report and compiled copy; maps are in a separate supplementary atlas. |
 | `analysis/common.py` | Shared project paths, license codes, status order, zone lookup, numeric conversion, and the eight-component HVFHV passenger-spending calculation. |
 | `analysis/tasks/` | Separate implementations for Tasks 1, 2, 3, 4, and 5.1; Task 1 figures have their own script. |
 | `analysis/helpers/` | Raw-data overview, initial inspection, Parquet schema/browser, task run recorder, processed-CSV report figures, and read-only result inspection. |
 | `04_Results/Task_N/` | Processed `tables/*.csv`, `figures/*.png`, `summary.json`, `report.tex`, `run.json`, and `run.log` for each task. |
 | `visualizations/index.html` | Offline gallery of every PNG; click an image to inspect it at full resolution. |
-| `visualizations/map_atlas.tex` | Geographic figures included by `main.tex`. |
+| `supplementary_map_atlas.tex`, `supplementary_map_atlas.pdf` | Standalone atlas with the eight demand maps, directed OD maps, pooling maps, and travel-time geography. |
 | `visualizations/PLOT_DATA.md` | Figure-to-CSV input map for drawing without raw Parquet files. |
 | `01_Data/Reference/` | TLC dictionaries, zone lookup, and shapefile components needed for a rerun. |
 | `03_Reports/raw_data_overview.json` | Separate uncleaned descriptive inspection result. |
@@ -161,10 +161,13 @@ potential-shareability screens by pickup-time window, pickup zone, and OD pair.
 ```bash
 pdflatex -interaction=nonstopmode -halt-on-error main.tex
 pdflatex -interaction=nonstopmode -halt-on-error main.tex
+pdflatex -interaction=nonstopmode -halt-on-error supplementary_map_atlas.tex
+pdflatex -interaction=nonstopmode -halt-on-error supplementary_map_atlas.tex
 ```
 
-The second pass resolves figure references. The narrative contains the Task
-2--5 explanatory charts, followed by the map atlas. The processed PNGs are
+The second pass resolves figure references. The 10-page main report contains the
+Task 1--5 explanatory charts; the separate atlas contains the eight required
+spatial-demand maps and the detailed OD and zone-level maps. The processed PNGs are
 available through `visualizations/index.html`, including non-map charts that
 are not repeated in the atlas. Zones 264/265 are valid lookup IDs without
 drawable polygons; their counts remain in the CSVs. OD flow lines connect
@@ -247,6 +250,8 @@ Then compile the paper with:
 ```bash
 pdflatex main.tex
 pdflatex main.tex
+pdflatex supplementary_map_atlas.tex
+pdflatex supplementary_map_atlas.tex
 ```
 
-The main text is organized as a research paper (Abstract, Introduction, Data and Study Design, Analytical Methods, Results, Discussion, Conclusion). Assignment-task coverage is retained in Appendix A rather than used as the main section structure. Detailed OD and spatial maps remain in the supplementary appendix.
+The main report follows the assignment tasks and is 10 pages, including its charts and references. The separate map atlas contains the required demand maps and detailed OD, pooling, and travel-time maps.

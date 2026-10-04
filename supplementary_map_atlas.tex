@@ -1,0 +1,34 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=1.8cm]{geometry}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{placeins}
+\usepackage[hidelinks]{hyperref}
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\captionsetup{font=small,skip=5pt,labelfont=bf}
+\title{Supplementary Map Atlas\\CE634 Urban Big Data --- Assignment 1}
+\author{ZHANG Ziqi / 24111604R}
+\date{}
+\begin{document}
+\maketitle
+\section{Spatial Demand}
+The eight hotspot maps show completed-trip pickup and dropoff counts by TLC Taxi Zone. Zone 265 (Outside of NYC) is included in counts but has no drawable polygon.
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=.96\linewidth]{04_Results/paper_figures/main/fig2_spatial_demand_april.pdf}
+\caption{\textbf{Task 2.1 hotspot maps for April 2026.} The four panels show Yellow Taxi origins, Yellow Taxi destinations, HVFHV origins, and HVFHV destinations. Each panel lists its three leading drawable zones and marks the highest-count drawable zone directly on the map. Yellow Taxi demand is strongly Manhattan-centered, whereas HVFHV demand is more geographically distributed and shows strong airport activity. Zone 265 is counted in the analysis but cannot be colored because no polygon is provided.}
+\label{fig:spatial_apr}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=.96\linewidth]{04_Results/paper_figures/main/fig3_spatial_demand_may.pdf}
+\caption{\textbf{Task 2.1 hotspot maps for May 2026.} The four panels show Yellow Taxi origins, Yellow Taxi destinations, HVFHV origins, and HVFHV destinations. The same service/measure scales are used as in April to support month-to-month comparison. The main spatial pattern remains stable, while several airport and Manhattan zones record higher counts.}
+\label{fig:spatial_may}
+\end{figure}
+
+\clearpage
+\section{Detailed OD and Pooling Maps}
+OD arrows connect zone centroids, not driven routes. Gray areas in zone-level pooling maps indicate insufficient sample rather than zero.
+\input{visualizations/paper_appendix.tex}
+\end{document}

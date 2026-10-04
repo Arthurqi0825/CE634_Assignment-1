@@ -14,7 +14,11 @@ from analysis.common import PROJECT_ROOT
 
 ARCHIVE_DIR = PROJECT_ROOT / "dist"
 ARCHIVE = ARCHIVE_DIR / f"{PROJECT_ROOT.name}.zip"
-EXCLUDED_DIRS = {".git", ".venv", "venv", "__pycache__", "Raw", "dist"}
+EXCLUDED_DIRS = {
+    ".git", ".venv", "venv", "__pycache__", "Raw", "dist",
+    ".codex", ".agents", "instruction", "instructions", "prompts",
+    ".pytest_cache", ".mypy_cache",
+}
 EXCLUDED_SUFFIXES = {
     ".aux",
     ".fdb_latexmk",
@@ -34,6 +38,8 @@ def should_include(path: Path) -> bool:
     if any(part in EXCLUDED_DIRS for part in relative.parts[:-1]):
         return False
     if path.name in {".DS_Store"} or path.name.endswith("~"):
+        return False
+    if "prompt" in path.name.lower() and path.suffix.lower() == ".md":
         return False
     if path.name.endswith(tuple(EXCLUDED_SUFFIXES)):
         return False
